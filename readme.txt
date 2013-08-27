@@ -1,5 +1,5 @@
 === Complete-Google-SEO-Scan ===
-Contributors: lo_nirjhar
+Contributors: nirjhar_lo
 Author URI: http://gogretel.com/about/
 Plugin URL: http://gogretel.com/
 Requires at Least: 3.0
