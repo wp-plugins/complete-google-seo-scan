@@ -1,0 +1,1226 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Complete Google SEO Scan 1.0\n"
+"Report-Msgid-Bugs-To: happy@gogretel.com\n"
+"POT-Creation-Date: 2013-09-17 19:30+0530\n"
+"PO-Revision-Date: 2013-09-18 12:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: GoGretel <happy@gogretel.com>\n"
+"Language: Icelandic\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Icelandic\n"
+"X-Poedit-Country: Iceland\n"
+"Plural-Forms: nplurals = 2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../complete-google-seo-scan.php:46
+#, fuzzy
+msgid "Complete Google SEO Scan requires PHP 5.3+ and will not be activated, your current server configuration is running PHP version&nbsp;"
+msgstr "Complete Google SEO Scan krefst PHP 5.3 + og verður ekki virkur , núverandi framreiðslumaður stelling er í gangi PHP útgáfa"
+
+#: ../complete-google-seo-scan.php:46
+#, fuzzy
+msgid "Any PHP version less than 5.3.0 has reached \"End of Life\" from PHP.net and no longer receives bug fixes or security updates. The official information on how to update and why at&nbsp;"
+msgstr "Allir PHP útgáfa minna en 5.3.0 hefur náð \"æviloka\" frá PHP.net og ekki lengur fær villuleiðréttingar orsecurity uppfærslur . The opinber upplýsingar um hvernig á að uppfæra og hvers vegna á"
+
+#: ../complete-google-seo-scan.php:59
+msgid "Scan Now"
+msgstr "Scan Now"
+
+#: ../complete-google-seo-scan.php:74
+msgid "SEO Scan"
+msgstr "SEO Scan"
+
+#: ../complete-google-seo-scan.php:91
+msgid "Complete Google SEO Scan"
+msgstr "Complete Google SEO Scan"
+
+#: ../complete-google-seo-scan.php:106
+msgid "Brought to you by"
+msgstr "Leiddi til þín frá"
+
+#: ../complete-google-seo-scan.php:106
+msgid "GoGretel SEO Blog"
+msgstr "GoGretel SEO Blog"
+
+#: ../lib/cgss-scan-processor.php:2
+msgid "Google Search Engine Optimization Scan for your web page is complete. Here are the results."
+msgstr "Google Search Engine Optimization Scan fyrir vefsíðuna þína er lokið . Hér eru niðurstöðurnar ."
+
+#: ../lib/cgss-scan-processor.php:45
+msgid "at line"
+msgstr "á línu"
+
+#: ../lib/cgss-scan-processor.php:164
+msgid "It's different from scanned web page url"
+msgstr "Það's frábrugðin skönnuð vefsíðu url"
+
+#: ../lib/cgss-scan-processor.php:165
+msgid "Be sure you want your page to be indexed by this canonical url"
+msgstr "Vertu viss um að þú vilt síðuna þína til að vera verðtryggð með þessum Canonical url"
+
+#: ../lib/cgss-scan-processor.php:165
+msgid "Recheck it"
+msgstr "langsóttur það"
+
+#: ../lib/cgss-scan-processor.php:169
+#: ../lib/cgss-scan-processor.php:182
+#: ../lib/cgss-scan-processor.php:284
+#: ../lib/cgss-scan-processor.php:307
+#: ../lib/cgss-scan-processor.php:325
+#: ../lib/cgss-scan-processor.php:341
+#: ../lib/cgss-scan-processor.php:351
+#: ../lib/cgss-scan-processor.php:366
+#: ../lib/cgss-scan-processor.php:381
+#: ../lib/cgss-scan-processor.php:395
+#: ../lib/cgss-scan-processor.php:410
+#: ../lib/cgss-scan-processor.php:425
+#: ../lib/cgss-scan-processor.php:440
+#: ../lib/cgss-scan-processor.php:562
+#: ../lib/cgss-scan-processor.php:573
+#: ../lib/cgss-scan-processor.php:597
+#: ../lib/cgss-scan-processor.php:604
+#: ../lib/cgss-scan-processor.php:624
+#: ../lib/cgss-scan-processor.php:651
+#: ../lib/cgss-scan-processor.php:668
+#: ../lib/cgss-scan-processor.php:684
+#: ../lib/cgss-scan-processor.php:691
+#: ../lib/cgss-scan-processor.php:713
+#: ../lib/cgss-scan-processor.php:732
+#: ../lib/cgss-scan-processor.php:744
+#: ../lib/cgss-scan-processor.php:757
+#: ../lib/cgss-scan-processor.php:770
+#: ../lib/cgss-scan-processor.php:810
+#: ../lib/cgss-scan-processor.php:822
+#: ../lib/cgss-scan-processor.php:834
+#: ../lib/cgss-scan-processor.php:849
+#: ../lib/cgss-scan-processor.php:857
+#: ../lib/cgss-scan-processor.php:868
+msgid "OK"
+msgstr "OK"
+
+#: ../lib/cgss-scan-processor.php:173
+#: ../lib/cgss-scan-processor.php:185
+#: ../lib/cgss-scan-processor.php:292
+#: ../lib/cgss-scan-processor.php:315
+msgid "NOT FOUND"
+msgstr "EKKI FANNST"
+
+#: ../lib/cgss-scan-processor.php:174
+msgid "Put a canonical link"
+msgstr "Setja Canonical tengil"
+
+#: ../lib/cgss-scan-processor.php:186
+msgid "Enter Favicon"
+msgstr "Sláðu favicon"
+
+#: ../lib/cgss-scan-processor.php:283
+#, fuzzy
+msgid "Length&nbsp;"
+msgstr "lengd"
+
+#: ../lib/cgss-scan-processor.php:283
+#: ../lib/cgss-scan-processor.php:287
+#, fuzzy
+msgid "&nbsp;characters ( Maximum allowed 70 Characters )"
+msgstr "stafir ( Mesti leyfilegi 70 stafir )"
+
+#: ../lib/cgss-scan-processor.php:287
+#: ../lib/cgss-scan-processor.php:306
+#: ../lib/cgss-scan-processor.php:310
+msgid "Length"
+msgstr "lengd"
+
+#: ../lib/cgss-scan-processor.php:288
+msgid "As more than 70 characters will not be shown in search result"
+msgstr "Eins og fleiri en 70 stafir verður ekki sýnt í leita afleiðing"
+
+#: ../lib/cgss-scan-processor.php:288
+msgid "Give shorter title"
+msgstr "Gefðu styttri titil"
+
+#: ../lib/cgss-scan-processor.php:293
+msgid "Give a title."
+msgstr "Gefðu titil ."
+
+#: ../lib/cgss-scan-processor.php:306
+#: ../lib/cgss-scan-processor.php:310
+#, fuzzy
+msgid "&nbsp;characters ( Maximum allowed 155 Characters )"
+msgstr "stafir ( Mesti leyfilegi 155 stafir)"
+
+#: ../lib/cgss-scan-processor.php:311
+msgid "Write some meta description within 155 characters. Although it does not hamper ranking but it looks bad in search engine page result. Hence, may reduce click through rate (CTR)"
+msgstr "Skrifa nokkur meta lýsingu innan 155 stafi . Altough það þýðir ekki karfa röðun en það lítur illa í leitarvél síðu niðurstöðu. Þess vegna , getur dregið smellihlutfall ( SHF )"
+
+#: ../lib/cgss-scan-processor.php:311
+msgid "Make it Shorter."
+msgstr "Gera það styttra ."
+
+#: ../lib/cgss-scan-processor.php:316
+msgid "This is not good."
+msgstr "Þetta er ekki gott ."
+
+#: ../lib/cgss-scan-processor.php:317
+msgid "The tag is in place, now Write some meta description"
+msgstr "The tag er til staðar, nú skrifa sumir meta lýsingu"
+
+#: ../lib/cgss-scan-processor.php:317
+msgid "Give a description"
+msgstr "Gefðu lýsingu"
+
+#: ../lib/cgss-scan-processor.php:328
+msgid "NOT FOUND."
+msgstr "Fannst ekki."
+
+#: ../lib/cgss-scan-processor.php:329
+msgid "Enter keywords suitable for your web page content, many search engines use it but not Google"
+msgstr "Sláðu leitarorð hentugur fyrir vefur blaðsíða innihald , nota margir leitarvélum það en ekki Google"
+
+#: ../lib/cgss-scan-processor.php:329
+msgid "Enter keywords."
+msgstr "Sláðu leitarorð ."
+
+#: ../lib/cgss-scan-processor.php:336
+msgid "Meta robot is having noindex nofollow value. This is not good."
+msgstr "Meta vélmenni er að hafa noindex nofollow gildi . Þetta er ekki gott ."
+
+#: ../lib/cgss-scan-processor.php:337
+msgid "Change the robots meta value from no-index and/or no-follow"
+msgstr "Breyttu vélmenni meta gildi frá neitun - vísitölu og / eða ekki- fylgja"
+
+#: ../lib/cgss-scan-processor.php:337
+msgid "Fix this."
+msgstr "Laga þetta ."
+
+#: ../lib/cgss-scan-processor.php:357
+msgid "Put proper value to this og:locale meta tag"
+msgstr "Setja rétta gildi til þessa Óg : staður tengi"
+
+#: ../lib/cgss-scan-processor.php:357
+#: ../lib/cgss-scan-processor.php:372
+#: ../lib/cgss-scan-processor.php:386
+#: ../lib/cgss-scan-processor.php:401
+#: ../lib/cgss-scan-processor.php:416
+#: ../lib/cgss-scan-processor.php:431
+#: ../lib/cgss-scan-processor.php:446
+msgid "Fill it"
+msgstr "Fylltu hana"
+
+#: ../lib/cgss-scan-processor.php:372
+msgid "Put proper value to this og:site_name meta tag"
+msgstr "Setja rétta gildi til þessa Óg : SITE_NAME tengi"
+
+#: ../lib/cgss-scan-processor.php:386
+msgid "Put proper value to this og:type meta tag"
+msgstr "Setja rétta gildi til þessa Óg : gerð tengi"
+
+#: ../lib/cgss-scan-processor.php:401
+msgid "Put proper value to this og:url meta tag"
+msgstr "Setja rétta gildi til þessa Óg : url tengi"
+
+#: ../lib/cgss-scan-processor.php:416
+msgid "Put proper value to this og:title meta tag"
+msgstr "Setja rétta gildi til þessa Óg : Titill Meta Tag"
+
+#: ../lib/cgss-scan-processor.php:431
+msgid "Put proper value to this og:description meta tag"
+msgstr "Setja rétta gildi til þessa Óg : lýsing Meta tag"
+
+#: ../lib/cgss-scan-processor.php:446
+msgid "Put proper value to this og:image meta tag"
+msgstr "Setja rétta gildi til þessa Óg : image tengi"
+
+#: ../lib/cgss-scan-processor.php:455
+#: ../lib/cgss-scan-processor.php:460
+#: ../lib/cgss-scan-processor.php:465
+#: ../lib/cgss-scan-processor.php:470
+#: ../lib/cgss-scan-processor.php:475
+#: ../lib/cgss-scan-processor.php:481
+#: ../lib/cgss-scan-processor.php:486
+#: ../lib/cgss-scan-processor.php:491
+#: ../lib/cgss-scan-processor.php:496
+#: ../lib/cgss-scan-processor.php:501
+#: ../lib/cgss-scan-processor.php:506
+#: ../lib/cgss-scan-processor.php:511
+msgid "TAG NOT FOUND"
+msgstr "TAG EKKI FANNST"
+
+#: ../lib/cgss-scan-processor.php:456
+msgid "You can use any free SEO plugins available to get options to enter descriptions"
+msgstr "Þú getur notað hvaða frjáls SEO tappi eru að fá möguleika til að slá lýsingar"
+
+#: ../lib/cgss-scan-processor.php:456
+#: ../lib/cgss-scan-processor.php:461
+#: ../lib/cgss-scan-processor.php:466
+#: ../lib/cgss-scan-processor.php:471
+#: ../lib/cgss-scan-processor.php:476
+msgid "Put the tag"
+msgstr "Setjið merki"
+
+#: ../lib/cgss-scan-processor.php:461
+msgid "Enter keywords suitable for your web page content, many search engines use it but not Google. You can use any free SEO plugins available to get options to enter this tag"
+msgstr "Sláðu leitarorð hentugur fyrir vefur blaðsíða innihald , nota margir leitarvélum það en ekki Google . Þú getur notað hvaða frjáls SEO tappi eru að fá möguleika til að slá þetta merki"
+
+#: ../lib/cgss-scan-processor.php:466
+msgid "You can use any free SEO plugins available to get options to enter desired meta canonical link"
+msgstr "Þú getur notað hvaða frjáls SEO tappi eru að fá möguleika til að slá viðkomandi meta Canonical hlekkur"
+
+#: ../lib/cgss-scan-processor.php:471
+msgid "It is better to put a tag. Otherwise no great worries"
+msgstr "Það er betra að setja merki . Annars ekki miklar áhyggjur"
+
+#: ../lib/cgss-scan-processor.php:476
+msgid "Put a favicon ico image using a shortcut icon link tag"
+msgstr "Setja favicon ICO nota táknið flýtileið tengilinn tag"
+
+#: ../lib/cgss-scan-processor.php:482
+msgid "Put this og:locale meta tag in head section with proper value"
+msgstr "Setja þetta þora : staður meta tag í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:482
+#: ../lib/cgss-scan-processor.php:487
+#: ../lib/cgss-scan-processor.php:492
+#: ../lib/cgss-scan-processor.php:497
+#: ../lib/cgss-scan-processor.php:502
+#: ../lib/cgss-scan-processor.php:507
+#: ../lib/cgss-scan-processor.php:512
+#: ../lib/cgss-scan-processor.php:559
+#: ../lib/cgss-scan-processor.php:569
+#: ../lib/cgss-scan-processor.php:577
+#: ../lib/cgss-scan-processor.php:589
+#: ../lib/cgss-scan-processor.php:593
+#: ../lib/cgss-scan-processor.php:608
+#: ../lib/cgss-scan-processor.php:612
+#: ../lib/cgss-scan-processor.php:621
+#: ../lib/cgss-scan-processor.php:664
+#: ../lib/cgss-scan-processor.php:680
+#: ../lib/cgss-scan-processor.php:703
+#: ../lib/cgss-scan-processor.php:721
+#: ../lib/cgss-scan-processor.php:778
+#: ../lib/cgss-scan-processor.php:814
+#: ../lib/cgss-scan-processor.php:838
+#: ../lib/cgss-scan-processor.php:861
+#: ../lib/cgss-scan-processor.php:872
+msgid "Fix it"
+msgstr "laga það"
+
+#: ../lib/cgss-scan-processor.php:487
+msgid "Put this og:site_name meta tag in head section with proper value"
+msgstr "Setja þetta þora : SITE_NAME meta tag í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:492
+msgid "Put this og:type meta tag in head section with proper value"
+msgstr "Setja þetta þora : Gerð meta tag í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:497
+msgid "Put this og:title meta tag in head section with proper value"
+msgstr "Setja þetta þora : Titill Meta tag í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:502
+msgid "Put this og:description meta tag in head section with proper value"
+msgstr "Setja þetta þora : Meta lýsingu tag í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:507
+msgid "Put this og:url meta tag in head section with proper value"
+msgstr "Setja þetta þora : url tengi í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:512
+msgid "Put this og:image meta tag in head section with proper value"
+msgstr "Setja þetta þora : ímynd tengi í kafla höfuð með réttri gildi"
+
+#: ../lib/cgss-scan-processor.php:530
+msgid "Title Tag"
+msgstr "Titill Tag"
+
+#: ../lib/cgss-scan-processor.php:530
+msgid "Title of the website. This should be descriptive and within 70 characters."
+msgstr "Titill vefsíðunnar . Þetta ætti að vera lýsandi og innan 70 stafi ."
+
+#: ../lib/cgss-scan-processor.php:531
+msgid "Meta Description"
+msgstr "Meta Description"
+
+#: ../lib/cgss-scan-processor.php:531
+msgid "Describes the web page. Optimal length is 155 characters and is not a ranking factor."
+msgstr "Lýsir vefsíðu . Optimal lengd er 155 stafir og er ekki röðun þáttur ."
+
+#: ../lib/cgss-scan-processor.php:532
+msgid "Meta Keywords"
+msgstr "Meta Keywords"
+
+#: ../lib/cgss-scan-processor.php:532
+msgid "Mentions used keywords in web page. It is not a ranking factor."
+msgstr "Nefnir notað leitarorð í vefsíðuna . Það er ekki röðun þáttur ."
+
+#: ../lib/cgss-scan-processor.php:533
+msgid "Canonical Link"
+msgstr "Canonical Hlekkur"
+
+#: ../lib/cgss-scan-processor.php:533
+msgid "Canonicalization is the process of picking the best url when there are several choices. This canonical meta tag helps search engine crawlers to index a page which can be approached from different urls (like http://www.example.com/ and http://example.com/)."
+msgstr "Canonicalization felst í tína bestu url þegar það eru nokkrir kostir . Þetta Canonical tengi hjálpar leitarvél crawlers að kemba á síðu sem hægt er að nálgast frá mismunandi vefslóðir ( eins http://www.example.com/ og http://example.com/ ) ."
+
+#: ../lib/cgss-scan-processor.php:534
+msgid "Meta Robots"
+msgstr "meta Vélmenni"
+
+#: ../lib/cgss-scan-processor.php:534
+msgid "Meta robots tag requests search engine robots to crawl or leave the web page. If given a value of noindex and nofollow, web page will not be indexed."
+msgstr "Meta vélmenni tag beiðnir leitarvél vélmenni að skríða eða fara á vefsíðu. Ef gefið gildið noindex og nofollow mun vefsíðan ekki vera verðtryggð ."
+
+#: ../lib/cgss-scan-processor.php:535
+msgid "Favicon Link"
+msgstr "favicon Link"
+
+#: ../lib/cgss-scan-processor.php:535
+msgid "Displays an unique image beside title at the top of browser. Good SEO practice"
+msgstr "Sýnir einstakt mynd við hliðina titli efst í vafranum . Góður SEO starfshætti"
+
+#: ../lib/cgss-scan-processor.php:540
+msgid "Language"
+msgstr "tungumál"
+
+#: ../lib/cgss-scan-processor.php:540
+msgid "Sharing language you will use"
+msgstr "Hlutdeild tungumál sem þú munt nota"
+
+#: ../lib/cgss-scan-processor.php:541
+msgid "Type"
+msgstr "tegund"
+
+#: ../lib/cgss-scan-processor.php:541
+msgid "Type of application you are sharing. Here it is website"
+msgstr "Tegund af umsókn sem þú ert að deila . Hér er það website"
+
+#: ../lib/cgss-scan-processor.php:542
+msgid "Site Name"
+msgstr "Site Name"
+
+#: ../lib/cgss-scan-processor.php:542
+msgid "Name of the website. Here it is"
+msgstr "Nafn af the website . Hér er það"
+
+#: ../lib/cgss-scan-processor.php:543
+msgid "Title"
+msgstr "Titill"
+
+#: ../lib/cgss-scan-processor.php:543
+msgid "Title of the shared content. May or may not be same as web page title"
+msgstr "Titill sameiginlegum efni . Mega eða mega ekki vera sama og vefur blaðsíða titill"
+
+#: ../lib/cgss-scan-processor.php:544
+#: ../lib/cgss-report-display.php:238
+msgid "Description"
+msgstr "Lýsing"
+
+#: ../lib/cgss-scan-processor.php:544
+msgid "Body of the shared content. Usually this text is seen on shared contents in social media networks"
+msgstr "Líkami af the hluti efni . Oftast er þetta texti sést á sameiginlegum skjals félagslega fjölmiðla net"
+
+#: ../lib/cgss-scan-processor.php:545
+#: ../lib/cgss-scan-processor.php:877
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/cgss-scan-processor.php:545
+msgid "Specify web page link, this url is shared and will have link benefits. But be honest."
+msgstr "Tilgreina vefsíðu tengilinn , er þetta url hluti og vilja hafa tengil kosti. En vera heiðarlegur ."
+
+#: ../lib/cgss-scan-processor.php:546
+msgid "Image"
+msgstr "mynd"
+
+#: ../lib/cgss-scan-processor.php:546
+msgid "Very important because this gets users attention t your shared content on social media."
+msgstr "Mjög mikilvægt vegna þess að þetta fær notendur athygli t hluti efni á félagslegur frá miðöldum ."
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Total number of images"
+msgstr "Heildarfjöldi mynda"
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Use of \"alt\" attribute"
+msgstr "Notkun \"alt\" eiginleiki"
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Use of \"height\" attribute"
+msgstr "Notkun \"hæð\" eigindi"
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Use of \"width\" attribute"
+msgstr "Notkun \"breidd\" eigindi"
+
+#: ../lib/cgss-scan-processor.php:559
+msgid "Insert the missing attributes."
+msgstr "Settu vantar eiginleika ."
+
+#: ../lib/cgss-scan-processor.php:568
+msgid "No heads tags found. Hence no text hierarchy is present."
+msgstr "Engar höfuð merki fundust. Þess vegna er engin texti stigveldi staðar ."
+
+#: ../lib/cgss-scan-processor.php:569
+#: ../lib/cgss-scan-processor.php:577
+msgid "Write text in proper hierarchy."
+msgstr "Skrifa texta í rétta stigveldi ."
+
+#: ../lib/cgss-scan-processor.php:572
+msgid "All head tags are present"
+msgstr "Öll höfuð tags eru til staðar"
+
+#: ../lib/cgss-scan-processor.php:572
+msgid "So, there is text hierarchy present."
+msgstr "Svo , það er texti stigveldi staðar ."
+
+#: ../lib/cgss-scan-processor.php:576
+msgid "One head tag is present"
+msgstr "Eitt höfuð tag er til staðar"
+
+#: ../lib/cgss-scan-processor.php:580
+msgid "Some head tags are present"
+msgstr "Sumir höfuð tags eru til staðar"
+
+#: ../lib/cgss-scan-processor.php:581
+msgid "Make sure your text is in hierarchy. If it is not please make it so."
+msgstr "Gakktu úr skugga um texta er í stigveldi . Ef það er ekki skaltu gera það svo ."
+
+#: ../lib/cgss-scan-processor.php:581
+msgid "Check again"
+msgstr "athuga aftur"
+
+#: ../lib/cgss-scan-processor.php:585
+msgid "Text to HTML ratio for this web page is"
+msgstr "Texti til HTML hlutfall fyrir þessa vefsíðu er"
+
+#: ../lib/cgss-scan-processor.php:588
+msgid "Too much HTML in your web page."
+msgstr "Of mikið HTML í vefsíðuna þína."
+
+#: ../lib/cgss-scan-processor.php:589
+msgid "Write more text, atleast"
+msgstr "Skrifa meira texta , atleast"
+
+#: ../lib/cgss-scan-processor.php:592
+msgid "Too much text in your web page."
+msgstr "Of mikill texti á vefsíðunni þinni ."
+
+#: ../lib/cgss-scan-processor.php:593
+msgid "Make this page more appealing with more HTML. Or write less text, atleast"
+msgstr "Gera þessa síðu meira aðlaðandi með fleiri HTML . Eða skrifa minna texta , atleast"
+
+#: ../lib/cgss-scan-processor.php:596
+msgid "This ratio for this web page is normal."
+msgstr "Þetta hlutfall fyrir þessa vefsíðu er eðlilegt ."
+
+#: ../lib/cgss-scan-processor.php:601
+msgid "Number of Links"
+msgstr "Fjöldi Tenglar"
+
+#: ../lib/cgss-scan-processor.php:601
+msgid "Outgoing Links"
+msgstr "Outgoing tenglar"
+
+#: ../lib/cgss-scan-processor.php:607
+msgid "Number of Links are large."
+msgstr "Fjöldi Tenglar eru stór ."
+
+#: ../lib/cgss-scan-processor.php:608
+msgid "Please try to reduce number of links."
+msgstr "Vinsamlegast reyndu að draga fjölda tengla ."
+
+#: ../lib/cgss-scan-processor.php:611
+msgid "Number of Links are too much."
+msgstr "Fjöldi Tenglar eru of mikið ."
+
+#: ../lib/cgss-scan-processor.php:612
+msgid "Number of Links should be lowered"
+msgstr "Fjöldi Tenglar ætti að lækka"
+
+#: ../lib/cgss-scan-processor.php:616
+msgid "Links with rel attribute"
+msgstr "Tengsl við ein eiginleiki"
+
+#: ../lib/cgss-scan-processor.php:616
+msgid "Links with title attribute"
+msgstr "Tengsl við eigindi titli"
+
+#: ../lib/cgss-scan-processor.php:616
+msgid "Links with nofollow rel attribute"
+msgstr "Tengsl við nofollow ein attibute"
+
+#: ../lib/cgss-scan-processor.php:621
+msgid "Put rel and title attributes to links"
+msgstr "Setja ein og titill eiginleiki til tengla"
+
+#: ../lib/cgss-scan-processor.php:633
+msgid "Images"
+msgstr "myndir"
+
+#: ../lib/cgss-scan-processor.php:633
+msgid "Optimal Use of images should have height, width and alt attribute. Images should not be resized at browser."
+msgstr "Optimal notkun mynda ættu að hafa hæð , breidd og alt eigindi . Myndir ættu ekki að vera búa í vafranum ."
+
+#: ../lib/cgss-scan-processor.php:634
+msgid "Text Hierarchy"
+msgstr "Texti stigveldi"
+
+#: ../lib/cgss-scan-processor.php:634
+msgid "Text presentation is better in a hierarchy of titles and body tags. Use h1, h2, h3, h4, h5, h6 tags properly."
+msgstr "Texti kynning er betri í stigveldi af titlum og líkama tags . Nota H1, H2, H3, H4, H5, H6 tags almennilega ."
+
+#: ../lib/cgss-scan-processor.php:635
+msgid "text/html Ratio"
+msgstr "text / html Ratio"
+
+#: ../lib/cgss-scan-processor.php:635
+msgid "This ratio determines if the web page is optimal content rich and visually presentable. This is not a ranking factor and should be between 20 % to 70 %."
+msgstr "Þetta hlutfall ákvarðar ef vefur blaðsíða er ákjósanlegur efni ríkur og sjónrænt frambærilegur . Þetta er ekki röðun þáttur og ætti að vera á milli 20 % til 70% ."
+
+#: ../lib/cgss-scan-processor.php:636
+msgid "Link Numbers"
+msgstr "Link Numbers"
+
+#: ../lib/cgss-scan-processor.php:636
+msgid "Number of links plays an significant role in deciding pagerank. The numbers should be optimized and should not be very high."
+msgstr "Fjöldi tengla gegnir mikilvægu hlutverki í að ákveða PageRank . Tölurnar ætti að vera bjartsýni og ætti ekki að vera mjög hár."
+
+#: ../lib/cgss-scan-processor.php:637
+msgid "Link Attributes"
+msgstr "Link Eiginleiki"
+
+#: ../lib/cgss-scan-processor.php:637
+msgid "There are 2 attributes rel and title for any web page links. They defines the link and it's function."
+msgstr "Það eru 2 eiginleika ein og titill fyrir hvaða vefsíðu tenglum . Þeir skilgreinir tengilinn og það's virka ."
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "This web page makes total&nbsp;"
+msgstr "Þessi vefsíða gerir öllum"
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "&nbsp;HTTP requests."
+msgstr "HTTP beiðnir ."
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "Types are&nbsp;"
+msgstr "tegundir eru"
+
+#: ../lib/cgss-scan-processor.php:648
+msgid "&nbsp;for image&nbsp;"
+msgstr ""
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "&nbsp;for javascript&nbsp;"
+msgstr "fyrir javascript"
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "&nbsp;for stylesheet."
+msgstr "fyrir stílsíðu ."
+
+#: ../lib/cgss-scan-processor.php:654
+msgid "Try to make less HTTP requests because this is high. Use optimized theme and widgets"
+msgstr "Reyndu að gera minna HTTP beiðnir vegna þess að þetta er mikil. Nota bjartsýni þema og búnaður"
+
+#: ../lib/cgss-scan-processor.php:654
+msgid "Reduce it"
+msgstr "draga úr henni"
+
+#: ../lib/cgss-scan-processor.php:657
+msgid "Try to make less HTTP requests because this is very high. Use optimized theme and widgets"
+msgstr "Reyndu að gera minna HTTP beiðnir vegna þess að þetta er mjög hár . Nota bjartsýni þema og búnaður"
+
+#: ../lib/cgss-scan-processor.php:657
+msgid "Must Reduce"
+msgstr "verður að draga úr"
+
+#: ../lib/cgss-scan-processor.php:663
+msgid "Stylesheet is making HTTP requests through @import"
+msgstr "Stílsíðu er gerð HTTP beiðnir í gegnum @ innflutning"
+
+#: ../lib/cgss-scan-processor.php:664
+msgid "Remove the @import url and place it inside head tag through link with stylesheet rel attribute"
+msgstr "Taktu @ innflutningur url og setja það inni tag höfuð gegnum tengsl við stílsíðu ein eiginleiki"
+
+#: ../lib/cgss-scan-processor.php:667
+msgid "Stylesheet is not making any HTTP request internally"
+msgstr "Stílsíðu er ekki að allir HTTP beiðni innan"
+
+#: ../lib/cgss-scan-processor.php:679
+msgid "Style attribute is present in above tags at some or all occurances."
+msgstr "Stíll eiginleiki er til staðar í ofangreindum merkjum á sum eða öll allstaðar ."
+
+#: ../lib/cgss-scan-processor.php:680
+msgid "Find and remove style attributes with class attributes and put the style in main css file"
+msgstr "Finna og fjarlægja stíl eiginleika með eiginleika bekknum og setja stíl í helstu CSS skrá"
+
+#: ../lib/cgss-scan-processor.php:683
+msgid "No style attribute is present in any tag."
+msgstr "No stíl eiginleiki er til staðar í hvaða merkinu."
+
+#: ../lib/cgss-scan-processor.php:690
+msgid "There is no html error in this web page."
+msgstr "Það er engin HTML villa í þessari vefsíðu ."
+
+#: ../lib/cgss-scan-processor.php:702
+#, fuzzy
+msgid "There are&nbsp;"
+msgstr "Það eru"
+
+#: ../lib/cgss-scan-processor.php:702
+#, fuzzy
+msgid "&nbsp;errors in html of your web page:"
+msgstr "villur í HTML af vefsíðunni þinni :"
+
+#: ../lib/cgss-scan-processor.php:703
+msgid "Dig into the errors and find out what is causing the errors, your theme or any plugin and resolve it"
+msgstr "Grafa í villur og finna út hvað er að valda villum , þema eða tappi og leysa það"
+
+#: ../lib/cgss-scan-processor.php:710
+#, fuzzy, php-format
+msgid "&nbsp;% of stylesheets and javascripts are loaded in head section."
+msgstr "% af Stílblöð og JavaScripts eru sóttar í kafla höfuð ."
+
+#: ../lib/cgss-scan-processor.php:720
+msgid "This is high"
+msgstr "Þetta er hátt"
+
+#: ../lib/cgss-scan-processor.php:721
+msgid "Add more scripts in footer section and remove them from header section"
+msgstr "Bæta við fleiri skriftum í fót kafla og fjarlægja þá frá kafla haus"
+
+#: ../lib/cgss-scan-processor.php:731
+#: ../lib/cgss-scan-processor.php:743
+#: ../lib/cgss-scan-processor.php:756
+#: ../lib/cgss-scan-processor.php:769
+msgid "Microdata rich snippet is present at this web page."
+msgstr "Microdata ríkur runu er viðstaddur þessa vefsíðu ."
+
+#: ../lib/cgss-scan-processor.php:731
+#: ../lib/cgss-scan-processor.php:743
+#: ../lib/cgss-scan-processor.php:756
+#: ../lib/cgss-scan-processor.php:769
+msgid "Type of rich snippet is"
+msgstr "Tegund ríkur runu er"
+
+#: ../lib/cgss-scan-processor.php:777
+msgid "There is no microdata rich snippet present in this web page."
+msgstr "Það er engin microdata ríkur runu staðar í þessari vefsíðu ."
+
+#: ../lib/cgss-scan-processor.php:778
+msgid "Use any free SEO plugin to markup your web page with microdata rich snippet."
+msgstr "Notaðu hvaða frjáls SEO tappi til Markup vefsíðu með microdata ríkur runu ."
+
+#: ../lib/cgss-scan-processor.php:786
+msgid "HTTP Requests"
+msgstr "HTTP beiðnir"
+
+#: ../lib/cgss-scan-processor.php:786
+msgid "Number of HTTP requests your web page makes to fetch content from server influences document load time, because more requests will call for more downloads and will take more time"
+msgstr "Fjölda HTTP beiðnir á vefsíðu þinni gerir að sækja efni frá miðlara áhrifum skjal hlaða tíma , vegna þess að fleiri beiðnir mun kalla fyrir fleiri niðurhal og mun taka lengri tíma"
+
+#: ../lib/cgss-scan-processor.php:787
+msgid "Stylesheet import url"
+msgstr "Stílsíðu innflutningur url"
+
+#: ../lib/cgss-scan-processor.php:787
+msgid "@import parameter inside stylesheet is bound to increase unnecessary document load. This should be avoided"
+msgstr "@ innflutningur breytu inni stílsíðu er skylt að auka óþarfa skjal álag . Þetta ætti að forðast"
+
+#: ../lib/cgss-scan-processor.php:788
+msgid "Style Attribute"
+msgstr "Style Attribute"
+
+#: ../lib/cgss-scan-processor.php:788
+msgid "Using this in any element of html of web page reduces quality by increasing browser rendering time"
+msgstr "Nota þetta í hvaða þáttur HTML af vefsíðunni dregur gæði með vaxandi vafranum flutningur tíma"
+
+#: ../lib/cgss-scan-processor.php:789
+msgid "Browser Compatibility"
+msgstr "Browser Samhæfni"
+
+#: ../lib/cgss-scan-processor.php:789
+msgid "Google wants that your web page should look ok in different browsers (e.g. mozila firefox, chrome, internet explorer, safari, opera etc.), and the basic thing we can check is errors inside yor html"
+msgstr "Google vill að vefsíðan þín ætti að líta allt í lagi í mismunandi vöfrum ( td mozila Eldur, Króm , Internet Explorer , Safari, Opera etc ) , og undirstöðu sem við getum stöðva er villur inni yor html"
+
+#: ../lib/cgss-scan-processor.php:790
+msgid "Visual Complition"
+msgstr "Visual Complition"
+
+#: ../lib/cgss-scan-processor.php:790
+msgid "HTTP requests made in header compared to total HTTP requests influences visual complition, which is a important design standard parameter"
+msgstr "HTTP beiðnum í haus miðað við heildar HTTP beiðnir áhrif sjón complition , sem er mikilvægt hönnun staðall breytu"
+
+#: ../lib/cgss-scan-processor.php:791
+msgid "Rich Snippet"
+msgstr "Rich Úrklippa"
+
+#: ../lib/cgss-scan-processor.php:791
+msgid "This type of HTML markup gives more information to search engine pages to render. Google encourages microdata type markup because this increases user experience in Search Engine Rank Page"
+msgstr "Þessi tegund af HTML Markup gefur meiri upplýsingar til að leitarvél síður til að inna af hendi. Google hvetur microdata tegund Markup því þetta eykur reynslu notenda í Leita Vél Rank Page"
+
+#: ../lib/cgss-scan-processor.php:804
+msgid "Google may confuse this page as auto-generated."
+msgstr "Google getur ruglað þessa síðu eins og sjálfvirkt farartæki - mynda ."
+
+#: ../lib/cgss-scan-processor.php:804
+msgid "because of this part"
+msgstr "vegna þessa hluta"
+
+#: ../lib/cgss-scan-processor.php:805
+msgid "Change your url to different type of permalink"
+msgstr "Breyting url til aðra tegund af permalink"
+
+#: ../lib/cgss-scan-processor.php:805
+msgid "Change it"
+msgstr "Breyting það"
+
+#: ../lib/cgss-scan-processor.php:809
+msgid "This web page url maintains guidelines."
+msgstr "Þessi síða vefur url heldur leiðbeiningar."
+
+#: ../lib/cgss-scan-processor.php:813
+msgid "The web page url is too big. Google may consider it spam."
+msgstr "The vefsíðu url er of stór . Google telur það spam."
+
+#: ../lib/cgss-scan-processor.php:814
+msgid "Change your url size and type at page or post editor. Make sure you are not using any session tracking"
+msgstr "Breyting url stærð og tegund á síðu eða staða ritstjóri . Gakktu úr skugga um að þú ert ekki að nota einhver fundur mælingar"
+
+#: ../lib/cgss-scan-processor.php:821
+msgid "Last-Modified part in header is found. If-Modified-Since is On."
+msgstr "Last- Modified hluti í haus er að finna . Ef - Modified - Þar er á."
+
+#: ../lib/cgss-scan-processor.php:825
+msgid "Last-Modified part in header is not found. If-Modified-Since is Off"
+msgstr "Last- Modified hluti í haus er ekki að finna . Ef - Modified - Þar er Off"
+
+#: ../lib/cgss-scan-processor.php:826
+msgid "Ask your hosting provider to activate If-Modified-Since header"
+msgstr "Spurðu hýsingu gefur að virkja Ef - Modified - Þar haus"
+
+#: ../lib/cgss-scan-processor.php:826
+#: ../lib/cgss-scan-processor.php:845
+msgid "Ask for it"
+msgstr "Biðja um það"
+
+#: ../lib/cgss-scan-processor.php:833
+msgid "Cache is active. This web page has following cache parameters."
+msgstr "Cache er virk . Þessi vefsíða hefur eftirfarandi skyndiminni breytur ."
+
+#: ../lib/cgss-scan-processor.php:837
+msgid "Cache is inactive. This web page don't returns cache parameters."
+msgstr "Cache er óvirk . Þessi vefsíða Don t'skilar skyndiminni breytur ."
+
+#: ../lib/cgss-scan-processor.php:838
+msgid "Use cache method for better user experience. Use any free cache plugin available"
+msgstr "Nota skyndiminni aðferð fyrir betri reynslu notenda . Notaðu hvaða frjáls skyndiminni tappi í boði"
+
+#: ../lib/cgss-scan-processor.php:844
+msgid "Keep Alive Connection is Off"
+msgstr "Halda Alive Connection er Off"
+
+#: ../lib/cgss-scan-processor.php:845
+msgid "Ask your hosting provider to activate Keep Alive Connection"
+msgstr "Spurðu hýsingu gefur að virkja halda lífi Tengsl"
+
+#: ../lib/cgss-scan-processor.php:848
+msgid "Keep Alive Connection On"
+msgstr "Halda lífi tengingu á"
+
+#: ../lib/cgss-scan-processor.php:856
+msgid "gzip compression in your web page headers is enabled."
+msgstr "gzip þjöppun í vefur blaðsíða haus þínum er virkt ."
+
+#: ../lib/cgss-scan-processor.php:860
+msgid "No compression method is found in web page."
+msgstr "Engin þjöppun aðferð er að finna á vefsíðunni ."
+
+#: ../lib/cgss-scan-processor.php:861
+msgid "Enable gzip compression for better results. Use free plugins."
+msgstr "Virkja gzip þjöppun fyrir betri árangur . Nota frjáls tappi."
+
+#: ../lib/cgss-scan-processor.php:867
+msgid "You are using WordPress version"
+msgstr "Þú ert að nota WordPress útgáfa"
+
+#: ../lib/cgss-scan-processor.php:871
+msgid "You are using WordPress, most probably it's a modified cms with wordpress core."
+msgstr "Þú ert að nota WordPress , sennilega það SA'breytt CMS með WordPress algerlega."
+
+#: ../lib/cgss-scan-processor.php:872
+msgid "Please use proper WordPress software"
+msgstr "Vinsamlegast notaðu rétta WordPress hugbúnaður"
+
+#: ../lib/cgss-scan-processor.php:877
+msgid "If url has variable informations or is more than 255 bytes, search engines will consider it as spam."
+msgstr "Ef url hefur breytilega upplýsingar eða er meira en 255 bytes, leitarvélar vilja íhuga það eins og spam ."
+
+#: ../lib/cgss-scan-processor.php:878
+msgid "If-Modified-Since"
+msgstr "Ef - Modified - Þar"
+
+#: ../lib/cgss-scan-processor.php:878
+msgid "This is a server feature. This automatically Informs search engine robots, whenever any change takes place in web page content."
+msgstr "Þetta er framreiðslumaður lögun . Þetta Upplýsir sjálfkrafa leitarvél vélmenni , þegar einhver breyting á sér stað í vefur blaðsíða innihald ."
+
+#: ../lib/cgss-scan-processor.php:879
+msgid "Caching"
+msgstr "Búrhvalur"
+
+#: ../lib/cgss-scan-processor.php:879
+msgid "Caching html, css, javascripts, images in users browsers can be very useful in reducing document load time. Search engine crawlers likes web pages with better document load time."
+msgstr "Búrhvalur HTML , CSS , javascripts , myndir notendur vafra getur verið mjög gagnlegt við að draga úr skjal hlaða tíma . Leitarvél crawlers finnst vefsíður með betri skjal hlaða tíma ."
+
+#: ../lib/cgss-scan-processor.php:880
+msgid "Keep Alive"
+msgstr "halda Alive"
+
+#: ../lib/cgss-scan-processor.php:880
+msgid "This is a server feature. This keeps the connection between server and browser active for a said amount of time. And saves time for excess communication. Hence it lowers document load time which is better."
+msgstr "Þetta er framreiðslumaður lögun . Þetta heldur tengsl milli miðlara og vafra virkt í umræddum tíma . Og spara tíma fyrir umfram samskipti . Þess vegna lækkar það skjal hlaða tíma sem er betri ."
+
+#: ../lib/cgss-scan-processor.php:881
+msgid "gzip compression"
+msgstr "gzip þjöppun"
+
+#: ../lib/cgss-scan-processor.php:881
+msgid "This server feature delivers web page content to browser in gzip compressed format. Hence it lowers bandwidth and web page size."
+msgstr "Þessi framreiðslumaður eiginleiki skilar vefsíðu efni að vafra í gzip þjappað snið . Þess vegna lækkar það bandbreidd og vefur síðu stærð."
+
+#: ../lib/cgss-scan-processor.php:882
+msgid "CMS"
+msgstr "CMS"
+
+#: ../lib/cgss-scan-processor.php:882
+msgid "Content Management System (cms) creates web page from scripts kept in server. So, Google crawlers may consider this contents to be auto generated. But, for WordPress users this is not a problem."
+msgstr "Innihald Stjórnun Kerfi (CMS ) skapar vefsíðu frá skriftum haldið í miðlara. Svo Google crawlers getur íhuga þetta efni til að vera sjálfvirkt mynda . En fyrir WordPress notendur er þetta ekki vandamál ."
+
+#: ../lib/cgss-scan-processor.php:902
+msgid "Web Page"
+msgstr "Web Page"
+
+#: ../lib/cgss-scan-processor.php:903
+msgid "Scanned for"
+msgstr "skönnuð fyrir"
+
+#: ../lib/cgss-scan-processor.php:903
+msgid "Search Engine Compatibility, Google Webmaster Guidelines as standard"
+msgstr "Leita Vél Eindrægni , viðmiðunarreglum Google fyrir vefstjóra sem staðall"
+
+#: ../lib/cgss-scan-processor.php:904
+msgid "Theme Used"
+msgstr "þema Notað"
+
+#: ../lib/cgss-scan-processor.php:905
+msgid "Time Taken"
+msgstr "tími Taken"
+
+#: ../lib/cgss-scan-processor.php:905
+msgid "seconds for Scan"
+msgstr "sekúndur fyrir Scan"
+
+#: ../lib/cgss-scan-processor.php:905
+msgid "seconds for loading components"
+msgstr "sekúndur fyrir fermingu hluti"
+
+#: ../lib/cgss-chart-scripts.php:8
+#: ../lib/cgss-chart-scripts.php:28
+#: ../lib/cgss-chart-scripts.php:47
+msgid "Percentage"
+msgstr "hlutfall"
+
+#: ../lib/cgss-chart-scripts.php:9
+#: ../lib/cgss-chart-scripts.php:29
+msgid "Success"
+msgstr "velgengni"
+
+#: ../lib/cgss-chart-scripts.php:10
+#: ../lib/cgss-chart-scripts.php:30
+msgid "Failure"
+msgstr "bilun"
+
+#: ../lib/cgss-chart-scripts.php:13
+#: ../lib/cgss-chart-scripts.php:33
+msgid "Web Page Overall SEO Performance"
+msgstr "Web Page Alls SEO árangur"
+
+#: ../lib/cgss-chart-scripts.php:48
+msgid "Complete"
+msgstr "ljúka"
+
+#: ../lib/cgss-chart-scripts.php:49
+msgid "Incomplete"
+msgstr "ófullnægjandi"
+
+#: ../lib/cgss-chart-scripts.php:52
+msgid "Web Page Optimized Data Overview"
+msgstr "Web Page Bjartsýni Data Yfirlit"
+
+#: ../lib/cgss-chart-scripts.php:68
+#: ../lib/cgss-chart-scripts.php:142
+msgid "Required"
+msgstr "krafist"
+
+#: ../lib/cgss-chart-scripts.php:68
+#: ../lib/cgss-chart-scripts.php:142
+msgid "Completed"
+msgstr "lokið"
+
+#: ../lib/cgss-chart-scripts.php:69
+msgid "Comparison of social data"
+msgstr "Samanburður á félagslegur gögn"
+
+#: ../lib/cgss-chart-scripts.php:72
+msgid "Social Sharing Data overview"
+msgstr "Social Sharing Data Yfirlit"
+
+#: ../lib/cgss-chart-scripts.php:95
+msgid "Actual"
+msgstr "raunveruleg"
+
+#: ../lib/cgss-chart-scripts.php:95
+msgid "Ideal Case"
+msgstr "tilvalið Case"
+
+#: ../lib/cgss-chart-scripts.php:96
+msgid "none"
+msgstr "enginn"
+
+#: ../lib/cgss-chart-scripts.php:97
+msgid "header"
+msgstr "haus"
+
+#: ../lib/cgss-chart-scripts.php:98
+msgid "body"
+msgstr "líkami"
+
+#: ../lib/cgss-chart-scripts.php:99
+msgid "full"
+msgstr "fullur"
+
+#: ../lib/cgss-chart-scripts.php:102
+msgid "Approximate Pattern of visual complition Index"
+msgstr "Áætlaða Mynstur sjón complition Index"
+
+#: ../lib/cgss-chart-scripts.php:103
+msgid "web page loading"
+msgstr "vefsíðu hleðsla"
+
+#: ../lib/cgss-chart-scripts.php:104
+msgid "Visual complition percentage"
+msgstr "Visual complition hlutfall"
+
+#: ../lib/cgss-chart-scripts.php:120
+msgid "JavaScripts"
+msgstr "JavaScripts"
+
+#: ../lib/cgss-chart-scripts.php:121
+msgid "Styles"
+msgstr "Styles"
+
+#: ../lib/cgss-chart-scripts.php:122
+msgid "Pure Text"
+msgstr "Pure Texti"
+
+#: ../lib/cgss-chart-scripts.php:123
+#: ../lib/cgss-report-display.php:187
+msgid "Alt Text"
+msgstr "Alt Text"
+
+#: ../lib/cgss-chart-scripts.php:124
+#: ../lib/cgss-report-display.php:186
+msgid "Anchor Text"
+msgstr "Anchor Texti"
+
+#: ../lib/cgss-chart-scripts.php:127
+msgid "In page content overview"
+msgstr "Page Content Yfirlit"
+
+#: ../lib/cgss-chart-scripts.php:143
+msgid "Comparison of server performance"
+msgstr "Samanburður á frammistöðu miðlara"
+
+#: ../lib/cgss-chart-scripts.php:146
+msgid "Technical Aspects Overview"
+msgstr "Tæknilega þætti Yfirlit"
+
+#: ../lib/cgss-scan-form.php:12
+#: ../lib/cgss-report-display.php:25
+msgid "New Scan"
+msgstr "New Scan"
+
+#: ../lib/cgss-scan-form.php:13
+msgid "Notes"
+msgstr "Skýringar"
+
+#: ../lib/cgss-scan-form.php:16
+msgid "Chose any page or post or enter custom url to Scan"
+msgstr "Valdi hvaða síðu eða staða eða sláðu sérsniðna vefslóð til að leita"
+
+#: ../lib/cgss-scan-form.php:23
+msgid "Select a Page to Scan"
+msgstr "Veldu síðu til að skanna"
+
+#: ../lib/cgss-scan-form.php:33
+msgid "Scan Page"
+msgstr "skanna Page"
+
+#: ../lib/cgss-scan-form.php:37
+#: ../lib/cgss-scan-form.php:55
+msgid "OR"
+msgstr "OR"
+
+#: ../lib/cgss-scan-form.php:41
+msgid "Select a Post to Scan"
+msgstr "Veldu Post að skanna"
+
+#: ../lib/cgss-scan-form.php:51
+msgid "Scan Post"
+msgstr "skanna Post"
+
+#: ../lib/cgss-scan-form.php:59
+msgid "Enter a custom url"
+msgstr "Sláðu inn sérsniðna vefslóð"
+
+#: ../lib/cgss-scan-form.php:63
+msgid "Scan URL"
+msgstr "skanna vefslóð"
+
+#: ../lib/cgss-scan-form.php:71
+msgid "Things to know before scanning"
+msgstr "Atriði sem þarf að vita áður en scaning"
+
+#: ../lib/cgss-scan-form.php:75
+msgid "Scanning time depends on your server and your website quality. Actual process takes less than 0.01 seconds to complete."
+msgstr "Scaning veltur á vefþjóninum þínum og gæði website þinn . Raunveruleg ferli sem tekur minna en 0,01 sekúndur til að ljúka ."
+
+#: ../lib/cgss-scan-form.php:78
+msgid "The overview chart data is approximate calculation and does not represent calculations by any search engine algorithm."
+msgstr "Myndin yfirlit gögn er áætluð útreikninga og ekki tákna útreikninga með hvaða leitarvél reiknirit ."
+
+#: ../lib/cgss-scan-form.php:81
+msgid "Some parameters displayed in results are not included directly in google guidelines. But they affect indirectly."
+msgstr "Sumir þættir birtist í niðurstöðum eru ekki taldar beint í google leiðbeiningar. En þeir hafa áhrif óbeint ."
+
+#: ../lib/cgss-scan-form.php:84
+msgid "Hover over underlined elements to see the explanations in result page."
+msgstr "Sveima yfir undirstrikað þætti til að sjá skýringar í síðu vegna ."
+
+#: ../lib/cgss-scan-form.php:87
+msgid "No data from your website, server or anything is captured by any server. Scanning is done entirely on browser."
+msgstr "Engin gögn af vefsíðunni þinni, miðlara eða eitthvað er tekin af hvaða miðlara . Scaning er gert eingöngu á vafranum ."
+
+#: ../lib/cgss-form-validator.php:32
+msgid "The url returns error : 404 Not Found, That means there is no webpage present and search engines will not index it. Enter existing webpage url of your website."
+msgstr "The url skilar villa : 404 fannst ekki , sem þýðir að það er engin webpage staðar og leitarvélum verður ekki vísitölu það . Sláðu núverandi vefsíðu url vefsvæðisins ."
+
+#: ../lib/cgss-report-display.php:22
+msgid "Print Report"
+msgstr "Prenta Report"
+
+#: ../lib/cgss-report-display.php:28
+msgid "SEO Tips &rarr;"
+msgstr "SEO Ábendingar &rarr;"
+
+#: ../lib/cgss-report-display.php:42
+msgid "Data"
+msgstr "gögn"
+
+#: ../lib/cgss-report-display.php:43
+msgid "Content"
+msgstr "efni"
+
+#: ../lib/cgss-report-display.php:44
+msgid "Design"
+msgstr "hönnun"
+
+#: ../lib/cgss-report-display.php:45
+msgid "Technical"
+msgstr "Technical"
+
+#: ../lib/cgss-report-display.php:62
+msgid "Social Sharing Data ("
+msgstr "Félagsleg Data Sharing ("
+
+#: ../lib/cgss-report-display.php:62
+msgid "Open Graph Protocol by Facebook and accepted by almost all major social media including Google +"
+msgstr "Opinn Línurit viðbótarsamningi Facebook og samþykkt af nánast öllum helstu félagsleg fjölmiðla þar á meðal Google +"
+
+#: ../lib/cgss-report-display.php:62
+msgid "OGP"
+msgstr "OGP"
+
+#: ../lib/cgss-report-display.php:64
+msgid "Web Page Data"
+msgstr "Web Page Data"
+
+#: ../lib/cgss-report-display.php:76
+#: ../lib/cgss-report-display.php:142
+#: ../lib/cgss-report-display.php:241
+msgid "Result"
+msgstr "Niðurstaða"
+
+#: ../lib/cgss-report-display.php:79
+#: ../lib/cgss-report-display.php:145
+msgid "Remarks"
+msgstr "athugasemdir"
+
+#: ../lib/cgss-report-display.php:123
+msgid "Content issues"
+msgstr "efni málefni"
+
+#: ../lib/cgss-report-display.php:124
+msgid "Design points"
+msgstr "hönnun stig"
+
+#: ../lib/cgss-report-display.php:125
+msgid "Server points"
+msgstr "Server stig"
+
+#: ../lib/cgss-report-display.php:181
+#, fuzzy
+msgid "&rarr;&nbsp;Crawled Text Content"
+msgstr "&rarr; skrið texta efni"
+
+#: ../lib/cgss-report-display.php:185
+msgid "Total Text"
+msgstr "Samtals Texti"
+
+#: ../lib/cgss-report-display.php:188
+msgid "In page Style"
+msgstr "Í Stíll síðu"
+
+#: ../lib/cgss-report-display.php:189
+msgid "In page Script"
+msgstr "Í Script síðu"
+
+#: ../lib/cgss-report-display.php:225
+msgid "Scan by"
+msgstr "skanna með"
+
+#: ../lib/cgss-report-display.php:226
+msgid "gogretel.com"
+msgstr "gogretel.com"
+
+#: ../lib/cgss-report-display.php:235
+msgid "Name"
+msgstr "nafn"
+
+#: ../lib/cgss-report-display.php:244
+msgid "Action"
+msgstr "aðgerð"
+
+#~ msgid "Length "
+#~ msgstr "lengd"
+
+#~ msgid " for image "
+#~ msgstr "fyrir ímynd"

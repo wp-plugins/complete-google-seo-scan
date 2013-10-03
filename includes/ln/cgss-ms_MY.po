@@ -1,0 +1,1227 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Complete Google SEO Scan 1.0\n"
+"Report-Msgid-Bugs-To: happy@gogretel.com\n"
+"POT-Creation-Date: 2013-09-17 23:11+0530\n"
+"PO-Revision-Date: 2013-09-18 12:14+0530\n"
+"Last-Translator: \n"
+"Language-Team: GoGretel <happy@gogretel.com>\n"
+"Language: Malay\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Language: Malay\n"
+"X-Poedit-Country: Malaysia (Latin)\n"
+"Plural-Forms: nplurals = 2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../complete-google-seo-scan.php:46
+#, fuzzy
+msgid "Complete Google SEO Scan requires PHP 5.3+ and will not be activated, your current server configuration is running PHP version&nbsp;"
+msgstr "Lengkap Google SEO Scan memerlukan PHP 5.3 + dan tidak akan diaktifkan, konfigurasi pelayan semasa anda menjalankan versi PHP"
+
+#: ../complete-google-seo-scan.php:46
+#, fuzzy
+msgid "Any PHP version less than 5.3.0 has reached \"End of Life\" from PHP.net and no longer receives bug fixes or security updates. The official information on how to update and why at&nbsp;"
+msgstr "Mana-mana versi PHP kurang daripada 5.3.0 telah mencapai \"End of Life\" dari PHP.net dan tidak lagi menerima kemas kini pepijat orsecurity . Maklumat rasmi mengenai bagaimana untuk mengemas kini dan mengapa pada"
+
+#: ../complete-google-seo-scan.php:59
+msgid "Scan Now"
+msgstr "Scan Now"
+
+#: ../complete-google-seo-scan.php:74
+msgid "SEO Scan"
+msgstr "SEO Scan"
+
+#: ../complete-google-seo-scan.php:91
+msgid "Complete Google SEO Scan"
+msgstr "Lengkap Google SEO Scan"
+
+#: ../complete-google-seo-scan.php:106
+msgid "Brought to you by"
+msgstr "Dibawa kepada anda oleh"
+
+#: ../complete-google-seo-scan.php:106
+msgid "GoGretel SEO Blog"
+msgstr "GoGretel SEO Blog"
+
+#: ../lib/cgss-scan-processor.php:2
+msgid "Google Search Engine Optimization Scan for your web page is complete. Here are the results."
+msgstr "Google Search Engine Optimization Imbas untuk laman web anda selesai. Berikut adalah keputusan."
+
+#: ../lib/cgss-scan-processor.php:45
+msgid "at line"
+msgstr "di garisan"
+
+#: ../lib/cgss-scan-processor.php:164
+msgid "It's different from scanned web page url"
+msgstr "Ia's berbeza daripada diimbas laman web url"
+
+#: ../lib/cgss-scan-processor.php:165
+msgid "Be sure you want your page to be indexed by this canonical url"
+msgstr "Pastikan anda mahu halaman anda akan diindeks oleh url ini berkanun"
+
+#: ../lib/cgss-scan-processor.php:165
+msgid "Recheck it"
+msgstr "periksa ia"
+
+#: ../lib/cgss-scan-processor.php:169
+#: ../lib/cgss-scan-processor.php:182
+#: ../lib/cgss-scan-processor.php:284
+#: ../lib/cgss-scan-processor.php:307
+#: ../lib/cgss-scan-processor.php:325
+#: ../lib/cgss-scan-processor.php:341
+#: ../lib/cgss-scan-processor.php:351
+#: ../lib/cgss-scan-processor.php:366
+#: ../lib/cgss-scan-processor.php:381
+#: ../lib/cgss-scan-processor.php:395
+#: ../lib/cgss-scan-processor.php:410
+#: ../lib/cgss-scan-processor.php:425
+#: ../lib/cgss-scan-processor.php:440
+#: ../lib/cgss-scan-processor.php:562
+#: ../lib/cgss-scan-processor.php:573
+#: ../lib/cgss-scan-processor.php:597
+#: ../lib/cgss-scan-processor.php:604
+#: ../lib/cgss-scan-processor.php:624
+#: ../lib/cgss-scan-processor.php:651
+#: ../lib/cgss-scan-processor.php:668
+#: ../lib/cgss-scan-processor.php:684
+#: ../lib/cgss-scan-processor.php:691
+#: ../lib/cgss-scan-processor.php:713
+#: ../lib/cgss-scan-processor.php:732
+#: ../lib/cgss-scan-processor.php:744
+#: ../lib/cgss-scan-processor.php:757
+#: ../lib/cgss-scan-processor.php:770
+#: ../lib/cgss-scan-processor.php:810
+#: ../lib/cgss-scan-processor.php:822
+#: ../lib/cgss-scan-processor.php:834
+#: ../lib/cgss-scan-processor.php:849
+#: ../lib/cgss-scan-processor.php:857
+#: ../lib/cgss-scan-processor.php:868
+msgid "OK"
+msgstr "OK"
+
+#: ../lib/cgss-scan-processor.php:173
+#: ../lib/cgss-scan-processor.php:185
+#: ../lib/cgss-scan-processor.php:292
+#: ../lib/cgss-scan-processor.php:315
+msgid "NOT FOUND"
+msgstr "TIDAK ADA"
+
+#: ../lib/cgss-scan-processor.php:174
+msgid "Put a canonical link"
+msgstr "Meletakkan pautan berkanun"
+
+#: ../lib/cgss-scan-processor.php:186
+msgid "Enter Favicon"
+msgstr "Masukkan Favicon"
+
+#: ../lib/cgss-scan-processor.php:283
+#, fuzzy
+msgid "Length&nbsp;"
+msgstr "panjang"
+
+#: ../lib/cgss-scan-processor.php:283
+#: ../lib/cgss-scan-processor.php:287
+#, fuzzy
+msgid "&nbsp;characters ( Maximum allowed 70 Characters )"
+msgstr "aksara ( maksima 70 Watak )"
+
+#: ../lib/cgss-scan-processor.php:287
+#: ../lib/cgss-scan-processor.php:306
+#: ../lib/cgss-scan-processor.php:310
+msgid "Length"
+msgstr "panjang"
+
+#: ../lib/cgss-scan-processor.php:288
+msgid "As more than 70 characters will not be shown in search result"
+msgstr "Memandangkan lebih daripada 70 aksara tidak akan ditunjukkan dalam keputusan carian"
+
+#: ../lib/cgss-scan-processor.php:288
+msgid "Give shorter title"
+msgstr "Beri tajuk pendek"
+
+#: ../lib/cgss-scan-processor.php:293
+msgid "Give a title."
+msgstr "Beri tajuk."
+
+#: ../lib/cgss-scan-processor.php:306
+#: ../lib/cgss-scan-processor.php:310
+#, fuzzy
+msgid "&nbsp;characters ( Maximum allowed 155 Characters )"
+msgstr "aksara ( maksima 155 Characters)"
+
+#: ../lib/cgss-scan-processor.php:311
+msgid "Write some meta description within 155 characters. Although it does not hamper ranking but it looks bad in search engine page result. Hence, may reduce click through rate (CTR)"
+msgstr "Tulis beberapa keterangan meta dalam 155 aksara. Altough ia tidak menjejaskan kedudukan tetapi ia kelihatan buruk dalam halaman hasil carian enjin. Oleh itu, boleh mengurangkan klik melalui kadar (JMK)"
+
+#: ../lib/cgss-scan-processor.php:311
+msgid "Make it Shorter."
+msgstr "Jadikan ia pendek ."
+
+#: ../lib/cgss-scan-processor.php:316
+msgid "This is not good."
+msgstr "Ini tidak baik ."
+
+#: ../lib/cgss-scan-processor.php:317
+msgid "The tag is in place, now Write some meta description"
+msgstr "Tag itu di tempat , kini Tulis beberapa keterangan meta"
+
+#: ../lib/cgss-scan-processor.php:317
+msgid "Give a description"
+msgstr "Beri penerangan"
+
+#: ../lib/cgss-scan-processor.php:328
+msgid "NOT FOUND."
+msgstr "TIDAK ADA ."
+
+#: ../lib/cgss-scan-processor.php:329
+msgid "Enter keywords suitable for your web page content, many search engines use it but not Google"
+msgstr "Masukkan kata kunci yang sesuai untuk kandungan laman web anda, enjin carian banyak menggunakannya tetapi tidak Google"
+
+#: ../lib/cgss-scan-processor.php:329
+msgid "Enter keywords."
+msgstr "Masukkan kata kunci."
+
+#: ../lib/cgss-scan-processor.php:336
+msgid "Meta robot is having noindex nofollow value. This is not good."
+msgstr "Meta robot yang mempunyai nilai NOINDEX NOFOLLOW . Ini tidak baik ."
+
+#: ../lib/cgss-scan-processor.php:337
+msgid "Change the robots meta value from no-index and/or no-follow"
+msgstr "Perubahan nilai meta robot dari tiada -indeks dan / atau tidak mengikut"
+
+#: ../lib/cgss-scan-processor.php:337
+msgid "Fix this."
+msgstr "Menetapkan ini."
+
+#: ../lib/cgss-scan-processor.php:357
+msgid "Put proper value to this og:locale meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini: tempat-tempat kejadian meta tag"
+
+#: ../lib/cgss-scan-processor.php:357
+#: ../lib/cgss-scan-processor.php:372
+#: ../lib/cgss-scan-processor.php:386
+#: ../lib/cgss-scan-processor.php:401
+#: ../lib/cgss-scan-processor.php:416
+#: ../lib/cgss-scan-processor.php:431
+#: ../lib/cgss-scan-processor.php:446
+msgid "Fill it"
+msgstr "isi"
+
+#: ../lib/cgss-scan-processor.php:372
+msgid "Put proper value to this og:site_name meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini: SITE_NAME meta tag"
+
+#: ../lib/cgss-scan-processor.php:386
+msgid "Put proper value to this og:type meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini: Jenis meta tag"
+
+#: ../lib/cgss-scan-processor.php:401
+msgid "Put proper value to this og:url meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini: url tag meta"
+
+#: ../lib/cgss-scan-processor.php:416
+msgid "Put proper value to this og:title meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini: tajuk meta tag"
+
+#: ../lib/cgss-scan-processor.php:431
+msgid "Put proper value to this og:description meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini: Penerangan meta tag"
+
+#: ../lib/cgss-scan-processor.php:446
+msgid "Put proper value to this og:image meta tag"
+msgstr "Meletakkan nilai yang betul untuk og ini : image tag meta"
+
+#: ../lib/cgss-scan-processor.php:455
+#: ../lib/cgss-scan-processor.php:460
+#: ../lib/cgss-scan-processor.php:465
+#: ../lib/cgss-scan-processor.php:470
+#: ../lib/cgss-scan-processor.php:475
+#: ../lib/cgss-scan-processor.php:481
+#: ../lib/cgss-scan-processor.php:486
+#: ../lib/cgss-scan-processor.php:491
+#: ../lib/cgss-scan-processor.php:496
+#: ../lib/cgss-scan-processor.php:501
+#: ../lib/cgss-scan-processor.php:506
+#: ../lib/cgss-scan-processor.php:511
+msgid "TAG NOT FOUND"
+msgstr "TAG TIDAK ADA"
+
+#: ../lib/cgss-scan-processor.php:456
+msgid "You can use any free SEO plugins available to get options to enter descriptions"
+msgstr "Anda boleh menggunakan mana-mana free SEO plugin tersedia untuk mendapatkan pilihan untuk memasukkan penerangan"
+
+#: ../lib/cgss-scan-processor.php:456
+#: ../lib/cgss-scan-processor.php:461
+#: ../lib/cgss-scan-processor.php:466
+#: ../lib/cgss-scan-processor.php:471
+#: ../lib/cgss-scan-processor.php:476
+msgid "Put the tag"
+msgstr "Meletakkan tag"
+
+#: ../lib/cgss-scan-processor.php:461
+msgid "Enter keywords suitable for your web page content, many search engines use it but not Google. You can use any free SEO plugins available to get options to enter this tag"
+msgstr "Masukkan kata kunci yang sesuai untuk kandungan laman web anda, enjin carian banyak menggunakannya tetapi tidak Google. Anda boleh menggunakan mana-mana free SEO plugin tersedia untuk mendapatkan pilihan untuk memasukkan tag ini"
+
+#: ../lib/cgss-scan-processor.php:466
+msgid "You can use any free SEO plugins available to get options to enter desired meta canonical link"
+msgstr "Anda boleh menggunakan mana-mana free SEO plugin tersedia untuk mendapatkan pilihan untuk memasukkan pautan yang dikehendaki meta berkanun"
+
+#: ../lib/cgss-scan-processor.php:471
+msgid "It is better to put a tag. Otherwise no great worries"
+msgstr "Ia adalah lebih baik untuk meletakkan tag. Jika tidak, tidak ada kebimbangan besar"
+
+#: ../lib/cgss-scan-processor.php:476
+msgid "Put a favicon ico image using a shortcut icon link tag"
+msgstr "Letakkan imej favicon ico menggunakan ikon pintasan pautan tag"
+
+#: ../lib/cgss-scan-processor.php:482
+msgid "Put this og:locale meta tag in head section with proper value"
+msgstr "Meletakkan ini og : tempat-tempat kejadian meta tag di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:482
+#: ../lib/cgss-scan-processor.php:487
+#: ../lib/cgss-scan-processor.php:492
+#: ../lib/cgss-scan-processor.php:497
+#: ../lib/cgss-scan-processor.php:502
+#: ../lib/cgss-scan-processor.php:507
+#: ../lib/cgss-scan-processor.php:512
+#: ../lib/cgss-scan-processor.php:559
+#: ../lib/cgss-scan-processor.php:569
+#: ../lib/cgss-scan-processor.php:577
+#: ../lib/cgss-scan-processor.php:589
+#: ../lib/cgss-scan-processor.php:593
+#: ../lib/cgss-scan-processor.php:608
+#: ../lib/cgss-scan-processor.php:612
+#: ../lib/cgss-scan-processor.php:621
+#: ../lib/cgss-scan-processor.php:664
+#: ../lib/cgss-scan-processor.php:680
+#: ../lib/cgss-scan-processor.php:703
+#: ../lib/cgss-scan-processor.php:721
+#: ../lib/cgss-scan-processor.php:778
+#: ../lib/cgss-scan-processor.php:814
+#: ../lib/cgss-scan-processor.php:838
+#: ../lib/cgss-scan-processor.php:861
+#: ../lib/cgss-scan-processor.php:872
+msgid "Fix it"
+msgstr "Betulkan ia"
+
+#: ../lib/cgss-scan-processor.php:487
+msgid "Put this og:site_name meta tag in head section with proper value"
+msgstr "Meletakkan ini og : SITE_NAME tag meta di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:492
+msgid "Put this og:type meta tag in head section with proper value"
+msgstr "Meletakkan ini og : Jenis meta tag di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:497
+msgid "Put this og:title meta tag in head section with proper value"
+msgstr "Meletakkan og ini: tajuk meta tag di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:502
+msgid "Put this og:description meta tag in head section with proper value"
+msgstr "Meletakkan ini og : Penerangan meta tag di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:507
+msgid "Put this og:url meta tag in head section with proper value"
+msgstr "Meletakkan og ini: url tag meta di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:512
+msgid "Put this og:image meta tag in head section with proper value"
+msgstr "Meletakkan og ini : image tag meta di bahagian kepala dengan nilai yang betul"
+
+#: ../lib/cgss-scan-processor.php:530
+msgid "Title Tag"
+msgstr "Title Tag"
+
+#: ../lib/cgss-scan-processor.php:530
+msgid "Title of the website. This should be descriptive and within 70 characters."
+msgstr "Tajuk laman web ini. Ini harus menjadi deskriptif dan dalam 70 aksara."
+
+#: ../lib/cgss-scan-processor.php:531
+msgid "Meta Description"
+msgstr "Meta Description"
+
+#: ../lib/cgss-scan-processor.php:531
+msgid "Describes the web page. Optimal length is 155 characters and is not a ranking factor."
+msgstr "Menerangkan laman web. Panjang yang optimum ialah 155 watak dan bukan faktor kedudukan."
+
+#: ../lib/cgss-scan-processor.php:532
+msgid "Meta Keywords"
+msgstr "Meta Keywords"
+
+#: ../lib/cgss-scan-processor.php:532
+msgid "Mentions used keywords in web page. It is not a ranking factor."
+msgstr "Menyebut kata kunci yang digunakan dalam laman web. Ia bukan satu faktor kedudukan."
+
+#: ../lib/cgss-scan-processor.php:533
+msgid "Canonical Link"
+msgstr "Link Canonical"
+
+#: ../lib/cgss-scan-processor.php:533
+msgid "Canonicalization is the process of picking the best url when there are several choices. This canonical meta tag helps search engine crawlers to index a page which can be approached from different urls (like http://www.example.com/ and http://example.com/)."
+msgstr "Canonicalization adalah proses memilih url yang terbaik apabila terdapat beberapa pilihan. Ini tag meta kanun membantu crawler enjin carian untuk indeks halaman yang boleh didekati dari url yang berbeza ( seperti http://www.example.com/ dan http://example.com/ )."
+
+#: ../lib/cgss-scan-processor.php:534
+msgid "Meta Robots"
+msgstr "Robot meta"
+
+#: ../lib/cgss-scan-processor.php:534
+msgid "Meta robots tag requests search engine robots to crawl or leave the web page. If given a value of noindex and nofollow, web page will not be indexed."
+msgstr "Meta robot permintaan tag robot enjin carian merangkak atau meninggalkan laman web. Jika diberi nilai NOINDEX dan nofollow , laman web tidak akan diindeks."
+
+#: ../lib/cgss-scan-processor.php:535
+msgid "Favicon Link"
+msgstr "favicon Link"
+
+#: ../lib/cgss-scan-processor.php:535
+msgid "Displays an unique image beside title at the top of browser. Good SEO practice"
+msgstr "Memaparkan imej yang unik di sebelah tajuk di bahagian atas pelayar. Amalan SEO yang baik"
+
+#: ../lib/cgss-scan-processor.php:540
+msgid "Language"
+msgstr "bahasa"
+
+#: ../lib/cgss-scan-processor.php:540
+msgid "Sharing language you will use"
+msgstr "Berkongsi bahasa yang akan anda gunakan"
+
+#: ../lib/cgss-scan-processor.php:541
+msgid "Type"
+msgstr "jenis"
+
+#: ../lib/cgss-scan-processor.php:541
+msgid "Type of application you are sharing. Here it is website"
+msgstr "Jenis permohonan anda berkongsi . Di sini adalah laman web"
+
+#: ../lib/cgss-scan-processor.php:542
+msgid "Site Name"
+msgstr "Nama Site"
+
+#: ../lib/cgss-scan-processor.php:542
+msgid "Name of the website. Here it is"
+msgstr "Nama laman web. Di sini adalah"
+
+#: ../lib/cgss-scan-processor.php:543
+msgid "Title"
+msgstr "Title"
+
+#: ../lib/cgss-scan-processor.php:543
+msgid "Title of the shared content. May or may not be same as web page title"
+msgstr "Tajuk kandungan yang dikongsi. Mungkin atau mungkin tidak sama dengan tajuk laman web"
+
+#: ../lib/cgss-scan-processor.php:544
+#: ../lib/cgss-report-display.php:238
+msgid "Description"
+msgstr "Penerangan"
+
+#: ../lib/cgss-scan-processor.php:544
+msgid "Body of the shared content. Usually this text is seen on shared contents in social media networks"
+msgstr "Badan kandungan yang dikongsi. Biasanya teks ini dilihat pada kandungan yang dikongsi bersama dalam rangkaian media sosial"
+
+#: ../lib/cgss-scan-processor.php:545
+#: ../lib/cgss-scan-processor.php:877
+msgid "URL"
+msgstr "URL"
+
+#: ../lib/cgss-scan-processor.php:545
+msgid "Specify web page link, this url is shared and will have link benefits. But be honest."
+msgstr "Nyatakan link laman web, url ini dikongsi dan akan mempunyai manfaat link. Tetapi jujur."
+
+#: ../lib/cgss-scan-processor.php:546
+msgid "Image"
+msgstr "imej"
+
+#: ../lib/cgss-scan-processor.php:546
+msgid "Very important because this gets users attention t your shared content on social media."
+msgstr "Sangat penting kerana ini mendapat perhatian pengguna t kandungan anda berkongsi di media sosial."
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Total number of images"
+msgstr "Jumlah bilangan imej"
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Use of \"alt\" attribute"
+msgstr "Penggunaan \"alt\" sifat"
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Use of \"height\" attribute"
+msgstr "Penggunaan \"ketinggian\" sifat"
+
+#: ../lib/cgss-scan-processor.php:556
+msgid "Use of \"width\" attribute"
+msgstr "Penggunaan \"lebar\" sifat"
+
+#: ../lib/cgss-scan-processor.php:559
+msgid "Insert the missing attributes."
+msgstr "Memasukkan ciri-ciri yang hilang."
+
+#: ../lib/cgss-scan-processor.php:568
+msgid "No heads tags found. Hence no text hierarchy is present."
+msgstr "Tiada tanda kepala dijumpai. Oleh itu tidak hierarki teks hadir."
+
+#: ../lib/cgss-scan-processor.php:569
+#: ../lib/cgss-scan-processor.php:577
+msgid "Write text in proper hierarchy."
+msgstr "Tulis teks dalam hierarki yang betul."
+
+#: ../lib/cgss-scan-processor.php:572
+msgid "All head tags are present"
+msgstr "Semua tag kepala hadir"
+
+#: ../lib/cgss-scan-processor.php:572
+msgid "So, there is text hierarchy present."
+msgstr "Jadi, terdapat teks hierarki ini."
+
+#: ../lib/cgss-scan-processor.php:576
+msgid "One head tag is present"
+msgstr "Satu kepala tag hadir"
+
+#: ../lib/cgss-scan-processor.php:580
+msgid "Some head tags are present"
+msgstr "Beberapa tag kepala hadir"
+
+#: ../lib/cgss-scan-processor.php:581
+msgid "Make sure your text is in hierarchy. If it is not please make it so."
+msgstr "Pastikan teks anda dalam hierarki. Jika tidak sila buat begitu."
+
+#: ../lib/cgss-scan-processor.php:581
+msgid "Check again"
+msgstr "Semak lagi"
+
+#: ../lib/cgss-scan-processor.php:585
+msgid "Text to HTML ratio for this web page is"
+msgstr "Text nisbah HTML untuk laman web ini adalah"
+
+#: ../lib/cgss-scan-processor.php:588
+msgid "Too much HTML in your web page."
+msgstr "Terlalu banyak HTML dalam laman web anda."
+
+#: ../lib/cgss-scan-processor.php:589
+msgid "Write more text, atleast"
+msgstr "Tulis teks lanjut, atleast"
+
+#: ../lib/cgss-scan-processor.php:592
+msgid "Too much text in your web page."
+msgstr "Terlalu banyak teks dalam laman web anda."
+
+#: ../lib/cgss-scan-processor.php:593
+msgid "Make this page more appealing with more HTML. Or write less text, atleast"
+msgstr "Buat halaman ini lebih menarik dengan lebih HTML. Atau menulis teks kurang, atleast"
+
+#: ../lib/cgss-scan-processor.php:596
+msgid "This ratio for this web page is normal."
+msgstr "Nisbah untuk laman web ini adalah normal."
+
+#: ../lib/cgss-scan-processor.php:601
+msgid "Number of Links"
+msgstr "Bilangan Links"
+
+#: ../lib/cgss-scan-processor.php:601
+msgid "Outgoing Links"
+msgstr "Links keluar"
+
+#: ../lib/cgss-scan-processor.php:607
+msgid "Number of Links are large."
+msgstr "Bilangan Link yang besar."
+
+#: ../lib/cgss-scan-processor.php:608
+msgid "Please try to reduce number of links."
+msgstr "Sila cuba untuk mengurangkan bilangan link."
+
+#: ../lib/cgss-scan-processor.php:611
+msgid "Number of Links are too much."
+msgstr "Bilangan Links terlalu banyak."
+
+#: ../lib/cgss-scan-processor.php:612
+msgid "Number of Links should be lowered"
+msgstr "Bilangan Links perlu diturunkan"
+
+#: ../lib/cgss-scan-processor.php:616
+msgid "Links with rel attribute"
+msgstr "Hubungan dengan rel menyifatkan"
+
+#: ../lib/cgss-scan-processor.php:616
+msgid "Links with title attribute"
+msgstr "Hubungan dengan sifat tajuk"
+
+#: ../lib/cgss-scan-processor.php:616
+msgid "Links with nofollow rel attribute"
+msgstr "Hubungan dengan NOFOLLOW rel attibute"
+
+#: ../lib/cgss-scan-processor.php:621
+msgid "Put rel and title attributes to links"
+msgstr "Meletakkan rel dan tajuk ciri-ciri untuk pautan"
+
+#: ../lib/cgss-scan-processor.php:633
+msgid "Images"
+msgstr "imej"
+
+#: ../lib/cgss-scan-processor.php:633
+msgid "Optimal Use of images should have height, width and alt attribute. Images should not be resized at browser."
+msgstr "Penggunaan optimum imej harus mempunyai ketinggian, lebar dan sifat alt . Imej tidak boleh saiznya di pelayar."
+
+#: ../lib/cgss-scan-processor.php:634
+msgid "Text Hierarchy"
+msgstr "Hierarki Text"
+
+#: ../lib/cgss-scan-processor.php:634
+msgid "Text presentation is better in a hierarchy of titles and body tags. Use h1, h2, h3, h4, h5, h6 tags properly."
+msgstr "Persembahan teks adalah lebih baik dalam hierarki tajuk dan tags badan. Gunakan h1 , h2 , h3 , h4 , h5 , tag h6 betul."
+
+#: ../lib/cgss-scan-processor.php:635
+msgid "text/html Ratio"
+msgstr "text / html Nisbah"
+
+#: ../lib/cgss-scan-processor.php:635
+msgid "This ratio determines if the web page is optimal content rich and visually presentable. This is not a ranking factor and should be between 20 % to 70 %."
+msgstr "Nisbah ini menentukan jika laman web adalah kandungan optimum kaya dan visual rapi. Ini bukan satu faktor kedudukan dan perlu di antara 20% kepada 70%."
+
+#: ../lib/cgss-scan-processor.php:636
+msgid "Link Numbers"
+msgstr "Nombor link"
+
+#: ../lib/cgss-scan-processor.php:636
+msgid "Number of links plays an significant role in deciding pagerank. The numbers should be optimized and should not be very high."
+msgstr "Beberapa pautan memainkan peranan penting dalam menentukan PageRank . Nombor-nombor yang perlu dioptimumkan dan tidak harus menjadi sangat tinggi."
+
+#: ../lib/cgss-scan-processor.php:637
+msgid "Link Attributes"
+msgstr "sifat-sifat link"
+
+#: ../lib/cgss-scan-processor.php:637
+msgid "There are 2 attributes rel and title for any web page links. They defines the link and it's function."
+msgstr "Terdapat 2 ciri-ciri rel dan hak milik bagi mana-mana pautan laman web. Mereka mentakrifkan link dan ia berfungsi's ."
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "This web page makes total&nbsp;"
+msgstr "Laman web ini menjadikan jumlah"
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "&nbsp;HTTP requests."
+msgstr "HTTP permintaan."
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "Types are&nbsp;"
+msgstr "jenis adalah"
+
+#: ../lib/cgss-scan-processor.php:648
+msgid "&nbsp;for image&nbsp;"
+msgstr ""
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "&nbsp;for javascript&nbsp;"
+msgstr "untuk javascript"
+
+#: ../lib/cgss-scan-processor.php:648
+#, fuzzy
+msgid "&nbsp;for stylesheet."
+msgstr "untuk stylesheet ."
+
+#: ../lib/cgss-scan-processor.php:654
+msgid "Try to make less HTTP requests because this is high. Use optimized theme and widgets"
+msgstr "Cuba untuk membuat permintaan kurang HTTP kerana ini adalah tinggi. Menggunakan tema dioptimumkan dan widget"
+
+#: ../lib/cgss-scan-processor.php:654
+msgid "Reduce it"
+msgstr "mengurangkannya"
+
+#: ../lib/cgss-scan-processor.php:657
+msgid "Try to make less HTTP requests because this is very high. Use optimized theme and widgets"
+msgstr "Cuba untuk membuat permintaan kurang HTTP kerana ini adalah sangat tinggi. Menggunakan tema dioptimumkan dan widget"
+
+#: ../lib/cgss-scan-processor.php:657
+msgid "Must Reduce"
+msgstr "mesti Kurangkan"
+
+#: ../lib/cgss-scan-processor.php:663
+msgid "Stylesheet is making HTTP requests through @import"
+msgstr "Stylesheet membuat permintaan HTTP melalui @ import"
+
+#: ../lib/cgss-scan-processor.php:664
+msgid "Remove the @import url and place it inside head tag through link with stylesheet rel attribute"
+msgstr "Keluarkan url import @ dan letakkan dalam tag kepala melalui link rel stylesheet dengan sifat"
+
+#: ../lib/cgss-scan-processor.php:667
+msgid "Stylesheet is not making any HTTP request internally"
+msgstr "Stylesheet tidak membuat apa-apa permintaan HTTP dalaman"
+
+#: ../lib/cgss-scan-processor.php:679
+msgid "Style attribute is present in above tags at some or all occurances."
+msgstr "Gaya sifat hadir dalam tag di atas di beberapa atau semua diperkirakan akan terjadi ."
+
+#: ../lib/cgss-scan-processor.php:680
+msgid "Find and remove style attributes with class attributes and put the style in main css file"
+msgstr "Mencari dan membuang sifat-sifat gaya dengan sifat-sifat kelas dan meletakkan gaya dalam fail css utama"
+
+#: ../lib/cgss-scan-processor.php:683
+msgid "No style attribute is present in any tag."
+msgstr "Tiada sifat gaya hadir dalam mana-mana tag."
+
+#: ../lib/cgss-scan-processor.php:690
+msgid "There is no html error in this web page."
+msgstr "Tiada kesilapan html dalam laman web ini."
+
+#: ../lib/cgss-scan-processor.php:702
+#, fuzzy
+msgid "There are&nbsp;"
+msgstr "Terdapat"
+
+#: ../lib/cgss-scan-processor.php:702
+#, fuzzy
+msgid "&nbsp;errors in html of your web page:"
+msgstr "kesilapan dalam html laman web anda:"
+
+#: ../lib/cgss-scan-processor.php:703
+msgid "Dig into the errors and find out what is causing the errors, your theme or any plugin and resolve it"
+msgstr "Menggali ke dalam kesilapan-kesilapan dan mengetahui apa yang menyebabkan kesilapan, tema anda atau mana-mana plugin dan menyelesaikannya"
+
+#: ../lib/cgss-scan-processor.php:710
+#, fuzzy, php-format
+msgid "&nbsp;% of stylesheets and javascripts are loaded in head section."
+msgstr "% daripada lembaran gaya dan Javascripts dimuatkan di bahagian kepala ."
+
+#: ../lib/cgss-scan-processor.php:720
+msgid "This is high"
+msgstr "Ini adalah tinggi"
+
+#: ../lib/cgss-scan-processor.php:721
+msgid "Add more scripts in footer section and remove them from header section"
+msgstr "Tambah lebih banyak skrip di bahagian kaki dan mengeluarkan mereka dari bahagian kepala"
+
+#: ../lib/cgss-scan-processor.php:731
+#: ../lib/cgss-scan-processor.php:743
+#: ../lib/cgss-scan-processor.php:756
+#: ../lib/cgss-scan-processor.php:769
+msgid "Microdata rich snippet is present at this web page."
+msgstr "Microdata coretan kaya hadir di laman web ini."
+
+#: ../lib/cgss-scan-processor.php:731
+#: ../lib/cgss-scan-processor.php:743
+#: ../lib/cgss-scan-processor.php:756
+#: ../lib/cgss-scan-processor.php:769
+msgid "Type of rich snippet is"
+msgstr "Jenis coretan kaya"
+
+#: ../lib/cgss-scan-processor.php:777
+msgid "There is no microdata rich snippet present in this web page."
+msgstr "Tiada microdata hadir coretan kaya dalam laman web ini."
+
+#: ../lib/cgss-scan-processor.php:778
+msgid "Use any free SEO plugin to markup your web page with microdata rich snippet."
+msgstr "Gunakan mana-mana plugin SEO percuma untuk markup laman web anda dengan microdata coretan kaya."
+
+#: ../lib/cgss-scan-processor.php:786
+msgid "HTTP Requests"
+msgstr "Permintaan HTTP"
+
+#: ../lib/cgss-scan-processor.php:786
+msgid "Number of HTTP requests your web page makes to fetch content from server influences document load time, because more requests will call for more downloads and will take more time"
+msgstr "Bilangan HTTP permintaan laman web anda membuat untuk mengambil kandungan dari pelayan pengaruh dokumen masa beban, kerana lebih banyak permintaan akan memanggil lebih muat turun dan akan mengambil masa yang lebih"
+
+#: ../lib/cgss-scan-processor.php:787
+msgid "Stylesheet import url"
+msgstr "Url import Stylesheet"
+
+#: ../lib/cgss-scan-processor.php:787
+msgid "@import parameter inside stylesheet is bound to increase unnecessary document load. This should be avoided"
+msgstr "@ parameter import dalam stylesheet terikat untuk meningkatkan beban dokumen yang tidak perlu. Ini perlu dielakkan"
+
+#: ../lib/cgss-scan-processor.php:788
+msgid "Style Attribute"
+msgstr "gaya Atribut"
+
+#: ../lib/cgss-scan-processor.php:788
+msgid "Using this in any element of html of web page reduces quality by increasing browser rendering time"
+msgstr "Menggunakan ini di mana-mana elemen html laman web mengurangkan kualiti oleh pelayar meningkatkan masa rendering"
+
+#: ../lib/cgss-scan-processor.php:789
+msgid "Browser Compatibility"
+msgstr "Keserasian pelayar"
+
+#: ../lib/cgss-scan-processor.php:789
+msgid "Google wants that your web page should look ok in different browsers (e.g. mozila firefox, chrome, internet explorer, safari, opera etc.), and the basic thing we can check is errors inside yor html"
+msgstr "Google mahu bahawa laman web anda harus melihat ok dalam pelayar berbeza (contohnya Mozila firefox , chrome , internet explorer, safari , opera dan lain-lain ), dan perkara asas yang kita boleh lihat adalah kesilapan dalam yor html"
+
+#: ../lib/cgss-scan-processor.php:790
+msgid "Visual Complition"
+msgstr "Complition visual"
+
+#: ../lib/cgss-scan-processor.php:790
+msgid "HTTP requests made in header compared to total HTTP requests influences visual complition, which is a important design standard parameter"
+msgstr "HTTP permintaan yang dibuat dalam tajuk berbanding dengan jumlah permintaan HTTP mempengaruhi complition visual, yang merupakan reka bentuk yang penting standard parameter"
+
+#: ../lib/cgss-scan-processor.php:791
+msgid "Rich Snippet"
+msgstr "Coretan kaya"
+
+#: ../lib/cgss-scan-processor.php:791
+msgid "This type of HTML markup gives more information to search engine pages to render. Google encourages microdata type markup because this increases user experience in Search Engine Rank Page"
+msgstr "Ini jenis HTML markup memberikan lebih banyak maklumat untuk mencari laman enjin untuk memberinya. Google menggalakkan microdata jenis markup kerana ini pengalaman pengguna peningkatan dalam Search Engine Rank Page"
+
+#: ../lib/cgss-scan-processor.php:804
+msgid "Google may confuse this page as auto-generated."
+msgstr "Google boleh mengelirukan halaman ini sebagai auto- dijana."
+
+#: ../lib/cgss-scan-processor.php:804
+msgid "because of this part"
+msgstr "kerana bahagian ini"
+
+#: ../lib/cgss-scan-processor.php:805
+msgid "Change your url to different type of permalink"
+msgstr "Menukar url anda untuk berlainan jenis permalink"
+
+#: ../lib/cgss-scan-processor.php:805
+msgid "Change it"
+msgstr "Tukar"
+
+#: ../lib/cgss-scan-processor.php:809
+msgid "This web page url maintains guidelines."
+msgstr "Laman web url mengekalkan garis panduan."
+
+#: ../lib/cgss-scan-processor.php:813
+msgid "The web page url is too big. Google may consider it spam."
+msgstr "Laman web url terlalu besar. Google boleh menganggapnya spam."
+
+#: ../lib/cgss-scan-processor.php:814
+msgid "Change your url size and type at page or post editor. Make sure you are not using any session tracking"
+msgstr "Menukar saiz url anda dan jenis di halaman atau paparkan editor. Pastikan anda tidak menggunakan mana-mana pengesanan sesi"
+
+#: ../lib/cgss-scan-processor.php:821
+msgid "Last-Modified part in header is found. If-Modified-Since is On."
+msgstr "Sebahagian Last- Modified dalam tajuk ditemui. Jika- Modified - Sejak diaktifkan ."
+
+#: ../lib/cgss-scan-processor.php:825
+msgid "Last-Modified part in header is not found. If-Modified-Since is Off"
+msgstr "Sebahagian Last- Modified dalam tajuk tidak dijumpai. Jika- Modified - Sejak adalah Off"
+
+#: ../lib/cgss-scan-processor.php:826
+msgid "Ask your hosting provider to activate If-Modified-Since header"
+msgstr "Tanya pembekal hosting anda untuk mengaktifkan Jika- Modified - Sejak header"
+
+#: ../lib/cgss-scan-processor.php:826
+#: ../lib/cgss-scan-processor.php:845
+msgid "Ask for it"
+msgstr "Meminta ia"
+
+#: ../lib/cgss-scan-processor.php:833
+msgid "Cache is active. This web page has following cache parameters."
+msgstr "Cache adalah aktif. Laman web ini telah mengikuti parameter cache."
+
+#: ../lib/cgss-scan-processor.php:837
+msgid "Cache is inactive. This web page don't returns cache parameters."
+msgstr "Cache tidak aktif. Laman web don't mengembalikan parameter cache."
+
+#: ../lib/cgss-scan-processor.php:838
+msgid "Use cache method for better user experience. Use any free cache plugin available"
+msgstr "Gunakan kaedah cache untuk pengalaman pengguna yang lebih baik . Gunakan mana-mana plugin cache percuma yang disediakan"
+
+#: ../lib/cgss-scan-processor.php:844
+msgid "Keep Alive Connection is Off"
+msgstr "Pastikan Connection Hidup adalah Off"
+
+#: ../lib/cgss-scan-processor.php:845
+msgid "Ask your hosting provider to activate Keep Alive Connection"
+msgstr "Tanya pembekal hosting anda untuk mengaktifkan Simpan Connection Hidup"
+
+#: ../lib/cgss-scan-processor.php:848
+msgid "Keep Alive Connection On"
+msgstr "Pastikan Connection Hidup Pada"
+
+#: ../lib/cgss-scan-processor.php:856
+msgid "gzip compression in your web page headers is enabled."
+msgstr "pemampatan gzip dalam tajuk laman web anda diaktifkan."
+
+#: ../lib/cgss-scan-processor.php:860
+msgid "No compression method is found in web page."
+msgstr "Tiada kaedah mampatan didapati di laman web."
+
+#: ../lib/cgss-scan-processor.php:861
+msgid "Enable gzip compression for better results. Use free plugins."
+msgstr "Membolehkan pemampatan gzip untuk hasil yang lebih baik. Gunakan plugin percuma."
+
+#: ../lib/cgss-scan-processor.php:867
+msgid "You are using WordPress version"
+msgstr "Anda sedang menggunakan versi WordPress"
+
+#: ../lib/cgss-scan-processor.php:871
+msgid "You are using WordPress, most probably it's a modified cms with wordpress core."
+msgstr "Anda menggunakan WordPress, kemungkinan besar ia'sa modified cms wordpress dengan teras."
+
+#: ../lib/cgss-scan-processor.php:872
+msgid "Please use proper WordPress software"
+msgstr "Sila gunakan perisian WordPress yang betul"
+
+#: ../lib/cgss-scan-processor.php:877
+msgid "If url has variable informations or is more than 255 bytes, search engines will consider it as spam."
+msgstr "Jika url mempunyai maklumat yang berubah atau lebih daripada 255 bait, enjin carian akan menganggap ia sebagai spam."
+
+#: ../lib/cgss-scan-processor.php:878
+msgid "If-Modified-Since"
+msgstr "Jika- Modified - Sejak"
+
+#: ../lib/cgss-scan-processor.php:878
+msgid "This is a server feature. This automatically Informs search engine robots, whenever any change takes place in web page content."
+msgstr "Ini adalah ciri pelayan. Ini secara automatik Memaklumkan robot enjin carian , apabila apa-apa perubahan berlaku dalam kandungan laman web."
+
+#: ../lib/cgss-scan-processor.php:879
+msgid "Caching"
+msgstr "caching"
+
+#: ../lib/cgss-scan-processor.php:879
+msgid "Caching html, css, javascripts, images in users browsers can be very useful in reducing document load time. Search engine crawlers likes web pages with better document load time."
+msgstr "Caching html, css, Javascripts , imej dalam pengguna pelayar boleh menjadi sangat berguna dalam mengurangkan masa beban dokumen. Crawler enjin carian suka laman web dengan dokumen yang lebih baik masa beban."
+
+#: ../lib/cgss-scan-processor.php:880
+msgid "Keep Alive"
+msgstr "Simpan Hidup"
+
+#: ../lib/cgss-scan-processor.php:880
+msgid "This is a server feature. This keeps the connection between server and browser active for a said amount of time. And saves time for excess communication. Hence it lowers document load time which is better."
+msgstr "Ini adalah ciri pelayan. Ini membolehkan sambungan antara pelayan dan pelayar aktif untuk tempoh yang berkata masa. Dan menjimatkan masa untuk komunikasi yang berlebihan. Oleh itu, ia mengurangkan beban dokumen masa yang lebih baik."
+
+#: ../lib/cgss-scan-processor.php:881
+msgid "gzip compression"
+msgstr "pemampatan gzip"
+
+#: ../lib/cgss-scan-processor.php:881
+msgid "This server feature delivers web page content to browser in gzip compressed format. Hence it lowers bandwidth and web page size."
+msgstr "Ciri pelayan menyampaikan kandungan laman web untuk pelayar dalam format mampat gzip . Oleh itu ia merendahkan jalur lebar dan saiz laman web."
+
+#: ../lib/cgss-scan-processor.php:882
+msgid "CMS"
+msgstr "CMS"
+
+#: ../lib/cgss-scan-processor.php:882
+msgid "Content Management System (cms) creates web page from scripts kept in server. So, Google crawlers may consider this contents to be auto generated. But, for WordPress users this is not a problem."
+msgstr "Content Management System ( cms ) mewujudkan laman web dari skrip disimpan di dalam pelayan. Jadi , crawler Google boleh mempertimbangkan kandungan ini akan dijana secara automatik . Tetapi, bagi pengguna WordPress ini tidak menjadi masalah."
+
+#: ../lib/cgss-scan-processor.php:902
+msgid "Web Page"
+msgstr "Laman Web"
+
+#: ../lib/cgss-scan-processor.php:903
+msgid "Scanned for"
+msgstr "diimbas untuk"
+
+#: ../lib/cgss-scan-processor.php:903
+msgid "Search Engine Compatibility, Google Webmaster Guidelines as standard"
+msgstr "Search Engine Keserasian , Google Webmaster Garis panduan standard"
+
+#: ../lib/cgss-scan-processor.php:904
+msgid "Theme Used"
+msgstr "tema terpakai"
+
+#: ../lib/cgss-scan-processor.php:905
+msgid "Time Taken"
+msgstr "masa Diambil"
+
+#: ../lib/cgss-scan-processor.php:905
+msgid "seconds for Scan"
+msgstr "saat untuk Scan"
+
+#: ../lib/cgss-scan-processor.php:905
+msgid "seconds for loading components"
+msgstr "saat untuk memuatkan komponen"
+
+#: ../lib/cgss-chart-scripts.php:8
+#: ../lib/cgss-chart-scripts.php:28
+#: ../lib/cgss-chart-scripts.php:47
+msgid "Percentage"
+msgstr "Peratus"
+
+#: ../lib/cgss-chart-scripts.php:9
+#: ../lib/cgss-chart-scripts.php:29
+msgid "Success"
+msgstr "kejayaan"
+
+#: ../lib/cgss-chart-scripts.php:10
+#: ../lib/cgss-chart-scripts.php:30
+msgid "Failure"
+msgstr "kegagalan"
+
+#: ../lib/cgss-chart-scripts.php:13
+#: ../lib/cgss-chart-scripts.php:33
+msgid "Web Page Overall SEO Performance"
+msgstr "Laman Web Prestasi SEO Keseluruhan"
+
+#: ../lib/cgss-chart-scripts.php:48
+msgid "Complete"
+msgstr "lengkapkan"
+
+#: ../lib/cgss-chart-scripts.php:49
+msgid "Incomplete"
+msgstr "tidak lengkap"
+
+#: ../lib/cgss-chart-scripts.php:52
+msgid "Web Page Optimized Data Overview"
+msgstr "Laman Web Dioptimalisasi Gambaran Data"
+
+#: ../lib/cgss-chart-scripts.php:68
+#: ../lib/cgss-chart-scripts.php:142
+msgid "Required"
+msgstr "diperlukan"
+
+#: ../lib/cgss-chart-scripts.php:68
+#: ../lib/cgss-chart-scripts.php:142
+msgid "Completed"
+msgstr "selesai"
+
+#: ../lib/cgss-chart-scripts.php:69
+msgid "Comparison of social data"
+msgstr "Perbandingan data sosial"
+
+#: ../lib/cgss-chart-scripts.php:72
+msgid "Social Sharing Data overview"
+msgstr "Perkongsian Sosial gambaran Data"
+
+#: ../lib/cgss-chart-scripts.php:95
+msgid "Actual"
+msgstr "sebenar"
+
+#: ../lib/cgss-chart-scripts.php:95
+msgid "Ideal Case"
+msgstr "Kes ideal"
+
+#: ../lib/cgss-chart-scripts.php:96
+msgid "none"
+msgstr "tiada"
+
+#: ../lib/cgss-chart-scripts.php:97
+msgid "header"
+msgstr "header"
+
+#: ../lib/cgss-chart-scripts.php:98
+msgid "body"
+msgstr "badan"
+
+#: ../lib/cgss-chart-scripts.php:99
+msgid "full"
+msgstr "penuh"
+
+#: ../lib/cgss-chart-scripts.php:102
+msgid "Approximate Pattern of visual complition Index"
+msgstr "Corak Anggaran Indeks complition visual"
+
+#: ../lib/cgss-chart-scripts.php:103
+msgid "web page loading"
+msgstr "Laman web loading"
+
+#: ../lib/cgss-chart-scripts.php:104
+msgid "Visual complition percentage"
+msgstr "Peratusan complition Visual"
+
+#: ../lib/cgss-chart-scripts.php:120
+msgid "JavaScripts"
+msgstr "Javascripts"
+
+#: ../lib/cgss-chart-scripts.php:121
+msgid "Styles"
+msgstr "gaya"
+
+#: ../lib/cgss-chart-scripts.php:122
+msgid "Pure Text"
+msgstr "Text tulen"
+
+#: ../lib/cgss-chart-scripts.php:123
+#: ../lib/cgss-report-display.php:187
+msgid "Alt Text"
+msgstr "Alt Text"
+
+#: ../lib/cgss-chart-scripts.php:124
+#: ../lib/cgss-report-display.php:186
+msgid "Anchor Text"
+msgstr "Anchor Text"
+
+#: ../lib/cgss-chart-scripts.php:127
+msgid "In page content overview"
+msgstr "Pada halaman kandungan gambaran"
+
+#: ../lib/cgss-chart-scripts.php:143
+msgid "Comparison of server performance"
+msgstr "Perbandingan prestasi pelayan"
+
+#: ../lib/cgss-chart-scripts.php:146
+msgid "Technical Aspects Overview"
+msgstr "Aspek Teknikal Tinjauan"
+
+#: ../lib/cgss-scan-form.php:12
+#: ../lib/cgss-report-display.php:25
+msgid "New Scan"
+msgstr "New Scan"
+
+#: ../lib/cgss-scan-form.php:13
+msgid "Notes"
+msgstr "nota"
+
+#: ../lib/cgss-scan-form.php:16
+msgid "Chose any page or post or enter custom url to Scan"
+msgstr "Tindakan, mana-mana halaman atau paparkan atau masukkan url adat kepada Scan"
+
+#: ../lib/cgss-scan-form.php:23
+msgid "Select a Page to Scan"
+msgstr "Pilih Page untuk Scan"
+
+#: ../lib/cgss-scan-form.php:33
+msgid "Scan Page"
+msgstr "Imbas Page"
+
+#: ../lib/cgss-scan-form.php:37
+#: ../lib/cgss-scan-form.php:55
+msgid "OR"
+msgstr "ATAU"
+
+#: ../lib/cgss-scan-form.php:41
+msgid "Select a Post to Scan"
+msgstr "Pilih Post kepada Scan"
+
+#: ../lib/cgss-scan-form.php:51
+msgid "Scan Post"
+msgstr "Imbas Post"
+
+#: ../lib/cgss-scan-form.php:59
+msgid "Enter a custom url"
+msgstr "Masukkan url adat"
+
+#: ../lib/cgss-scan-form.php:63
+msgid "Scan URL"
+msgstr "Imbas URL"
+
+#: ../lib/cgss-scan-form.php:71
+msgid "Things to know before scanning"
+msgstr "Perkara yang tahu sebelum Scanning"
+
+#: ../lib/cgss-scan-form.php:75
+msgid "Scanning time depends on your server and your website quality. Actual process takes less than 0.01 seconds to complete."
+msgstr "Scanning masa bergantung pada pelayan anda dan kualiti laman web anda. Proses yang sebenar mengambil masa kurang daripada 0.01 saat."
+
+#: ../lib/cgss-scan-form.php:78
+msgid "The overview chart data is approximate calculation and does not represent calculations by any search engine algorithm."
+msgstr "Data carta gambaran adalah pengiraan anggaran dan tidak mewakili mana-mana pengiraan oleh algoritma enjin carian."
+
+#: ../lib/cgss-scan-form.php:81
+msgid "Some parameters displayed in results are not included directly in google guidelines. But they affect indirectly."
+msgstr "Beberapa parameter dipaparkan dalam keputusan tidak termasuk langsung dalam garis panduan google. Tetapi mereka memberi kesan secara tidak langsung."
+
+#: ../lib/cgss-scan-form.php:84
+msgid "Hover over underlined elements to see the explanations in result page."
+msgstr "Berlegar atas unsur-unsur yang digariskan untuk melihat penjelasan dalam halaman keputusan."
+
+#: ../lib/cgss-scan-form.php:87
+msgid "No data from your website, server or anything is captured by any server. Scanning is done entirely on browser."
+msgstr "Tiada data dari laman web anda , pelayan atau apa-apa ditangkap oleh mana-mana pelayan. Scanning dilakukan sepenuhnya pada pelayar."
+
+#: ../lib/cgss-form-validator.php:32
+msgid "The url returns error : 404 Not Found, That means there is no webpage present and search engines will not index it. Enter existing webpage url of your website."
+msgstr "Url mengembalikan ralat : 404 Not Found , bermakna tidak ada masa laman web dan enjin carian tidak akan indeks ia . Masukkan url laman web yang sedia ada laman web anda."
+
+#: ../lib/cgss-report-display.php:22
+msgid "Print Report"
+msgstr "Cetak Laporan"
+
+#: ../lib/cgss-report-display.php:28
+#, fuzzy
+msgid "SEO Tips &rarr;"
+msgstr "SEO Tips →"
+
+#: ../lib/cgss-report-display.php:42
+msgid "Data"
+msgstr "data"
+
+#: ../lib/cgss-report-display.php:43
+msgid "Content"
+msgstr "kandungan"
+
+#: ../lib/cgss-report-display.php:44
+msgid "Design"
+msgstr "Design"
+
+#: ../lib/cgss-report-display.php:45
+msgid "Technical"
+msgstr "teknikal"
+
+#: ../lib/cgss-report-display.php:62
+msgid "Social Sharing Data ("
+msgstr "Perkongsian Data Sosial ("
+
+#: ../lib/cgss-report-display.php:62
+msgid "Open Graph Protocol by Facebook and accepted by almost all major social media including Google +"
+msgstr "Buka Protocol Graf oleh Facebook dan diterima oleh hampir semua media sosial utama termasuk Google +"
+
+#: ../lib/cgss-report-display.php:62
+msgid "OGP"
+msgstr "OGP"
+
+#: ../lib/cgss-report-display.php:64
+msgid "Web Page Data"
+msgstr "Web Data Page"
+
+#: ../lib/cgss-report-display.php:76
+#: ../lib/cgss-report-display.php:142
+#: ../lib/cgss-report-display.php:241
+msgid "Result"
+msgstr "Keputusan"
+
+#: ../lib/cgss-report-display.php:79
+#: ../lib/cgss-report-display.php:145
+msgid "Remarks"
+msgstr "Catatan"
+
+#: ../lib/cgss-report-display.php:123
+msgid "Content issues"
+msgstr "isu-isu kandungan"
+
+#: ../lib/cgss-report-display.php:124
+msgid "Design points"
+msgstr "titik reka bentuk"
+
+#: ../lib/cgss-report-display.php:125
+msgid "Server points"
+msgstr "mata server"
+
+#: ../lib/cgss-report-display.php:181
+#, fuzzy
+msgid "&rarr;&nbsp;Crawled Text Content"
+msgstr "→ Diarkibkan Text Kandungan"
+
+#: ../lib/cgss-report-display.php:185
+msgid "Total Text"
+msgstr "Jumlah Text"
+
+#: ../lib/cgss-report-display.php:188
+msgid "In page Style"
+msgstr "Dalam Gaya halaman"
+
+#: ../lib/cgss-report-display.php:189
+msgid "In page Script"
+msgstr "Dalam Script halaman"
+
+#: ../lib/cgss-report-display.php:225
+msgid "Scan by"
+msgstr "Imbas oleh"
+
+#: ../lib/cgss-report-display.php:226
+msgid "gogretel.com"
+msgstr "gogretel.com"
+
+#: ../lib/cgss-report-display.php:235
+msgid "Name"
+msgstr "nama"
+
+#: ../lib/cgss-report-display.php:244
+msgid "Action"
+msgstr "tindakan"
+
+#~ msgid "Length "
+#~ msgstr "panjang"
+
+#~ msgid " for image "
+#~ msgstr "untuk imej"
