@@ -1,49 +1,75 @@
 === Complete Google SEO Scan ===
 Contributors: nirjhar_lo
-Author URI: http://gogretel.com/about/
-Plugin URL: http://gogretel.com/
-Requires at Least: 3.0
-Tested Up To: 3.6.1
-Tags: speed, seo, search optimization, tool, google webmaster guidelines, google guidelines, website optimization, search engine optimization, page speed, webmaster guidelines, google search
-Stable tag: 1.8
-License: GPL2
+Donate link: http://example.com/
+Tags: seo, SEO, google, meta, meta description, search engine optimization, robots meta, yahoo, bing, news sitemaps, WordPress SEO, canonical, nofollow, noindex, keywords, description, page speed, pagespeed, search optimization, google webmaster guidelines, google guidelines, website optimization, search engine optimization, webmaster guidelines, google search
+Requires at Least: 4.0
+Tested Up To: 4.2.2
+Stable tag: 1.9
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Author URI: http://gogretel.com/
+Plugin URL: http://gogretel.com/complete-google-seo-scan-plugin/
 
-
-Complete scan for Google search engine optimization for web pages of your website!
+Scan on-page seo factors and get insight of your website. Aligned with Google webmaster guidelines.
 
 == Description ==
 
-A great tool to scan almost all technical aspects of a web page for Search engine optimization. We consider google webmaster guidelines to be standard and use them as parameter.
+Scan many on-page search engine optimization factors of your webpages. Scanning factors are mostly selected from Google webmaster guidelines, as it's standard.
 
-This plugin sends a robot crawler to webpages and crawls the content along with other related data. Then processes data to displays result in tables and charts (using Google Chart API).
+When you request a scan, the plugin sends a crawler robot to webpages and crawls the content along with other related data.
 
-Find more details <a href="http://gogretel.com/complete-google-seo-scan-plugin/" title="plugin description at developer website">here</a>.
+The report will contain an overall analysis of the webpage in 3 aspects:
+* `header` tags analysis
+* Text and image content analysis
+* Usability and speed analysis.
+Also overview in report is presented beautifully for easy understand. 'Social media popularity' can be found by counts of with Google +1s, Facebook shares and Tweets.
 
-Overall analysis of website data, social graph info, design, content and technical aspects...
-...are also presented beautifully to make you understand easily.
+NOTE: You can scan all published pages from various post types, including those you created by other plugins.
 
-Use it and explore more about your website.
+More over, if you know little less about on-page seo, [check out free resources](http://gogretel.com/resource/ seo tutorial on webmaster guidelines).
+
+Otherwise, just use it and explore more about your website :-)
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+This section describes how to install the plugin and geting it work.
 
-e.g.
+Follow simple 3 steps
 
-1. Unzip and upload `complete-google-seo-scan.zip` to the `/wp-content/plugins/` directory
-1. Activate the plugin through the 'Plugins' menu in WordPress
-1. Go to tools menu and select scan now submenu
+1.	Unzip and upload `complete-google-seo-scan.zip` to the `/wp-content/plugins/` directory.
+2.	Activate the plugin through the 'Plugins' menu in WordPress.
+3.	Go to 'Tools' menu and select 'Seo Scan' submenu.
+
+You will be able to use scan webpages and see report from 'Seo Scan' submenu page.
+
+== Screenshots ==
+
+1. Interface with list of pages of various post types. Here you can choose post types and see different posts under it.
+2. After you request a scan by clicking in checkbox, this screen will appear.
+3. You will see this report, that uses WordPress Admin UI with 3 segments.
+4. Seek for help when you are stuck. Lots of documentation is there in help tab at top right corner of the page.
+5. Use this plugin and see reports in mobile too. It's designed as mobile friendly.
 
 == Changelog ==
 
-= 26082013 =
-* First release.
+List of `Stable versions` with release date and purpose.
 
-= 29082013 =
-* Version 1.1.
+= Version 1.8 =
+`Release Date: July 3rd, 2015`
+First version using Ajax for data-flow. Completely redesigned url input interface and report display.
 
-= 29082013 =
-* Version 1.5.1.
+= Version 1.6 =
+`Release Date: October 2nd, 2013`
+New interface with improved url input, report display. Includes bootstrap tooltip and google charts. 
 
-= 02102013 =
-* Version 1.6.
+= Version 1.5.1 =
+`Release Date: August 29th, 2013`
+More improved scanning.
+
+= Version 1.1 =
+`Release Date: August 29th, 2013`
+First modified with new scanning features.
+
+= Version 1.0 =
+`Release Date: August 26th, 2013`
+First Release. For beta testing.
