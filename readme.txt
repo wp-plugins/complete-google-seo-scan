@@ -54,7 +54,8 @@ List of `Stable versions` with release date and purpose.
 
 = Version 2.0.1 =
 `Release Date: July 7rd, 2015`
-Fixed Bug on database manipulation for calculating avarage scan time
+1. Fixed Bug on database manipulation for calculating avarage scan time.
+2. It now Delets stored data upon uninstall.
 
 = Version 2.0 =
 `Release Date: July 3rd, 2015`
