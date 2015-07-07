@@ -4,7 +4,7 @@ Donate link: http://example.com/
 Tags: seo, SEO, google, meta, meta description, search engine optimization, robots meta, yahoo, bing, news sitemaps, WordPress SEO, canonical, nofollow, noindex, keywords, description, page speed, pagespeed, search optimization, google webmaster guidelines, google guidelines, website optimization, search engine optimization, webmaster guidelines, google search
 Requires at Least: 4.0
 Tested Up To: 4.2.2
-Stable tag: 2.0
+Stable tag: 2.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -51,6 +51,10 @@ You will be able to use scan webpages and see report from 'Seo Scan' submenu pag
 == Changelog ==
 
 List of `Stable versions` with release date and purpose.
+
+= Version 2.0.1 =
+`Release Date: July 7rd, 2015`
+Fixed Bug on database manipulation for calculating avarage scan time
 
 = Version 2.0 =
 `Release Date: July 3rd, 2015`

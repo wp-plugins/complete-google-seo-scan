@@ -113,16 +113,20 @@ class CGSS_GET_DB {
 	//Calculating of avarage scan time
 	public function avg_scan_time() {
 		$output = $this->fetch();
-		$time_arr = array();
-		foreach( $output as $val ) {
-			$time_arr[] = $val['time'];
+		if ( $output ) {
+			$time_arr = array();
+			foreach( $output as $val ) {
+				$time_arr[] = $val['time'];
+			}
+			$time_now = array_filter( $time_arr );
+			$time = array_sum ( $time_now );
+			$time_per_post = $time / count( $output );
+			$avg = ( $time_per_post * 1000 ) / 6;
+			$rounded = round( $avg, 0 );
+			return $rounded;
+		} else {
+			return false;
 		}
-		$time_now = array_filter( $time_arr );
-		$time = array_sum ( $time_now );
-		$time_per_post = $time / count( $output );
-		$avg = ( $time_per_post * 1000 ) / 6;
-		$rounded = round( $avg, 0 );
-		return $rounded;
 	}
 
 	//List of post ids
