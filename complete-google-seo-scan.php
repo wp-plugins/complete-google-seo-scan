@@ -116,7 +116,7 @@ function cgss_admin_base_script() {
 	wp_enqueue_script( 'cgss-admin-base-script', plugins_url() . '/complete-google-seo-scan/user/assets/cgss-script.js', array( 'jquery' ), '', false );
 	wp_enqueue_style( 'cgss-admin-advanced-style', plugins_url() . '/complete-google-seo-scan/user/assets/cgss-style.css', '', '2.0', 'all' );
 
-	// in JavaScript, object properties are accessed as ajax_object.ajax_url, ajax_object.url, ajax_object.post_id
+	// in JavaScript, object properties are accessed as ajax_object.ajax_url
 	wp_localize_script( 'cgss-admin-base-script', 'ajax_object', array( 'ajax_url' => admin_url( 'admin-ajax.php' ) ) );
 }
 
@@ -313,7 +313,7 @@ function cgss_core_callback() {
 
 	//Save reult to database
 	require_once( 'db/do-db.php' );
-	$data = new CGSS_DO_DB( $post_id, $complete_result );
+	$data = new CGSS_DO_DB( $output_result['id'], $complete_result );
 	$data_save = $data->save();
 
 	wp_die();

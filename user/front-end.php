@@ -31,7 +31,7 @@ class cgss_group_btn {
 	//button group for report
 	public function report() {
 		$this->twobtn = new CGSS_BTN( 'DoEmail', 'email-alt', ' ' . __( 'EMAIL', 'cgss' ), null, null );
-		$this->btns = $this->onebtn->display() . $this->twobtn->display() ;
+		$this->btns = $this->onebtn->display() . $this->twobtn->display();
 		return '<div class="result-btns"><br />' . $this->btns .	'</div>';
 	}
 
