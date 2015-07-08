@@ -151,62 +151,70 @@ class CGSS_SCORE {
 					$score -= 10;
 					break;
 			}
-			$links = $data['links'];
-			$link_ratio = ( ( $links['num'] / $count ) * 100 );
-			switch ( true ) {
-				case ( $link_ratio <= 1 ):
-					$score -= 5;
-					break;
-				case ( $link_ratio <= 10 ):
-					$score += 10;
-					break;
-				case ( $link_ratio <= 50 ):
-					$score += 5;
-					break;
-				case ( $link_ratio <= 75 ):
-					$score -= 5;
-					break;
-				case ( $link_ratio > 75 ):
-					$score -= 10;
-					break;
-			}
-			$img_ratio = ( ( $links['no_text'] / $links['num'] ) * 100 );
-			switch ( true ) {
-				case ( $img_ratio <= 2 ):
-					$score += 10;
-					break;
-				case ( $img_ratio <= 5 ):
-					$score += 5;
-					break;
-				case ( $img_ratio <= 50 ):
-					$score -= 5;
-					break;
-				case ( $img_ratio > 50 ):
-					$score -= 10;
-					break;
-			}
-			$anch = implode( ' ', $links['anchors'] );
-			$hds = $this->headings();
-			$arr = array(
-						'anchor' => $anch,
-						'heading' => $hds,
-					);
-			foreach ( $arr as $key => $val ) {
-				$find_key = substr_count( $val, $this->key() );
-				$key_percent = ( $find_key / count( explode( ' ', $val ) ) * 100 );
-				switch ( true ) {
-					case ( $key_percent = 0 ):
-						$score -= 5;
-						break;
-					case ( $key_percent <= 5 ):
-						$score += 10;
-						break;
-					case ( $key_percent <= 10 ):
-						$score += 5;
-						break;
-					case ( $key_percent > 10 ):
-						$score -= 10;
-						break;
+			if ( $data['links'] ) {
+				$links = $data['links'];
+				if ( $links['num'] ) {
+					$link_ratio = ( ( $links['num'] / $count ) * 100 );
+					switch ( true ) {
+						case ( $link_ratio <= 1 ):
+							$score -= 5;
+							break;
+						case ( $link_ratio <= 10 ):
+							$score += 10;
+							break;
+						case ( $link_ratio <= 50 ):
+							$score += 5;
+							break;
+						case ( $link_ratio <= 75 ):
+							$score -= 5;
+							break;
+						case ( $link_ratio > 75 ):
+							$score -= 10;
+							break;
+					}
+				}
+				if ( $links['no_text'] and $links['num'] ) {
+					$img_ratio = ( ( $links['no_text'] / $links['num'] ) * 100 );
+					switch ( true ) {
+						case ( $img_ratio <= 2 ):
+							$score += 10;
+							break;
+						case ( $img_ratio <= 5 ):
+							$score += 5;
+							break;
+						case ( $img_ratio <= 50 ):
+							$score -= 5;
+							break;
+						case ( $img_ratio > 50 ):
+							$score -= 10;
+							break;
+					}
+				}
+				if ( $links['anchors'] ) {
+					$anch = implode( ' ', $links['anchors'] );
+				}
+				$hds = $this->headings();
+				$arr = array(
+							'anchor' => $anch,
+							'heading' => $hds,
+						);
+				foreach ( $arr as $key => $val ) {
+					$find_key = substr_count( $val, $this->key() );
+					$key_percent = ( $find_key / count( explode( ' ', $val ) ) * 100 );
+					switch ( true ) {
+						case ( $key_percent = 0 ):
+							$score -= 5;
+							break;
+						case ( $key_percent <= 5 ):
+							$score += 10;
+							break;
+						case ( $key_percent <= 10 ):
+							$score += 5;
+							break;
+						case ( $key_percent > 10 ):
+							$score -= 10;
+							break;
+					}
 				}
 			}
 			return $score;
@@ -220,54 +228,56 @@ class CGSS_SCORE {
 		$data = $this->result['media'];
 		if ( $data ) {
 			$score = 0;
-			$img = $data['image'];
-			$count_img = count( $img );
+			if ( $data['image'] ) {
+				$img = $data['image'];
+				$count_img = count( $img );
 
-			//if there are no images, then this calculation is useless.
-			if ( $count_img > 0 ) {
-				$alts = '';
-				$no_alt = 0;
-				foreach ( $img as $val ) {
-					if ( empty( $val['alt'] ) ) {
-						$no_alt += 1;
-					} else {
-						$alts .= ' ' . $val['alt'];
+				//if there are no images, then this calculation is useless.
+				if ( $count_img > 0 ) {
+					$alts = '';
+					$no_alt = 0;
+					foreach ( $img as $val ) {
+						if ( empty( $val['alt'] ) ) {
+							$no_alt += 1;
+						} else {
+							$alts .= ' ' . $val['alt'];
+						}
 					}
-				}
-				$no_alt_per = ( $no_alt / $count_img ) * 100;
-				switch ( true ) {
-					case ( $no_alt_per = 100 ):
-						$score -= 10;
-						break;
-					case ( $no_alt_per > 50 ):
-						$score -= 5;
-						break;
-					case ( $no_alt_per > 10 ):
-						$score += 5;
-						break;
-					case ( $no_alt_per <= 10 ):
-						$score += 10;
-						break;
-				}
+					$no_alt_per = ( $no_alt / $count_img ) * 100;
+					switch ( true ) {
+						case ( $no_alt_per = 100 ):
+							$score -= 10;
+							break;
+						case ( $no_alt_per > 50 ):
+							$score -= 5;
+							break;
+						case ( $no_alt_per > 10 ):
+							$score += 5;
+							break;
+						case ( $no_alt_per <= 10 ):
+							$score += 10;
+							break;
+					}
 
-				$main_key = $this->key();
-				$find_key = substr_count( $alts, $main_key );
-				$alt_words = explode( ' ', $alts );
-				$alt_words_count = count( $alt_words );
-				$key_per = ( $find_key / $alt_words_count ) * 100;
-				switch ( true ) {
-					case ( $key_per = 0 ):
-						$score -= 5;
-						break;
-					case ( $key_per <= 5 ):
-						$score += 10;
-						break;
-					case ( $key_per <= 10 ):
-						$score += 5;
-						break;
-					case ( $key_per > 10 ):
-						$score -= 10;
-						break;
+					$main_key = $this->key();
+					$find_key = substr_count( $alts, $main_key );
+					$alt_words = explode( ' ', $alts );
+					$alt_words_count = count( $alt_words );
+					$key_per = ( $find_key / $alt_words_count ) * 100;
+					switch ( true ) {
+						case ( $key_per = 0 ):
+							$score -= 5;
+							break;
+						case ( $key_per <= 5 ):
+							$score += 10;
+							break;
+						case ( $key_per <= 10 ):
+							$score += 5;
+							break;
+						case ( $key_per > 10 ):
+							$score -= 10;
+							break;
+					}
 				}
 			}
 			return $score;
@@ -281,17 +291,19 @@ class CGSS_SCORE {
 		$data = $this->result['usb'];
 		if ( $data ) {
 			$score = 0;
-			$time = $data['down_time'];
-			switch ( true ) {
-					case ( $time > 10 ):
-						$score -= 5;
-						break;
-					case ( $time < 3 ):
-						$score += 10;
-						break;
-					case ( $time <= 10 ):
-						$score += 5;
-						break;
+			if ( $data['down_time'] ) {
+				$time = $data['down_time'];
+				switch ( true ) {
+						case ( $time > 10 ):
+							$score -= 5;
+							break;
+						case ( $time < 3 ):
+							$score += 10;
+							break;
+						case ( $time <= 10 ):
+							$score += 5;
+							break;
+				}
 			}
 			$http = $data['http_req'];
 			$rq_num = $http['num'];

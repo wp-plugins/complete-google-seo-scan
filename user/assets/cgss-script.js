@@ -443,16 +443,16 @@ jQuery(document).ready(function($) {
 
 				//Social media ogp
 				var stag_print = [];
-				if ( st_title.length > 0 ) {
+				if ( st_title && st_title.length > 0 ) {
 					stag_print.push('title');
 				}
-				if ( st_desc.length > 0 ) {
+				if ( st_desc && st_desc.length > 0 ) {
 					stag_print.push('description');
 				}
-				if ( st_url.length > 0 ) {
+				if ( st_url && st_url.length > 0 ) {
 					stag_print.push('url');
 				}
-				if ( st_img.length > 0 ) {
+				if ( st_img && st_img.length > 0 ) {
 					stag_print.push('image');
 				}
 				if ( stag_print.length > 0 ) {
@@ -462,7 +462,7 @@ jQuery(document).ready(function($) {
 				} else {
 					jQuery("#StagsYes").hide();
 					jQuery("#StagsNo").show();
-					jQuery("#StagsVal").html(".");
+					jQuery("#StagsVal").html(": 0");
 				}
 
 				//Heading tags analysis
