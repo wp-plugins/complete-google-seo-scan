@@ -38,10 +38,10 @@ require_once( 'lib/image-object.php' );
 
 //Check if it's a valid request if it contains url and post id. Post id won't be used in data
 //analysis process. It will be delivered to json.
-if ( ! isset( $_POST['url'] ) or ! isset( $_POST['id'] ) ) {
+/*if ( ! isset( $_POST['url'] ) or ! isset( $_POST['id'] ) ) {
 	echo json_encode( array( 'ping' => 'false', 'val' => __( 'Invalid Request', 'cgss' ) ), JSON_FORCE_OBJECT ); 
 	wp_die();
-}
+}*/
 
 
 //Analyze url to get the domain name.
@@ -197,7 +197,9 @@ $og_img = esc_url_raw( $og_img_val );
 
 //Links analysis. Get internal, nofollow and no-text links
 $link_fetch = new CGSS_FETCH( $dom, 'a', null, array( 'rel', 'href' ) );
-$links = new CGSS_FORMAT_LINKS( $domain, $link_fetch->atts(), $link_fetch->tag() );
+$link_atts = $link_fetch->atts();
+$link_anchors_raw = $link_fetch->tag();
+$links = new CGSS_FORMAT_LINKS( $domain, $link_atts, $link_anchors_raw );
 $link_num = $links->count();
 $link_int = $links->internal();
 $link_ext = $link_num - $link_int;

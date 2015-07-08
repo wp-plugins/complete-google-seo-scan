@@ -62,7 +62,8 @@ class CGSS_FORMAT_LINKS {
 	//Extract links with no text
 	public function no_text() {
 		$no_txt_links = 0;
-		foreach ( $this->anchors() as $val ) {
+		$anchors = $this->anchors();
+		foreach ( $anchors as $val ) {
 			if ( ! $val ) {
 				$no_txt_links = $no_txt_links + 1;
 			}
@@ -92,10 +93,14 @@ class CGSS_FORMAT_LINKS {
 				$pos = array_search( $key, $hrefs );
 				$del_hrefs = array_diff( $hrefs, array( $key ) );
 				$hrefs = array_values( $del_hrefs );
-				$del_rels = array_diff( $rels, array( $rels[$pos] ) );
-				$rels = array_values( $del_rels );
-				$del_anch = array_diff( $anchors, array( $anchors[$pos] ) );
-				$anchors = array_values( $del_anch );
+				if ( $rels[$pos] ) {
+					$del_rels = array_diff( $rels, array( $rels[$pos] ) );
+					$rels = array_values( $del_rels );
+				}
+				if ( $rels[$pos] ) {
+					$del_anch = array_diff( $anchors, array( $anchors[$pos] ) );
+					$anchors = array_values( $del_anch );
+				}
 			}
 		}
 		return array(

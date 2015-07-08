@@ -3,7 +3,7 @@
  Plugin Name: Complete Google SEO Scan
  Plugin URI: http://gogretel.com/
  Description: It's name speaks for itself. Find issues, check status and get fixes for seo of individual pages and whole website.
- Version: 2.0.1
+ Version: 2.0.2
  Author: Nirjhar Lo
  Author URI: http://gogretel.com/about/ 
  Text Domain: cgss
