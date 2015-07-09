@@ -76,7 +76,11 @@ class CGSS_TEXT_TREATMENT {
 
 		//generate whole text
 		$all_text_target = $all_text->item(0);
-		$only_text = strtolower( trim( $all_text_target->nodeValue ) );
+		if ( $all_text_target ) {
+			$only_text = strtolower( trim( $all_text_target->nodeValue ) );
+		} else {
+			$only_text = '';
+		}
 
 		//get text size
 		$text_size = mb_strlen( $only_text, '8bit' );

@@ -110,14 +110,17 @@ class CGSS_SCORE {
 			}
 			$arr_two = array( $data['title'], $data['desc'], $data['url'] );
 			foreach ( $arr_two as $key ) {
-				$find_key = substr_count( $key, $this->key() );
-				switch ( $find_key ) {
-					case 0:
-						$score -= 5;
-						break;
-					default:
-						$score += 10;
-						break;
+				$got_key = $this->key();
+				if ( $key and $got_key ) {
+					$find_key = substr_count( $key, $got_key );
+					switch ( $find_key ) {
+						case 0:
+							$score -= 5;
+							break;
+						default:
+							$score += 10;
+							break;
+					}
 				}
 			}
 			return $score;
@@ -153,7 +156,7 @@ class CGSS_SCORE {
 			}
 			if ( $data['links'] ) {
 				$links = $data['links'];
-				if ( $links['num'] ) {
+				if ( $links['num'] and $count ) {
 					$link_ratio = ( ( $links['num'] / $count ) * 100 );
 					switch ( true ) {
 						case ( $link_ratio <= 1 ):
@@ -199,21 +202,24 @@ class CGSS_SCORE {
 							'heading' => $hds,
 						);
 				foreach ( $arr as $key => $val ) {
-					$find_key = substr_count( $val, $this->key() );
-					$key_percent = ( $find_key / count( explode( ' ', $val ) ) * 100 );
-					switch ( true ) {
-						case ( $key_percent = 0 ):
-							$score -= 5;
-							break;
-						case ( $key_percent <= 5 ):
-							$score += 10;
-							break;
-						case ( $key_percent <= 10 ):
-							$score += 5;
-							break;
-						case ( $key_percent > 10 ):
-							$score -= 10;
-							break;
+					$got_key = $this->key();
+					if ( $val and $got_key ) {
+						$find_key = substr_count( $val, $got_key );
+						$key_percent = ( $find_key / count( explode( ' ', $val ) ) * 100 );
+						switch ( true ) {
+							case ( $key_percent = 0 ):
+								$score -= 5;
+								break;
+							case ( $key_percent <= 5 ):
+								$score += 10;
+								break;
+							case ( $key_percent <= 10 ):
+								$score += 5;
+								break;
+							case ( $key_percent > 10 ):
+								$score -= 10;
+								break;
+						}
 					}
 				}
 			}
@@ -260,23 +266,25 @@ class CGSS_SCORE {
 					}
 
 					$main_key = $this->key();
-					$find_key = substr_count( $alts, $main_key );
-					$alt_words = explode( ' ', $alts );
-					$alt_words_count = count( $alt_words );
-					$key_per = ( $find_key / $alt_words_count ) * 100;
-					switch ( true ) {
-						case ( $key_per = 0 ):
-							$score -= 5;
-							break;
-						case ( $key_per <= 5 ):
-							$score += 10;
-							break;
-						case ( $key_per <= 10 ):
-							$score += 5;
-							break;
-						case ( $key_per > 10 ):
-							$score -= 10;
-							break;
+					if ( $alts and $main_key ) {
+						$find_key = substr_count( $alts, $main_key );
+						$alt_words = explode( ' ', $alts );
+						$alt_words_count = count( $alt_words );
+						$key_per = ( $find_key / $alt_words_count ) * 100;
+						switch ( true ) {
+							case ( $key_per = 0 ):
+								$score -= 5;
+								break;
+							case ( $key_per <= 5 ):
+								$score += 10;
+								break;
+							case ( $key_per <= 10 ):
+								$score += 5;
+								break;
+							case ( $key_per > 10 ):
+								$score -= 10;
+								break;
+						}
 					}
 				}
 			}
@@ -347,10 +355,17 @@ class CGSS_SCORE {
 
 	//Get the top word found
 	public function key() {
-		$data_two = $this->result['text'];
-		$keys = $data_two['keys'];
+		$found_top_key = false;
+		$result = $this->result;
+		$data = $result['text'];
+		$keys = $data['keys'];
 		$one_word = $keys[1];
-		return (string) key( $one_word[0] );
+		$found_top_key = (string) key( $one_word[0] );
+		if ( $found_top_key ) {
+			return $found_top_key;
+		} else {
+			return false;
+		}
 	}
 
 	//Implode all heading tags into one string

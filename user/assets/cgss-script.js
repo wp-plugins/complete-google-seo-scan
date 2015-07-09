@@ -419,7 +419,7 @@ jQuery(document).ready(function($) {
 				jQuery("#TextInfo").addClass(text_class);
 
 				//canonical link
-				if ( cano.length > 0 ) {
+				if ( cano && cano.length > 0 ) {
 					jQuery("#CanoYes").show();
 					jQuery("#CanoNo").hide();
 				} else {
@@ -428,7 +428,7 @@ jQuery(document).ready(function($) {
 				}
 
 				//meta robot property
-				if ( robot.length > 0 ) {
+				if ( robot && robot.length > 0 ) {
 					if ( robot.toLowerCase().indexOf('noindex') != -1 || robot.toLowerCase().indexOf('nofollow') != -1 ) {
 						jQuery("#RoboNo").show();
 						jQuery("#RoboYes,#RoboNone").hide();

@@ -60,21 +60,24 @@ class CGSS_KEYWORDS {
 					unset( $keys[$key_num][$key] );
 				}
 			}
-
 		}
 		return $keys;
 	}
 
 	//generate individual words from text content
 	public function prepare() {
-		$array = array();
-		foreach( $this->words as $key ) {
-			if ( strlen( $key ) > 3 ) {
-				$array[1][] = trim( $key );
+		$array = array( 1 => '' );
+		$array_one = $array[1];
+		$words = $this->words;
+		if ( $words ) {
+			foreach( $words as $key ) {
+				if ( strlen( $key ) > 3 ) {
+					$array_one[] = trim( $key );
+				}
 			}
 		}
 		return array(
-					array( '1', $array[1] ),
+					array( '1', $array_one ),
 				);
 	}
 

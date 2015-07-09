@@ -93,11 +93,11 @@ class CGSS_FORMAT_LINKS {
 				$pos = array_search( $key, $hrefs );
 				$del_hrefs = array_diff( $hrefs, array( $key ) );
 				$hrefs = array_values( $del_hrefs );
-				if ( $rels[$pos] ) {
+				if ( array_key_exists ( $pos, $rels ) ) {
 					$del_rels = array_diff( $rels, array( $rels[$pos] ) );
 					$rels = array_values( $del_rels );
 				}
-				if ( $rels[$pos] ) {
+				if ( array_key_exists ( $pos, $anchors ) ) {
 					$del_anch = array_diff( $anchors, array( $anchors[$pos] ) );
 					$anchors = array_values( $del_anch );
 				}
