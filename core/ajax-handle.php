@@ -15,7 +15,6 @@
  * 7. Save result as an array. Output the result as a Json object.
  */
 
-
 //Before time starts
 $time_start = microtime(true);
 
@@ -38,10 +37,10 @@ require_once( 'lib/image-object.php' );
 
 //Check if it's a valid request if it contains url and post id. Post id won't be used in data
 //analysis process. It will be delivered to json.
-/*if ( ! isset( $_POST['url'] ) or ! isset( $_POST['id'] ) ) {
+if ( ! isset( $_POST['url'] ) or ! isset( $_POST['id'] ) ) {
 	echo json_encode( array( 'ping' => 'false', 'val' => __( 'Invalid Request', 'cgss' ) ), JSON_FORCE_OBJECT ); 
 	wp_die();
-}*/
+}
 
 
 //Analyze url to get the domain name.
@@ -97,14 +96,18 @@ $dom->loadHTML( $body );
 
 //Create an array with error line and value.
 $errors = array();
-foreach ( libxml_get_errors() as $val ) {
-	$err_line = intval( $val->line );
-	$err_msg = sanitize_text_field( $val->message );
-	$errors[] = $err_line . ': ' . $err_msg;
-	libxml_clear_errors();
+$libxml_errs = libxml_get_errors();
+if ( $libxml_errs ) {
+	foreach ( $libxml_errs as $val ) {
+		$err_line_val = $val->line;
+		$err_msg_val = $val->message;
+		$err_line = intval( $err_line_val );
+		$err_msg = sanitize_text_field( $err_msg_val );
+		$errors[] = $err_line . ': ' . $err_msg;
+		libxml_clear_errors();
+	}
 }
 $error_count = count( $errors );
-
 
 
 
@@ -255,7 +258,11 @@ $css = new CGSS_FETCH( $dom, 'link', array( 'att' => 'rel',
 											'val' => 'stylesheet',
 											'get_att' => 'href' ), null );
 $css_list = $css->tag();
-$css_num = count( array_values( array_filter( $css_list ) ) );
+if ( is_array( $css_list ) ) {
+	$css_num = count( array_values( array_filter( $css_list ) ) );
+} else {
+	$css_num = 0;
+}
 
 
 $script = new CGSS_FETCH( $dom, 'script', null, array( 'src' ) );
@@ -329,8 +336,13 @@ $words_count = count( $words );
 
 
 //keywords analysis
-$keys = new CGSS_KEYWORDS( $text->words() );
-$keys_out = $keys->output();
+$words_input = $text->words();
+if ( $words_input ) {
+	$keys = new CGSS_KEYWORDS( $words_input );
+	$keys_out = $keys->output();
+} else {
+	$keys_out = array( 1 => array( 0 => array() ) );
+}
 
 
 

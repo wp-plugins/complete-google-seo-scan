@@ -53,11 +53,14 @@ class CGSS_SOCIAL {
 		$fb_data = file_get_contents( 'http://api.facebook.com/restserver.php?method=links.getStats&format=json&urls=' . $this->url );
 		if ( ! empty( $fb_data ) ) {
 			$fb_shares = json_decode( $fb_data, true );
-			if ( ! empty( $fb_shares ) ) {
-				$share = array(
-					'share' => $fb_shares['share_count'],
-					'like' => $fb_shares['like_count'],
-				);
+			if ( array_key_exists ( 0, $fb_shares ) ) {
+				$fb_shares_act = $fb_shares[0];
+				if ( is_array( $fb_shares_act ) and array_key_exists ( 'share_count', $fb_shares_act ) and array_key_exists ( 'like_count', $fb_shares_act ) ) {
+					$share = array(
+						'share' => $fb_shares_act['share_count'],
+						'like' => $fb_shares_act['like_count'],
+					);
+				}
 			}
 		}
 		return $share;

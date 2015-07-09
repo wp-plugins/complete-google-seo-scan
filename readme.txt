@@ -3,7 +3,7 @@ Contributors: nirjhar_lo
 Tags: seo, SEO, google, meta, meta description, search engine optimization, robots meta, yahoo, bing, news sitemaps, WordPress SEO, canonical, nofollow, noindex, keywords, description, page speed, pagespeed, search optimization, google webmaster guidelines, google guidelines, website optimization, search engine optimization, webmaster guidelines, google search
 Requires at Least: 4.0
 Tested Up To: 4.2.2
-Stable tag: 2.0.2
+Stable tag: 2.0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -55,15 +55,19 @@ You will be able to use scan webpages and see report from 'Seo Scan' submenu pag
 
 List of `Stable versions` with release date and purpose.
 
-= Version 2.0.2 =
-`Release Date: July 8rd, 2015`
+= Version 2.0.3 =
+`Release Date: July 9th, 2015`
 1. First version using Ajax for data-flow.
 2. Completely redesigned url input interface and report display.
-3. Fixed 2 bugs:
+3. Fixed 4 bugs:
 
 	3.1. On database manipulation for calculating avarage scan time and.
 
-	3.2. On conditioning non-links in link formatting object
+	3.2. On conditioning non-links in link formatting object.
+
+	3.3. On Social media object, counting likes and shares.
+
+	3.4. On link object, deleting non-links having href starting with #.
 4. It now Delets stored data upon uninstall.
 
 = Version 1.6 =
