@@ -1,39 +1,64 @@
 === Complete Google SEO Scan ===
 Contributors: nirjhar_lo
 Donate Link: http://gogretel.com/
-Tags: seo, SEO, google, meta, meta description, search engine optimization, robots meta, yahoo, bing, WordPress SEO, canonical, nofollow, noindex, keywords, description, page speed, pagespeed, search optimization, google webmaster guidelines, google guidelines, website optimization, search engine optimization, webmaster guidelines, google search
+Tags: seo checker, seo, SEO, google, meta, meta description, search engine optimization, robots meta, yahoo, bing, WordPress SEO, canonical, nofollow, noindex, keywords, description, page speed, pagespeed, search optimization, google webmaster guidelines, google guidelines, website optimization, search engine optimization, webmaster guidelines, google search
 Requires at Least: 4.0
-Tested Up To: 4.2.4
-Stable tag: 2.1
+Tested Up To: 4.3
+Stable tag: 2.1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Scan on-page seo factors and get insight of your website. Aligned with Google webmaster guidelines.
+Check on-page seo factors and get content focused insight of your website. Aligned with Google webmaster guidelines.
 
 
 == Description ==
 
-Scan many on-page search engine optimization factors of your webpages. Scanning factors are mostly selected from Google webmaster guidelines, as it's standard.
+Scan many on-page search engine optimization factors of your webpages, mostly selected from Google webmaster guidelines and PageSpeed rules, as standard.
 
-When you request a scan, the plugin sends a crawler robot to webpages and crawls the content along with other related data.
+Where you begin, an overview report for website content, server and design is presented beautifully for easy understanding. To see content report you need to perform easy, one-click scans on your webpages. All published webpages are listed in different post type categories.
+
+When you request a scan, the plugin sends a crawler robot to the webpages and crawls the content along with other related data. Then it processes data and displays a easy to understand report.
 
 The report will contain an overall analysis of the webpage in 7 aspects:
 
 = Overall score with social media counts. =
 
+On top of everything a rating is given out of 5 stars. Score calculation dependds on matrices taken from popular seo blogs and services. You can change it any time, visiting settings panel. Also you can see Google +1s, Facebook shares and Tweets, and determine social media popularity.
+
 = Search engine snippet with highlighted keyword. =
+
+A preview of your webpage in search engine rank page result, is given. Remember, Google is progressively reducing rich snippet usage in SERPs. Still it's included and most used, common keyword is highlighted in `tiltle`, `url` and `meta description`. If no keyword is found snippet looks same.
 
 = Most used keywords Analysis and information from text =
 
+To better understand your content, you can rely on the extracted keywords (upto 6 words long) and their density percentage. There is an option to enter your focus keyword and analyze it throughly. You can enter it and start the scan to figure out how it is used plain text, in headings, anchors and image alt tags.
+
+Along with that, learn about text to html ratio, text hiararchy and links. In terms of links see internal and external, dofollow and nofollow, text and image links. In that you will better understand if you have missed any content optimization point or not.
+
 = Use of Image and page design seo =
 
-= Required information on server and url. =
+Search engine expects you have used optimized images in your webpage. This plugin finds out if you have missed any alt tags or not. Moreover, see deep into your image file names and alt tag content size and quality.
+
+Mobile friendly webpages are rewarded by Google, this plugin check responsive webpages it by viewport tag and media queries.
+
+= Required information on url and server. =
+
+Usage of underscore(`_`), question marks(`?`) in url creates trouble for for crawler robots, check those too. A reminder on your SSL certificate is mentained. Canonical link is another important parameter of seo, as it prevents confussion of search bots. See a canonical link is there or not.
+
+Other server points are taken from Server scan made seperately and includes relevant header information.
 
 = Page specific speed and usability analysis. =
 
+Header response time and page downloading time are important parameter and is affected by number of HTTP requests and size of resources to load. Get a detailed view of the factors and see if there is necessity to compress .css and .js files or not.
+
 = A sample Facebook snippet using social media tags. =
 
-= Bonus = Also an overview report is presented beautifully for easy understanding.
+By using social media tags (`og:image`, `og:title`, `og:description`, `og:url`), this plugin shows you a sample facebook snippet.
+
+= Bonus Actions = 
+
+After all this checks are completed, you get a list of actions to be performed for improved seo for each webpage you scan. You just need to click the "ACTIONS" button
+at bottom of your webpage.
 
 = Expect More =
 
@@ -42,7 +67,8 @@ In near future these features may be added: Video Seo, Spam detection, Rich snip
 = NOTE =
 
 1. You can scan all published pages from various post types, including those you created by other plugins.
-2. More over, if you know little less about on-page seo, <a href="http://gogretel.com/resource/" title="seo tutorial on webmaster guidelines">check out free resources</a>.
+2. A well document tab is present in every admin page, created by this plugin. Just see them in case you are stuck. If problem is not solved, raise a support request.
+3. More over, if you know little less about on-page seo, <a href="http://gogretel.com/resource/" target="_blank" title="seo tutorial on webmaster guidelines">check out free resources -></a>.
 
 Otherwise, just use it and explore more about your website :-)
 
@@ -55,21 +81,21 @@ It's available on all plugin pages at right top corner. All possible details are
 
 = Where and when to contact support? =
 
-If you don't find answers in help documentation. Then after seeing following questions, you may contact support.
+If you don't find answers in help documentation. Then after seeing following questions, you may contact plugin author in support forum.
 
-= How to see pages listing? =
+= How to see page listing? =
 
-For each post type menu there is a "Seo Scan" submenu page. Get inside and you will find related published posts.
+For each post type menu there is a "Seo Status" submenu page by the name of a post type. Get inside and you will find related published posts and pages.
 
 = How to use the report? =
 
-The report is made user friendly with help suggestions. Also how to fix is included.
+The report is made user friendly with help suggestions. Also how to fix is included. Click links beside any reported point and see lots of help.
 
 = How do you calculate score? =
 
 Score calculation is based on many references one finds throughout reputed sources in interent. If you want to differ, speak your mind in support forum.
 
-= What to do if I am get FAILED message, when I scan? =
+= What to do if I get FAILED message, when I scan? =
 
 1. Check your internet connection is ok or not.
 2. Check if you are not using local server, "localhost" is not supported.
@@ -77,7 +103,7 @@ Score calculation is based on many references one finds throughout reputed sourc
 
 If none of the above is true. then there is chance of a bug. Let the plugin author know with your website home url in support forum.
 
-= I don't see some page(s) missing. What to do? =
+= Some page(s) are missing in the listing. What to do? =
 
 1. Try to use page navigation.
 2. Check non-listed pages are having "publish" status.
@@ -157,10 +183,10 @@ Automatic updates from WordPress repository is very easy as always. Please ensur
 
 == Screenshots ==
 
-1. Interface with menu with various post types. Here you can choose post types and see different posts under it.
+1. Interface with menu of various post types. Here you can choose post types and see different posts under it.
 2. After you request a scan by clicking in button, You will see this report.
-3. See these list of actions (if any) for each webpage you scan in report segment.
-4. Find out actionable intelligence on overview page, alogng with server seo and design seo scan.
+3. See these list of actions (if any) for each webpage, you scan in report segment.
+4. Find out actionable intelligence on overview page, along with server seo and design seo scan.
 5. Seek for help when you are stuck. Lots of documentation is there in help tab at top right corner of the page.
 6. Use this plugin and see reports in mobile too. It's designed as mobile friendly.
 
@@ -169,8 +195,8 @@ Automatic updates from WordPress repository is very easy as always. Please ensur
 
 List of `Stable versions` with release date and purpose.
 
-= Version 2.1 =
-`Release Date: July 16th, 2015`
+= Version 2.1.1 =
+`Release Date: August 19th, 2015`
 1. User experience improvements:
     - Scan archive pages also
     - New report interface with hints
@@ -178,12 +204,18 @@ List of `Stable versions` with release date and purpose.
     - Changed processing animation
     - New web page listing style
     - Addition of screen options
-2. Increased scaning points from 16 to 29.
+2. Increased scaning points from 16 to 29
 3. New Notification page for overview
-4. Enhanced Code architecture and documentation.
-5. Includes 2 bug fix
-    - To corectly show shares count in webpage listings.
+4. Enhanced Code architecture and documentation
+5. Includes 5 bug fixes
+    - To corectly show shares count in webpage listings
     - Now supports uppercase tags and attributes
+	- Server cache and www resolve is improved
+	- Canonical link extraction and display bug fixed
+	- After scan, keyword display in page listing change
+	- snippet keywords applicable on captialized words
+6. Enhanced focus keyword finding
+7. Redesigned content intelligence in "Seo Overview" page interface
 
 = Version 2.0.3 =
 `Release Date: July 9th, 2015`
@@ -216,4 +248,4 @@ First Release. For beta testing.
 
 == Upgrade Notice ==
 
-Now with look and feel like plugin's page and more advanced scan.
+Focus more on content with focus keyword and enhanced score capabilities.

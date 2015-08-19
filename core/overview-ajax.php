@@ -65,7 +65,7 @@ if ( $request_type == 'server' ) {
 		wp_die();
 	}
 
-	$output_data = new CGSS_HEADER_CHK( $url, $time_start, $time_end );
+	$output_data = new CGSS_HEADER_CHK( $url, $header, $time_start, $time_end );
 	$output_result = $output_data->result();
 	echo json_encode( $output_result, JSON_FORCE_OBJECT );
 }

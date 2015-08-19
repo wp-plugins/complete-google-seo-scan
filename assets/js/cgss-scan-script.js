@@ -140,7 +140,7 @@ jQuery(document).ready(function($) {
 
 				//hide all actions
 				var act = 1;
-				jQuery("#TitleAct, #DescAct, #KeyAct, #CountWordAct, #RatioAct, #HrchyAct, #LinksAct, #NofLnAct, #ExtLnAct, #LnNumAct, #AltAct, #NtblAct, #StlAtrAct, #CssMediaAct, #VportAct, #SslAct, #UrlAct, #RoboAct, #WwwAct, #CanoAct, #IpAct, #SpeedAct, #GzipAct, #CacheAct, #FNumAct, #CompAct, #StagOgpAct").hide();
+				jQuery("#TitleAct, #DescAct, #KeyAct, #CountWordAct, #RatioAct, #HrchyAct, #LinksAct, #NofLnAct, #ExtLnAct, #LnNumAct, #ImgLnAct, #AltAct, #NtblAct, #StlAtrAct, #CssMediaAct, #VportAct, #SslAct, #UrlAct, #RoboAct, #WwwAct, #CanoAct, #IpAct, #SpeedAct, #GzipAct, #CacheAct, #FNumAct, #CompAct, #StagOgpAct").hide();
 
 				var score = data.score;
 				var new_score = show_score( score, note_html.full_star, note_html.half_star, note_html.blank_star );
@@ -154,8 +154,8 @@ jQuery(document).ready(function($) {
 				if ( act > 1 ) {
 					jQuery("#ActionsList").show();
 					jQuery("#NoActions").hide();
-					jQuery("#ActNum").html(act);
-					jQuery("#ActionBtnNum").html(act + " ");
+					jQuery("#ActNum").html(act - 1);
+					jQuery("#ActionBtnNum").html(act - 1 + " ");
 				} else {
 					jQuery("#NoActions").show();
 					jQuery("#ActionsList").hide();
@@ -165,7 +165,6 @@ jQuery(document).ready(function($) {
 				//Real time data
 				show_real_time( "#time-" + data.id, '<span class="dashicons dashicons-backup"></span>' );
 				show_real_time( "#score-" + data.id, new_score );
-				show_real_time( ".words-no-got-" + data.id, data.text.count );
 				show_real_time( ".links-no-got-" + data.id, data.text.links.num );
 				show_real_time( ".images-no-got-" + data.id, data.design.image.count );
 				show_real_time( ".shares-no-got-" + data.id, data.social.num );
@@ -174,7 +173,7 @@ jQuery(document).ready(function($) {
 				} else {
 					show_real_time( ".time-no-got-" + data.id, ( data.speed.down_time / 1000 ).toFixed(0) + " s" );
 				}
-				show_real_time( ".keywords-no-got-" + data.id, data.text.top_key );
+				jQuery( ".not-scaned-yet-" + data.id ).html( data.text.count + " " + note_html.after_scan + ': <strong>' + data.text.top_key + '</strong>' );
 
 			},
 			error: function() {

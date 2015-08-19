@@ -130,7 +130,7 @@ function url_intel( arr, arr_two, element, element_show, element_show_two, ok, n
 		} else if ( chk == 0 && chk_two <= 10 ) {
 			jQuery(element).html(underscore);
 			jQuery(element_show_two).html(" (" + chk_two * 10 + "%) ");
-		} else if ( chk < 10 && chk_two < 10 ) {
+		} else if ( chk > 0 && chk_two > 0 ) {
 			jQuery(element).html(mid);
 			jQuery(element_show).html(" (" + chk * 10 + "%) ");
 			jQuery(element_show_two).html(" (" + chk_two * 10 + "%) ");

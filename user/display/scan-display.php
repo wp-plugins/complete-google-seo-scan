@@ -74,9 +74,9 @@
 							<h4><a href="<?php echo get_permalink( $post_id ); ?>" target="_blank"><?php echo get_the_title( $post_id ) . ' ' . $elem->dashicon( 'external' ); ?></a></h4>
 							<p>
 								<?php if ( $words and $keyword and $words != '--' and $keyword != '--' ) : ?>
-									<span class="words-no-got-<?php echo $post_id; ?>"><?php echo $words; ?></span><?php _e( 'words, popular is', 'cgss' ); ?>: <strong class="keywords-no-got-<?php echo $post_id; ?>"><?php echo $keyword; ?></strong>
+									<span class="scaned-now-<?php echo $post_id; ?>"><span class="words-no-got-<?php echo $post_id; ?>"><?php echo $words; ?></span><?php _e( 'words, focus is', 'cgss' ); ?>: <strong class="keywords-no-got-<?php echo $post_id; ?>"><?php echo $keyword; ?></strong></span>
 								<?php else : ?>
-									<?php _e( 'Not Scanned Yet', 'cgss' ); ?>
+									<span class="not-scaned-yet-<?php echo $post_id; ?>"><?php _e( 'Not Scanned Yet', 'cgss' ); ?></span>
 								<?php endif; ?>
 							</p>
 							<p>

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Complete Google SEO Scan 1.0\n"
 "Report-Msgid-Bugs-To: happy@gogretel.com\n"
-"POT-Creation-Date: 2015-07-03 00:49+0530\n"
-"PO-Revision-Date: 2015-07-03 00:49+0530\n"
+"POT-Creation-Date: 2015-08-19 15:03+0530\n"
+"PO-Revision-Date: 2015-08-19 15:03+0530\n"
 "Last-Translator: \n"
 "Language-Team: GoGretel <happy@gogretel.com>\n"
 "Language: Chinese\n"
@@ -17,234 +17,882 @@ msgstr ""
 "X-Generator: Poedit 1.5.4\n"
 "X-Poedit-SearchPath-0: ..\n"
 
-#: ../front-end.php:27
+#: ../complete-google-seo-scan.php:93
+#, fuzzy
+msgid ""
+"Complete Google SEO Scan Plugin will not be activated because your PHP "
+"version"
+msgstr ""
+"完整的谷歌搜索引擎優化掃描需要PHP 5.3 +並不會被激活，您的當前服務器配置正在運"
+"行的PHP版本"
+
+#: ../complete-google-seo-scan.php:93
+msgid "is less than required 5.3. See more information:"
+msgstr ""
+
+#: ../complete-google-seo-scan.php:95
+msgid "Dismiss"
+msgstr ""
+
+#: ../complete-google-seo-scan.php:118
+msgid "Start Here"
+msgstr ""
+
+#: ../complete-google-seo-scan.php:147
+#, fuzzy
+msgid "Seo Scan Overview"
+msgstr "社會共享的數據概述"
+
+#: ../complete-google-seo-scan.php:147 ../complete-google-seo-scan.php:156
+#, fuzzy
+msgid "Seo Scan"
+msgstr "SEO掃描"
+
+#: ../complete-google-seo-scan.php:238
+msgid "For this post types, show webpages per page"
+msgstr ""
+
+#: ../core/ajax-handle.php:60 ../core/overview-ajax.php:16
+#, fuzzy
+msgid "Invalid Request"
+msgstr "HTTP請求"
+
+#: ../core/ajax-handle.php:89
+#, fuzzy
+msgid "Server Issue"
+msgstr "服務器點"
+
+#: ../core/ajax-handle.php:110
+msgid "Can not Download the Webpage"
+msgstr ""
+
+#: ../core/overview-ajax.php:24 ../core/overview-ajax.php:78
+#: ../core/overview-ajax.php:88 ../core/overview-ajax.php:136
+#, fuzzy
+msgid "Improper Request"
+msgstr "HTTP請求"
+
+#: ../core/overview-ajax.php:54
+msgid "Network Error"
+msgstr ""
+
+#: ../core/overview-ajax.php:64
+msgid "Failed, Server Issue"
+msgstr ""
+
+#: ../core/overview-ajax.php:97
+msgid "No Files Found"
+msgstr ""
+
+#: ../user/front-end.php:86
+msgid "OVERVIEW"
+msgstr ""
+
+#: ../user/front-end.php:92
 msgid "SHARE PLUGIN"
 msgstr ""
 
-#: ../front-end.php:33
-msgid "EMAIL"
+#: ../user/front-end.php:99
+msgid "REPORT"
 msgstr ""
 
-#: ../front-end.php:54
-msgid "Seo Status"
+#: ../user/front-end.php:100
+msgid "ACTIONS"
 msgstr ""
 
-#: ../front-end.php:54
-msgid "See overall and specific seo points of pages in"
+#: ../user/front-end.php:125
+msgid "Heading"
 msgstr ""
 
-#: ../front-end.php:54
-msgid "Check for documentation in Help tab above."
+#: ../user/front-end.php:131
+msgid "Alt"
 msgstr ""
 
-#: ../front-end.php:60
-msgid "Content"
-msgstr "內容"
+#: ../user/front-end.php:137
+#, fuzzy
+msgid "Anchor"
+msgstr "錨文本"
 
-#: ../front-end.php:66
-msgid "Usability"
-msgstr ""
-
-#: ../front-end.php:92
+#: ../user/front-end.php:143
 msgid "Title"
 msgstr "標題"
 
-#: ../front-end.php:142 ../front-end.php:428
-msgid "Never"
+#: ../user/front-end.php:149
+msgid "Description"
+msgstr "描述"
+
+#: ../user/front-end.php:155
+msgid "Url"
 msgstr ""
 
-#: ../front-end.php:304
+#: ../user/front-end.php:183
+msgid "Name"
+msgstr "名"
+
+#: ../user/front-end.php:196 ../user/front-end.php:401
+msgid "SSL security"
+msgstr ""
+
+#: ../user/front-end.php:197
+msgid "WWW Resolve"
+msgstr ""
+
+#: ../user/front-end.php:198
+msgid "IP forwarding"
+msgstr ""
+
+#: ../user/front-end.php:199 ../user/front-end.php:426
 #, fuzzy
-msgid "Send Request"
-msgstr "HTTP請求"
+msgid "Gzip Compression"
+msgstr "gzip壓縮"
 
-#: ../front-end.php:316
-msgid "Validate Request"
-msgstr ""
-
-#: ../front-end.php:328
+#: ../user/front-end.php:200
 #, fuzzy
-msgid "Download Content"
-msgstr "內容"
+msgid "Cache"
+msgstr "緩存"
 
-#: ../front-end.php:340
-msgid "Analyze Data"
-msgstr ""
-
-#: ../front-end.php:352
-msgid "Save Information"
-msgstr ""
-
-#: ../front-end.php:364
+#: ../user/front-end.php:201 ../user/front-end.php:408
 #, fuzzy
-msgid "Fetch Results"
-msgstr "導致"
+msgid "If modified since"
+msgstr "如果修改自"
 
-#: ../front-end.php:393
-msgid "SHOW POST TYPES"
+#: ../user/front-end.php:202
+msgid "Response Time"
 msgstr ""
 
-#: ../front-end.php:399
-msgid "FILTER"
+#: ../user/front-end.php:202 ../user/front-end.php:421
+msgid "miliseconds"
 msgstr ""
 
-#: ../front-end.php:406
-msgid "Score"
+#: ../user/front-end.php:242
+msgid "Categories"
 msgstr ""
 
-#: ../front-end.php:407
-msgid "Star"
+#: ../user/front-end.php:257
+msgid "Tags"
 msgstr ""
 
-#: ../front-end.php:408 ../front-end.php:409 ../front-end.php:410
-#: ../front-end.php:411 ../front-end.php:412 ../front-end.php:413
-#: ../front-end.php:414 ../front-end.php:415
-msgid "Stars"
+#: ../user/front-end.php:266
+msgid "All Time"
 msgstr ""
 
-#: ../front-end.php:422
-msgid "Time"
-msgstr ""
-
-#: ../front-end.php:423
-msgid "This hour"
-msgstr ""
-
-#: ../front-end.php:424
+#: ../user/front-end.php:267
 msgid "Today"
 msgstr ""
 
-#: ../front-end.php:425
+#: ../user/front-end.php:268
 msgid "7 days"
 msgstr ""
 
-#: ../front-end.php:426
+#: ../user/front-end.php:269
 msgid "30 days"
 msgstr ""
 
-#: ../front-end.php:427
+#: ../user/front-end.php:270
 msgid "90 days"
 msgstr ""
 
-#: ../lib/snippet-object.php:56
-msgid "SEARCH SNIPPET ERROR"
+#: ../user/front-end.php:271
+msgid "Never"
 msgstr ""
 
-#: ../lib/snippet-object.php:75
-msgid "OGP SNIPPET ERROR"
+#: ../user/front-end.php:298
+msgid "<code>< title</code> tag is not found. Put a proper tag."
 msgstr ""
 
-#: ../lib/btn-object.php:37
+#: ../user/front-end.php:299
+msgid ""
+"<code>< meta name=\"description\"</code> tag is not found. Put a proper tag."
+msgstr ""
+
+#: ../user/front-end.php:300
+msgid ""
+"Long tail keywords are helpful for seo. Use them with percistance but don't "
+"spam."
+msgstr ""
+
+#: ../user/front-end.php:301
+msgid "Write a minimum of 200 words atleast."
+msgstr ""
+
+#: ../user/front-end.php:302
+msgid ""
+"Use enough text in comparison of HTML. But also don't use too much text."
+msgstr ""
+
+#: ../user/front-end.php:303
+msgid ""
+"Text should have hiarerchy with heading tags like <code>h1</code>, <code>h2</"
+"code>, <code>h3</code>."
+msgstr ""
+
+#: ../user/front-end.php:304
+msgid ""
+"Crawler robots can not read image links. Please use some text inside links "
+"also."
+msgstr ""
+
+#: ../user/front-end.php:305
+msgid "Use nofollow links and dofollow links in a reasonable propotion."
+msgstr ""
+
+#: ../user/front-end.php:306
+msgid "Use external links and internal links in a reasonable propotion."
+msgstr ""
+
+#: ../user/front-end.php:307
+#, fuzzy
+msgid "The webpage looks like a link farm. Reduce number of links."
+msgstr "請盡量減少鏈接數量。"
+
+#: ../user/front-end.php:308
+msgid "Put proper <code>alt</code> tags in images."
+msgstr ""
+
+#: ../user/front-end.php:309
+msgid "Don't use nested tables, i.e. tables within table columns."
+msgstr ""
+
+#: ../user/front-end.php:310
+msgid "Remove style attributes from all HTML tags and use .css file instead."
+msgstr ""
+
+#: ../user/front-end.php:311
+msgid ""
+"<code>< meta name=\"viewport\"</code> tag should be present for scaling "
+"webpage with device size."
+msgstr ""
+
+#: ../user/front-end.php:312
+msgid ""
+"<code>@media</code> query is not found. The webpage should be mobile ready."
+msgstr ""
+
+#: ../user/front-end.php:313
+msgid "Get an SSL certificate and use url with <code>https://</code>."
+msgstr ""
+
+#: ../user/front-end.php:314
+msgid "Url is not clean and tidy. Don't use underscores and dynamic url."
+msgstr ""
+
+#: ../user/front-end.php:315
+msgid "Url with and without WWW should redirect to same url. Resolve it."
+msgstr ""
+
+#: ../user/front-end.php:316
+#, fuzzy
+msgid "Put a canonical link."
+msgstr "將規範的鏈接"
+
+#: ../user/front-end.php:317
+msgid "Enable If modified since header."
+msgstr ""
+
+#: ../user/front-end.php:318
+msgid ""
+"<code>< meta name=\"robots\"</code> should not have <code>noindex</code> as "
+"value."
+msgstr ""
+
+#: ../user/front-end.php:319
+msgid "Put an IP address and forward to page url"
+msgstr ""
+
+#: ../user/front-end.php:320
+msgid "Header response time is too long. Improve website server."
+msgstr ""
+
+#: ../user/front-end.php:321
+#, fuzzy
+msgid "Enable gZip compression."
+msgstr "gzip壓縮"
+
+#: ../user/front-end.php:322
+msgid "Enable Browser Caching."
+msgstr ""
+
+#: ../user/front-end.php:323
+msgid "Reduce number of HTTP requests made by .css and .js files."
+msgstr ""
+
+#: ../user/front-end.php:324
+msgid "Compress resorce files and increase loading speed."
+msgstr ""
+
+#: ../user/front-end.php:325
+msgid ""
+"Complete all Open Graph Protocol <code>meta</code> tags, needed for social "
+"sharing."
+msgstr ""
+
+#: ../user/front-end.php:331
+msgid "Help"
+msgstr ""
+
+#: ../user/front-end.php:356
+msgid "Select popular words"
+msgstr ""
+
+#: ../user/front-end.php:360
+#, fuzzy
+msgid "Number of words"
+msgstr "鏈接"
+
+#: ../user/front-end.php:360 ../user/front-end.php:407
+msgid ""
+"Check if url is showing same webpage for url with and without \"www.\" "
+"prefix.\" prefix."
+msgstr ""
+
+#: ../user/front-end.php:361
+#, fuzzy
+msgid "Text to html ratio"
+msgstr "text / html的比例"
+
+#: ../user/front-end.php:361
+msgid ""
+"There must be enough text in webpage as compared with total size. About 15% "
+"to 70%"
+msgstr ""
+
+#: ../user/front-end.php:362
+#, fuzzy
+msgid "Text hiarerchy"
+msgstr "文本層次"
+
+#: ../user/front-end.php:362
+msgid ""
+"A bulk of text is not useful, rather text conatent with proper heading tags "
+"are needed."
+msgstr ""
+
+#: ../user/front-end.php:365
+#, fuzzy
+msgid "Image Links"
+msgstr "圖片"
+
+#: ../user/front-end.php:365
+msgid ""
+"Links that conatin only image but no text is considered poorly optimized."
+msgstr ""
+
+#: ../user/front-end.php:366
+#, fuzzy
+msgid "Nofollow Links"
+msgstr "鏈接"
+
+#: ../user/front-end.php:366
+msgid ""
+"Use <code>rel=\"nofollow\"</code> links as many as you want, but don't block "
+"all links from crawling."
+msgstr ""
+
+#: ../user/front-end.php:367
+msgid "External Links"
+msgstr ""
+
+#: ../user/front-end.php:367
+msgid ""
+"Links that points to other domain must be present, in a proportional number."
+msgstr ""
+
+#: ../user/front-end.php:385
+msgid "Nested Tables"
+msgstr ""
+
+#: ../user/front-end.php:385
+msgid ""
+"In markup of webpage, if table element is put inside a column of another "
+"table, it makes the page slow."
+msgstr ""
+
+#: ../user/front-end.php:386
+#, fuzzy
+msgid "Style Attributes"
+msgstr "樣式屬性"
+
+#: ../user/front-end.php:386
+msgid ""
+"attribute present in markup tags is not a good practice and increases render "
+"time."
+msgstr ""
+
+#: ../user/front-end.php:389
+msgid "Media Queries"
+msgstr ""
+
+#: ../user/front-end.php:389
+msgid ""
+"For responsive web design, you need to have <code>@media</code> elements "
+"inside .css files."
+msgstr ""
+
+#: ../user/front-end.php:390
+msgid "Viewport Tag"
+msgstr ""
+
+#: ../user/front-end.php:390
+msgid ""
+"On <code>head</code> area of webpage, there is a tag which helps in scaling "
+"the dimeensions according to display size."
+msgstr ""
+
+#: ../user/front-end.php:402
+msgid "Static url "
+msgstr ""
+
+#: ../user/front-end.php:403
+msgid "Use of underscores in Url"
+msgstr ""
+
+#: ../user/front-end.php:407
+msgid "www Resolve"
+msgstr ""
+
+#: ../user/front-end.php:408
+msgid ""
+"Let web server tell Google whether your content has changed since google bot "
+"last crawled your site."
+msgstr ""
+
+#: ../user/front-end.php:411
+#, fuzzy
+msgid "Canonical Url"
+msgstr "規範鏈接"
+
+#: ../user/front-end.php:411
+msgid ""
+"Let Google know, same content is available through multiple URL structures "
+"or via syndication."
+msgstr ""
+
+#: ../user/front-end.php:412
+#, fuzzy
+msgid "Meta Robot"
+msgstr "梅塔機器人"
+
+#: ../user/front-end.php:412
+msgid ""
+"Visibility in search result stops on use of \"noindex\" value in robots meta "
+"tag."
+msgstr ""
+
+#: ../user/front-end.php:415
+msgid "IP Forwarded"
+msgstr ""
+
+#: ../user/front-end.php:415
+msgid ""
+"Check if server IP address (internet protocol) is forwarding to the same url "
+"or not."
+msgstr ""
+
+#: ../user/front-end.php:421
+msgid "Header response time"
+msgstr ""
+
+#: ../user/front-end.php:422
+msgid "Loading time"
+msgstr ""
+
+#: ../user/front-end.php:422
+msgid "Seconds"
+msgstr ""
+
+#: ../user/front-end.php:426
+msgid ""
+"Deliver page content in a compressed .gzip file to reduce bandwidth and "
+"loading time."
+msgstr ""
+
+#: ../user/front-end.php:427
+#, fuzzy
+msgid "Browser Caching"
+msgstr "緩存"
+
+#: ../user/front-end.php:427
+msgid ""
+"Store page assets in browser of user for specific time, to load it faster "
+"next time."
+msgstr ""
+
+#: ../user/front-end.php:430 ../user/front-end.php:431
+#, fuzzy
+msgid "requests"
+msgstr "HTTP請求"
+
+#: ../user/front-end.php:454
+msgid "Sample Facebook Snippet, by Open Graph Protocol Data"
+msgstr ""
+
+#: ../user/front-end.php:454 ../user/front-end.php:461
+msgid "More"
+msgstr ""
+
+#: ../user/front-end.php:503
+msgid "And that's fine."
+msgstr ""
+
+#: ../user/front-end.php:504
+msgid "That's too much of text, please write less."
+msgstr ""
+
+#: ../user/front-end.php:505
+msgid "That's too little text, please write more."
+msgstr ""
+
+#: ../user/front-end.php:512
+msgid "Url is clean and tidy"
+msgstr ""
+
+#: ../user/front-end.php:513
+msgid "Url has underscore"
+msgstr ""
+
+#: ../user/front-end.php:514
+msgid "Url is dynamic"
+msgstr ""
+
+#: ../user/front-end.php:515
+msgid "Url is dynamic and has underscore"
+msgstr ""
+
+#: ../user/front-end.php:677
+msgid "items"
+msgstr ""
+
+#: ../user/front-end.php:682 ../user/display/overview-display.php:79
+msgid "of"
+msgstr ""
+
+#: ../user/front-end.php:697
+msgid "All Items Matched"
+msgstr ""
+
+#: ../user/front-end.php:700
+msgid "No Match Found"
+msgstr ""
+
+#: ../user/lib/btn-object.php:39
 msgid "Button Error"
 msgstr ""
 
-#: ../lib/heading-object.php:37
-msgid "HEADING ERROR"
+#: ../user/lib/accordion-object.php:21
+msgid "Click to toggle"
 msgstr ""
 
-#: ../lib/help-object.php:16
-msgid "Overview"
+#: ../user/lib/dropdown-object.php:55 ../user/lib/dropdown-object.php:72
+msgid "DROPDOWN ERROR"
 msgstr ""
 
-#: ../lib/help-object.php:17
+#: ../user/display/overview-display.php:4
+msgid "Scan Overview"
+msgstr ""
+
+#: ../user/display/overview-display.php:19 ../user/display/scan-display.php:18
+msgid ""
+"Before You Proceed, please complete scaning for <i>Server Seo Status</i> and "
+"<i>Theme and Plugins Design Seo</i>."
+msgstr ""
+
+#: ../user/display/overview-display.php:19
+msgid "You will see them bellow."
+msgstr ""
+
+#: ../user/display/overview-display.php:19
+msgid "Then reload the page."
+msgstr ""
+
+#: ../user/display/overview-display.php:38
+msgid "ARCHIVES"
+msgstr ""
+
+#: ../user/display/overview-display.php:62
+msgid "SCAN ARCHIVE PAGE"
+msgstr ""
+
+#: ../user/display/overview-display.php:71
+#, fuzzy
+msgid "Content Status"
+msgstr "內容問題"
+
+#: ../user/display/overview-display.php:72
+msgid "Fetch results from stored scan reports."
+msgstr ""
+
+#: ../user/display/overview-display.php:78
+#, fuzzy
+msgid "Fetch Intel"
+msgstr "導致"
+
+#: ../user/display/overview-display.php:79
+msgid "reports processed."
+msgstr ""
+
+#: ../user/display/overview-display.php:81
+msgid "No pages are scaned. Use top navigation to go to list of pages."
+msgstr ""
+
+#: ../user/display/overview-display.php:121
+#, fuzzy
+msgid "Server Seo Status"
+msgstr "服務器點"
+
+#: ../user/display/overview-display.php:126
+#: ../user/display/overview-display.php:146
+msgid "CHECK NOW"
+msgstr ""
+
+#: ../user/display/overview-display.php:139
+#, fuzzy
+msgid "Design Seo Status"
+msgstr "設計要點"
+
+#: ../user/display/report-display.php:26
+msgid "sec"
+msgstr ""
+
+#: ../user/display/report-display.php:42
+msgid "Text & Links"
+msgstr ""
+
+#: ../user/display/report-display.php:43
+msgid "Design"
+msgstr "設計"
+
+#: ../user/display/report-display.php:44
+msgid "Crawl"
+msgstr ""
+
+#: ../user/display/report-display.php:45
+msgid "Speed"
+msgstr ""
+
+#: ../user/display/report-display.php:60
+msgid "IT'S ALL GOOD. NO ACTIONS NEEDED"
+msgstr ""
+
+#: ../user/display/report-display.php:64
+msgid "TAKE <span id=\"ActNum\"></span> FOLLOWING ACTIONS"
+msgstr ""
+
+#: ../user/display/scan-display.php:3
+#, fuzzy
+msgid "Scan Status"
+msgstr "掃描頁面"
+
+#: ../user/display/scan-display.php:18
+msgid "You will find them here."
+msgstr ""
+
+#: ../user/display/scan-display.php:77 ../help/message-object.php:66
+msgid "words, focus is"
+msgstr ""
+
+#: ../user/display/scan-display.php:79
+#, fuzzy
+msgid "Not Scanned Yet"
+msgstr "掃描"
+
+#: ../user/display/scan-display.php:101
+msgid "SCAN"
+msgstr ""
+
+#: ../user/display/scan-display.php:109
+msgid "FAILED"
+msgstr ""
+
+#: ../user/display/scan-display.php:120
+msgid "NEVER"
+msgstr ""
+
+#: ../help/plugin-help-object.php:19
+msgid "Introduction"
+msgstr ""
+
+#: ../help/plugin-help-object.php:20
 msgid ""
 "We have built this plugin for any WordPress user, who wants to check seo "
 "readiness of his or her webpages. Basic Google webmaster guidelines and "
-"PageSpeed rules are constructive principles of this seo scan. We have not "
-"included backlinks analysis, traffic metrics, details on social media, "
-"knowledge graph and brand signals, because the intention is primarily on-"
-"page search optimization only. If you catch a bug or want to give any "
-"feedback or feature suggestion you are welcome to email the plugin author"
+"PageSpeed rules are constructive principles of this seo scan."
 msgstr ""
 
-#: ../lib/help-object.php:17
+#: ../help/plugin-help-object.php:20
+msgid ""
+"We have not included backlinks analysis, traffic metrics, knowledge graph "
+"and brand signals, because the intention is primarily on-page search "
+"optimization only."
+msgstr ""
+
+#: ../help/plugin-help-object.php:20
+msgid ""
+"If you catch a bug or want to give any feedback or feature suggestion you "
+"are welcome to email the plugin author"
+msgstr ""
+
+#: ../help/plugin-help-object.php:20
 msgid "DISCLAIMER"
 msgstr ""
 
-#: ../lib/help-object.php:17
+#: ../help/plugin-help-object.php:20
 msgid ""
 "This plugin or the plugin author is in no way affiliated to Google Inc. The "
 "word \"Google\" in name of this plugin implies, this plugin scans a webpage "
 "for some speculated ranking parameters of search engines like Google."
 msgstr ""
 
-#: ../lib/help-object.php:21
+#: ../help/plugin-help-object.php:24
+msgid "Overview"
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"Starting page of this plugin is named \"Seo Overview\". There you can find 3 "
+"types of features to scan 3 different aspects of your website."
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+#, fuzzy
+msgid "Server seo scan"
+msgstr "服務器點"
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"will make a header request and find out 10 important points about the server "
+"and it's configuration. Practically, You can change them by using different "
+"plugins available."
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+#, fuzzy
+msgid "Design seo scan"
+msgstr "設計要點"
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"gives an idea about numbers of HTTP requests made by your webpages and "
+"resource size it takes to load a webpage. They are takken from "
+"<code>_enqueued</code> styles and scripts. All hard coded links are ignored, "
+"because it is assumed that you are using WordPress compatable themes."
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+#, fuzzy
+msgid "Content Overview"
+msgstr "在頁面內容概述"
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"After you are done with scans for your webpages, you will be able to complie "
+"those individual content reports to a single report and gather actionable "
+"intelligence."
+msgstr ""
+
+#: ../help/plugin-help-object.php:29
 msgid "How to use?"
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid ""
-"This plugin's look and feel is built using WordPress Admin UI and is almost "
-"mobile ready. So, for regular WordPress users it will be very intuitive. The "
-"usage process has 3 steps."
+"This plugin's look and feel is built using WordPress Admin UI and is mobile "
+"ready. So, for regular WordPress users it will be very intuitive. The usage "
+"process has 3 steps."
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
+msgid "Before you start"
+msgstr ""
+
+#: ../help/plugin-help-object.php:30
+msgid ""
+"make sure you have taken Design seo and Server seo scans available at "
+"Overview page."
+msgstr ""
+
+#: ../help/plugin-help-object.php:30
 #, fuzzy
 msgid "Select a Page"
 msgstr "選擇頁掃描"
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid ""
-"from the individual tables of webpages, by clicking on corresponding radio "
-"button. There are 2 dropdown menues to select posts from multiple post types "
-"and filter them according to time and score of last scan. Remeber, only "
+"from the individual list of webpage blocks, by clicking on corresponding "
+"\"SCAN\" button. Top navigation is to select posts from multiple post types "
+"and you may filter them according to time of last scan. Remember, only "
 "\"published\" posts are shown."
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid "Wait for scan"
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid ""
-"to be completed. It will take a few seconds, approximately 15 to 30 seconds. "
+"to be completed. It will take a few seconds, approximately 2 to 30 seconds. "
 "Time varies mainly because of downloading webpage content."
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid "See results"
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid ""
-"in a pop up in the same page as soon as the scan is complete. The result "
-"will have 5 segments."
+"in a pop up on the same page as soon as the scan is complete. The result "
+"will have 7 segments."
 msgstr ""
 
-#: ../lib/help-object.php:22
-msgid "Overview and basic information as well as social media counts."
+#: ../help/plugin-help-object.php:30
+msgid "Overall score with social media counts."
 msgstr ""
 
-#: ../lib/help-object.php:22
-msgid "Search engine snippet and related information."
+#: ../help/plugin-help-object.php:30
+msgid "Search engine snippet and highlighted keyword."
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
 msgid "Most used words Analysis and information from text"
 msgstr ""
 
-#: ../lib/help-object.php:22
-msgid "Use of Media or Image and Video seo"
+#: ../help/plugin-help-object.php:30
+msgid "Use of Image and page design seo"
 msgstr ""
 
-#: ../lib/help-object.php:22
+#: ../help/plugin-help-object.php:30
+msgid "Required information on server and url."
+msgstr ""
+
+#: ../help/plugin-help-object.php:30
 msgid "Page specific speed and usability analysis."
 msgstr ""
 
-#: ../lib/help-object.php:22
-msgid ""
-"Navigate within segments using top arrow buttons. Scan result is displayed "
-"in an organized fashion and are is easy to understand for someone with basic "
-"seo knowledge. For a primitive guideline of seo aspects see links at right "
-"sidebar of this area."
+#: ../help/plugin-help-object.php:30
+msgid "A sample Facebook snippet from social media tags."
 msgstr ""
 
-#: ../lib/help-object.php:26
+#: ../help/plugin-help-object.php:30
+msgid "See required actions"
+msgstr ""
+
+#: ../help/plugin-help-object.php:30
+msgid ""
+"listed in the same pop-up. Just click the button with the word \"ACTION\" at "
+"bottom. You will find step by step guidence."
+msgstr ""
+
+#: ../help/plugin-help-object.php:30
+msgid ""
+"Scan result is displayed in an organized fashion with <strong>Hints</strong> "
+"and are easy to understand for someone with basic seo knowledge. For a "
+"primitive guideline of seo aspects see links at right sidebar of this area."
+msgstr ""
+
+#: ../help/plugin-help-object.php:34
 msgid "Performance"
 msgstr ""
 
-#: ../lib/help-object.php:27
+#: ../help/plugin-help-object.php:35
 msgid ""
 "This plugin uses resources from your web server for processing scan "
 "requests. So, you will get higher bandwidth and database usage. In standard "
@@ -252,40 +900,40 @@ msgid ""
 "notice it."
 msgstr ""
 
-#: ../lib/help-object.php:27
+#: ../help/plugin-help-object.php:35
 #, fuzzy
 msgid ""
-"depends on your server and website quality. Actual process takes around 10 "
+"depends on your server and website quality. Actual process takes less than 5 "
 "seconds to complete. But it takes longer to check page header and download "
 "webpage resources."
 msgstr ""
 "掃描大時間取決於您的服務器和您的網站的質量。實際過程時間小於0.01秒完成。"
 
-#: ../lib/help-object.php:27
+#: ../help/plugin-help-object.php:35
 msgid ""
 "is very minimal, as this plugin is admin oriented. All Javascripts (.js "
 "files) and Stylesheets (.css files) are loaded only in admin side."
 msgstr ""
 
-#: ../lib/help-object.php:27
+#: ../help/plugin-help-object.php:35
 msgid "That means, it won't slow down your website."
 msgstr ""
 
-#: ../lib/help-object.php:31
+#: ../help/plugin-help-object.php:39
 msgid "Data & Privacy"
 msgstr ""
 
-#: ../lib/help-object.php:32
+#: ../help/plugin-help-object.php:40
 msgid ""
 "We value security of your website. All files and resulting data is stored in "
 "your web server only."
 msgstr ""
 
-#: ../lib/help-object.php:32
+#: ../help/plugin-help-object.php:40
 msgid "privacy Policy."
 msgstr ""
 
-#: ../lib/help-object.php:32
+#: ../help/plugin-help-object.php:40
 msgid ""
 "If you install and update this plugin from wordpress.org plugin repository "
 "and use it as is, then the plugin author doesn't collect any data "
@@ -293,24 +941,24 @@ msgid ""
 "of this plugin or collect data generated from usage of this plugin."
 msgstr ""
 
-#: ../lib/help-object.php:32
+#: ../help/plugin-help-object.php:40
 msgid "Data storage."
 msgstr ""
 
-#: ../lib/help-object.php:32
+#: ../help/plugin-help-object.php:40
 msgid ""
 "This plugin currently stores data as an multidimensional array for each "
 "webpage you scan. Many things you see in this page are taken from that "
-"stored data. When the plugin is uninstalled these data will remain in your "
-"server, untill deleted by special operation. They will not create any "
-"problem although."
+"stored data. Other than those, there are 4 custom data arrays stored in "
+"\"_options\" database. When the plugin is uninstalled all of those data will "
+"be removed from your server."
 msgstr ""
 
-#: ../lib/help-object.php:36
+#: ../help/plugin-help-object.php:44
 msgid "Do's and Don'ts"
 msgstr ""
 
-#: ../lib/help-object.php:37
+#: ../help/plugin-help-object.php:45
 msgid ""
 "This plugin is built to help you understand search engine optimization "
 "status of your website only. It doesn't allow you to scan any webpage from "
@@ -319,36 +967,286 @@ msgid ""
 "various other domains."
 msgstr ""
 
-#: ../lib/help-object.php:37
+#: ../help/plugin-help-object.php:45
 msgid ""
 "We can't force you, so if you do such a thing, the plugin author will not be "
 "responsible for any legal and security consequences that may come. "
 "Otherwise, the code is under GPL License, you can do anything you like."
 msgstr ""
 
-#: ../lib/help-object.php:44
+#: ../help/plugin-help-object.php:49
+msgid "Updates"
+msgstr ""
+
+#: ../help/plugin-help-object.php:50
+msgid ""
+"Future updates of this plugin is expected to contain more features and a new "
+"interface. Some of the features you may expect are Video Seo, Spam "
+"detection, Rich snippet calculation, Twitter v card, above the fold "
+"optimization, sitemap.xml check and robots.txt check. Internationalization "
+"and automatic scan are also desired property to be included."
+msgstr ""
+
+#: ../help/plugin-help-object.php:50
+msgid ""
+"Tough the plugin author will take final decision about updates, you are free "
+"to inform about bugs and feature requests in support forum."
+msgstr ""
+
+#: ../help/plugin-help-object.php:57
 msgid "Support Forum"
 msgstr ""
 
-#: ../lib/help-object.php:44
+#: ../help/plugin-help-object.php:57
 msgid "Free Seo Resource"
 msgstr ""
 
-#: ../lib/textarea-object.php:33
-msgid "Textarea Error"
+#: ../help/message-object.php:15
+msgid "Message"
 msgstr ""
 
-#: ../lib/dropdown-object.php:42 ../lib/dropdown-object.php:59
-msgid "DROPDOWN ERROR"
+#: ../help/message-object.php:22
+msgid "Network error"
 msgstr ""
+
+#: ../help/message-object.php:23
+msgid "No .css or .js file"
+msgstr ""
+
+#: ../help/message-object.php:24
+msgid "is undefined"
+msgstr ""
+
+#: ../help/message-object.php:25
+msgid "View"
+msgstr ""
+
+#: ../help/message-object.php:26
+msgid "TITLE TAG"
+msgstr ""
+
+#: ../help/message-object.php:27
+msgid "META DESCRIPTION TAG"
+msgstr ""
+
+#: ../help/message-object.php:45
+msgid "NOT FOUND"
+msgstr "NOT FOUND"
+
+#: ../help/message-object.php:46
+msgid "SOCIAL MEDIA IMAGE TAG NOT FOUND"
+msgstr ""
+
+#: ../help/message-object.php:47
+msgid "SOCIAL MEDIA TITLE TAG NOT FOUND"
+msgstr ""
+
+#: ../help/message-object.php:48
+msgid "SOCIAL MEDIA DESCRIPTION TAG NOT FOUND"
+msgstr ""
+
+#: ../help/message-object.php:49
+#, fuzzy
+msgid "DOMAIN NAME NOT FOUND"
+msgstr "標籤信息不存在"
+
+#: ../help/message-object.php:50
+#, fuzzy
+msgid "TITLE TAG NOT FOUND"
+msgstr "標籤信息不存在"
+
+#: ../help/message-object.php:51
+#, fuzzy
+msgid "META DESCRIPTION TAG NOT FOUND"
+msgstr "標籤信息不存在"
+
+#: ../help/message-object.php:53 ../help/message-object.php:54
+#, fuzzy
+msgid "Compression"
+msgstr "gzip壓縮"
+
+#: ../help/message-object.php:53
+msgid ".css and .js files can be more compressed to reduce"
+msgstr ""
+
+#: ../help/message-object.php:53
+msgid "in total size"
+msgstr ""
+
+#: ../help/message-object.php:54
+msgid "All .css and .js files are compressed enough."
+msgstr ""
+
+#: ../help/message-object.php:55
+msgid "All images are optimized."
+msgstr ""
+
+#: ../help/message-object.php:56
+msgid "Above images does not have <code>alt</code> tags."
+msgstr ""
+
+#: ../help/message-object.php:57
+#, fuzzy
+msgid "No images are present."
+msgstr "有的頭頂標籤"
+
+#: ../help/message-object.php:58 ../help/message-object.php:59
+msgid "Links all total"
+msgstr ""
+
+#: ../help/message-object.php:58
+msgid "numbers are ok."
+msgstr ""
+
+#: ../help/message-object.php:59
+#, fuzzy
+msgid "Too much in number."
+msgstr "太多在你的網頁的HTML。"
+
+#: ../help/message-object.php:64
+#, fuzzy
+msgid "NO KEYWORDS FOUND"
+msgstr "NOT FOUND"
+
+#: ../help/message-object.php:65
+msgid "SPAM"
+msgstr ""
+
+#: ../help/message-object.php:73
+msgid ""
+"Total <span id=\"WordsIntel\"></span> words used. <span id="
+"\"WordsPerPageIntel\"></span> per page. Avg text to html ratio is <span id="
+"\"WordsRatioIntel\"></span>"
+msgstr ""
+
+#: ../help/message-object.php:74
+msgid ""
+"<span id=\"LinksNumIntel\"></span> links per page, nearly <span id="
+"\"ExtLinksIntel\"></span> external and <span id=\"ImgLinksIntel\"></span> "
+"image links of them."
+msgstr ""
+
+#: ../help/message-object.php:75
+msgid ""
+"Long tail keywords (avg <span id=\"KeyWordsSizeIntel\"></span> words long) "
+"were found in <span id=\"KeyWordsIntel\"></span> webpages."
+msgstr ""
+
+#: ../help/message-object.php:77
+msgid "Almost all images seems to be optimized."
+msgstr ""
+
+#: ../help/message-object.php:78
+msgid ""
+"Nearly <span id=\"ImagesIntelPercent\"></span> of pages have images without "
+"alt tags."
+msgstr ""
+
+#: ../help/message-object.php:79
+msgid ""
+"This website images are <span class=\"danger-icon\">not optimized</span>."
+msgstr ""
+
+#: ../help/message-object.php:82
+msgid "Your website is mobile optimized."
+msgstr ""
+
+#: ../help/message-object.php:83
+msgid ""
+"Some of your webpages<span id=\"DesignIntelPercent\"></span> are not mobile "
+"optimized."
+msgstr ""
+
+#: ../help/message-object.php:84
+msgid ""
+"Your website is <span class=\"danger-icon\">not mobile optimized</span>."
+msgstr ""
+
+#: ../help/message-object.php:87
+msgid "All urls are neat and clean."
+msgstr ""
+
+#: ../help/message-object.php:88
+msgid ""
+"Some urls <span class=\"danger-icon\">are dynamic</span><span id="
+"\"UrlIntelPercent\"></span> and <span class=\"danger-icon\">have underscore</"
+"span><span id=\"UrlIntelPercentTwo\"></span>."
+msgstr ""
+
+#: ../help/message-object.php:89
+msgid ""
+"Some urls <span id=\"UrlIntelPercent\"></span> are <span class=\"danger-icon"
+"\">dynamic and contains underscore</span>."
+msgstr ""
+
+#: ../help/message-object.php:90
+msgid ""
+"Some urls <span id=\"UrlIntelPercent\"></span> <span class=\"danger-icon"
+"\">are dynamic</span>."
+msgstr ""
+
+#: ../help/message-object.php:91
+msgid ""
+"Some urls <span id=\"UrlIntelPercentTwo\"></span> <span class=\"danger-icon"
+"\">have underscores</span>."
+msgstr ""
+
+#: ../help/message-object.php:94
+msgid "Your website is fast, takes less than a second load."
+msgstr ""
+
+#: ../help/message-object.php:95
+msgid "Your website loads fine, may try a little faster."
+msgstr ""
+
+#: ../help/message-object.php:96
+msgid "Your website is slow, make it faster."
+msgstr ""
+
+#: ../help/message-object.php:97
+msgid ""
+"Your website is <span class=\"danger-icon\">too slow</span>, serious "
+"improvement needed."
+msgstr ""
+
+#: ../help/message-object.php:100
+msgid "Social media tags are present. Optimized for social sharing."
+msgstr ""
+
+#: ../help/message-object.php:101
+msgid ""
+"Social media tags are <span class=\"danger-icon\">incomplete</span> in "
+"almost <span id=\"StagIntelNoPercent\"></span>% pages."
+msgstr ""
+
+#: ../help/message-object.php:102
+msgid ""
+"Social media tags are nearly <span class=\"danger-icon\">absent</span>. Use "
+"them for better sharing."
+msgstr ""
+
+#: ../help/message-object.php:109
+msgid "enabled"
+msgstr ""
+
+#: ../help/message-object.php:114
+msgid "disabled"
+msgstr ""
+
+#: ../db/get-db.php:102
+msgid "ms"
+msgstr ""
+
+#: ../db/get-db.php:104
+msgid "s"
+msgstr ""
+
+#~ msgid "Content"
+#~ msgstr "內容"
 
 #, fuzzy
-#~ msgid ""
-#~ "Complete Google SEO Scan requires PHP 5.3+ and will not be activated, "
-#~ "your current server configuration is running PHP version&nbsp;"
-#~ msgstr ""
-#~ "完整的谷歌搜索引擎優化掃描需要PHP 5.3 +並不會被激活，您的當前服務器配置正"
-#~ "在運行的PHP版本"
+#~ msgid "Download Content"
+#~ msgstr "內容"
 
 #, fuzzy
 #~ msgid ""
@@ -361,9 +1259,6 @@ msgstr ""
 
 #~ msgid "Scan Now"
 #~ msgstr "立即掃描"
-
-#~ msgid "SEO Scan"
-#~ msgstr "SEO掃描"
 
 #~ msgid "Complete Google SEO Scan"
 #~ msgstr "完整的谷歌搜索引擎優化掃描"
@@ -393,12 +1288,6 @@ msgstr ""
 
 #~ msgid "OK"
 #~ msgstr "行"
-
-#~ msgid "NOT FOUND"
-#~ msgstr "NOT FOUND"
-
-#~ msgid "Put a canonical link"
-#~ msgstr "將規範的鏈接"
 
 #~ msgid "Enter Favicon"
 #~ msgstr "輸入的favicon"
@@ -491,9 +1380,6 @@ msgstr ""
 #~ msgid "Put proper value to this og:image meta tag"
 #~ msgstr "將適當的值到這個噩：圖像meta標籤"
 
-#~ msgid "TAG NOT FOUND"
-#~ msgstr "標籤信息不存在"
-
 #~ msgid ""
 #~ "You can use any free SEO plugins available to get options to enter "
 #~ "descriptions"
@@ -566,9 +1452,6 @@ msgstr ""
 #~ msgid "Mentions used keywords in web page. It is not a ranking factor."
 #~ msgstr "提到二手關鍵字在網頁。它不是一個排名因素。"
 
-#~ msgid "Canonical Link"
-#~ msgstr "規範鏈接"
-
 #~ msgid ""
 #~ "Canonicalization is the process of picking the best url when there are "
 #~ "several choices. This canonical meta tag helps search engine crawlers to "
@@ -578,9 +1461,6 @@ msgstr ""
 #~ "標準化是指將挑選最好的URL時，有幾個選擇的過程。此規範的meta標籤有助於搜索"
 #~ "引擎抓取索引頁面，可以從不同的URL（如http://www.example.com/和http://"
 #~ "example.com/）走近。"
-
-#~ msgid "Meta Robots"
-#~ msgstr "梅塔機器人"
 
 #~ msgid ""
 #~ "Meta robots tag requests search engine robots to crawl or leave the web "
@@ -619,9 +1499,6 @@ msgstr ""
 #~ msgid ""
 #~ "Title of the shared content. May or may not be same as web page title"
 #~ msgstr "共享內容的標題。可能會或可能不會相同網頁標題"
-
-#~ msgid "Description"
-#~ msgstr "描述"
 
 #~ msgid ""
 #~ "Body of the shared content. Usually this text is seen on shared contents "
@@ -675,9 +1552,6 @@ msgstr ""
 #~ msgid "One head tag is present"
 #~ msgstr "單頭標籤"
 
-#~ msgid "Some head tags are present"
-#~ msgstr "有的頭頂標籤"
-
 #~ msgid "Make sure your text is in hierarchy. If it is not please make it so."
 #~ msgstr "請確保您的文字是在層次結構。如果它沒有這樣做。"
 
@@ -686,9 +1560,6 @@ msgstr ""
 
 #~ msgid "Text to HTML ratio for this web page is"
 #~ msgstr "本網頁文本到HTML比"
-
-#~ msgid "Too much HTML in your web page."
-#~ msgstr "太多在你的網頁的HTML。"
 
 #~ msgid "Write more text, atleast"
 #~ msgstr "寫更多的文字，至少"
@@ -703,17 +1574,11 @@ msgstr ""
 #~ msgid "This ratio for this web page is normal."
 #~ msgstr "這個網頁的這一比例是正常的。"
 
-#~ msgid "Number of Links"
-#~ msgstr "鏈接"
-
 #~ msgid "Outgoing Links"
 #~ msgstr "外出的鏈接"
 
 #~ msgid "Number of Links are large."
 #~ msgstr "的鏈接數量都很大。"
-
-#~ msgid "Please try to reduce number of links."
-#~ msgstr "請盡量減少鏈接數量。"
 
 #~ msgid "Number of Links are too much."
 #~ msgstr "的鏈接數量太多。"
@@ -733,9 +1598,6 @@ msgstr ""
 #~ msgid "Put rel and title attributes to links"
 #~ msgstr "把rel和title屬性鏈接"
 
-#~ msgid "Images"
-#~ msgstr "圖片"
-
 #~ msgid ""
 #~ "Optimal Use of images should have height, width and alt attribute. Images "
 #~ "should not be resized at browser."
@@ -743,18 +1605,12 @@ msgstr ""
 #~ "圖像的最佳使用方式，應該有高度，寬度和alt屬性。圖像不應該在瀏覽器中調整大"
 #~ "小。"
 
-#~ msgid "Text Hierarchy"
-#~ msgstr "文本層次"
-
 #~ msgid ""
 #~ "Text presentation is better in a hierarchy of titles and body tags. Use "
 #~ "h1, h2, h3, h4, h5, h6 tags properly."
 #~ msgstr ""
 #~ "文字介紹是更好的層次結構中的標題和正文標籤。正確使用H1，H2，H3，H4，H5，H6"
 #~ "標籤。"
-
-#~ msgid "text/html Ratio"
-#~ msgstr "text / html的比例"
 
 #~ msgid ""
 #~ "This ratio determines if the web page is optimal content rich and "
@@ -896,9 +1752,6 @@ msgstr ""
 #~ "document load. This should be avoided"
 #~ msgstr "@進口參數樣式表內勢必會增加不必要的文件負載。這應該被避免"
 
-#~ msgid "Style Attribute"
-#~ msgstr "樣式屬性"
-
 #~ msgid ""
 #~ "Using this in any element of html of web page reduces quality by "
 #~ "increasing browser rendering time"
@@ -1017,17 +1870,11 @@ msgstr ""
 #~ msgstr ""
 #~ "如果url具有可變信息，或者是超過255個字節，搜索引擎會認為它為垃圾郵件。"
 
-#~ msgid "If-Modified-Since"
-#~ msgstr "如果修改自"
-
 #~ msgid ""
 #~ "This is a server feature. This automatically Informs search engine "
 #~ "robots, whenever any change takes place in web page content."
 #~ msgstr ""
 #~ "這是一個服務器功能。這自動通知搜索引擎機器人，網頁內容發生任何變化。"
-
-#~ msgid "Caching"
-#~ msgstr "緩存"
 
 #~ msgid ""
 #~ "Caching html, css, javascripts, images in users browsers can be very "
@@ -1047,9 +1894,6 @@ msgstr ""
 #~ msgstr ""
 #~ "這是一個服務器功能。這樣可以使活動服務器和瀏覽器之間的連接為所述的時間量。"
 #~ "額外的溝通並節省了時間。因此，它降低了，這是更好的文檔的加載時間。"
-
-#~ msgid "gzip compression"
-#~ msgstr "gzip壓縮"
 
 #~ msgid ""
 #~ "This server feature delivers web page content to browser in gzip "
@@ -1071,9 +1915,6 @@ msgstr ""
 
 #~ msgid "Web Page"
 #~ msgstr "網頁"
-
-#~ msgid "Scanned for"
-#~ msgstr "掃描"
 
 #~ msgid "Search Engine Compatibility, Google Webmaster Guidelines as standard"
 #~ msgstr "搜索引擎的兼容性，作為標準的谷歌網站管理員指南"
@@ -1120,9 +1961,6 @@ msgstr ""
 #~ msgid "Comparison of social data"
 #~ msgstr "社交數據的比較"
 
-#~ msgid "Social Sharing Data overview"
-#~ msgstr "社會共享的數據概述"
-
 #~ msgid "Actual"
 #~ msgstr "實際"
 
@@ -1162,12 +2000,6 @@ msgstr ""
 #~ msgid "Alt Text"
 #~ msgstr "alt文字"
 
-#~ msgid "Anchor Text"
-#~ msgstr "錨文本"
-
-#~ msgid "In page content overview"
-#~ msgstr "在頁面內容概述"
-
 #~ msgid "Comparison of server performance"
 #~ msgstr "服務器的性能比較"
 
@@ -1182,9 +2014,6 @@ msgstr ""
 
 #~ msgid "Chose any page or post or enter custom url to Scan"
 #~ msgstr "選擇任何網頁或郵寄或輸入自定義URL掃描"
-
-#~ msgid "Scan Page"
-#~ msgstr "掃描頁面"
 
 #~ msgid "OR"
 #~ msgstr "或"
@@ -1243,9 +2072,6 @@ msgstr ""
 #~ msgid "Data"
 #~ msgstr "數據"
 
-#~ msgid "Design"
-#~ msgstr "設計"
-
 #~ msgid "Technical"
 #~ msgstr "技術"
 
@@ -1267,15 +2093,6 @@ msgstr ""
 #~ msgid "Remarks"
 #~ msgstr "備註"
 
-#~ msgid "Content issues"
-#~ msgstr "內容問題"
-
-#~ msgid "Design points"
-#~ msgstr "設計要點"
-
-#~ msgid "Server points"
-#~ msgstr "服務器點"
-
 #, fuzzy
 #~ msgid "&rarr;&nbsp;Crawled Text Content"
 #~ msgstr "→抓取文本內容"
@@ -1294,9 +2111,6 @@ msgstr ""
 
 #~ msgid "gogretel.com"
 #~ msgstr "gogretel.com"
-
-#~ msgid "Name"
-#~ msgstr "名"
 
 #~ msgid "Action"
 #~ msgstr "行動..."

@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Complete Google SEO Scan 1.0\n"
 "Report-Msgid-Bugs-To: happy@gogretel.com\n"
-"POT-Creation-Date: 2015-08-15 18:29+0530\n"
-"PO-Revision-Date: 2015-08-15 18:29+0530\n"
+"POT-Creation-Date: 2015-08-19 15:02+0530\n"
+"PO-Revision-Date: 2015-08-19 15:02+0530\n"
 "Last-Translator: \n"
 "Language-Team: GoGretel <happy@gogretel.com>\n"
 "Language: Japanese\n"
@@ -52,17 +52,17 @@ msgstr "SEOスキャン"
 msgid "For this post types, show webpages per page"
 msgstr ""
 
-#: ../core/ajax-handle.php:59 ../core/overview-ajax.php:16
+#: ../core/ajax-handle.php:60 ../core/overview-ajax.php:16
 #, fuzzy
 msgid "Invalid Request"
 msgstr "HTTPリクエスト"
 
-#: ../core/ajax-handle.php:88
+#: ../core/ajax-handle.php:89
 #, fuzzy
 msgid "Server Issue"
 msgstr "サーバーのポイント"
 
-#: ../core/ajax-handle.php:109
+#: ../core/ajax-handle.php:110
 msgid "Can not Download the Webpage"
 msgstr ""
 
@@ -562,7 +562,7 @@ msgstr ""
 msgid "items"
 msgstr ""
 
-#: ../user/front-end.php:682 ../user/display/overview-display.php:78
+#: ../user/front-end.php:682 ../user/display/overview-display.php:79
 msgid "of"
 msgstr ""
 
@@ -612,49 +612,42 @@ msgstr ""
 msgid "SCAN ARCHIVE PAGE"
 msgstr ""
 
-#: ../user/display/overview-display.php:70
-msgid "Actionable Intelligence"
-msgstr ""
-
 #: ../user/display/overview-display.php:71
+#, fuzzy
+msgid "Content Status"
+msgstr "コンテンツの問題"
+
+#: ../user/display/overview-display.php:72
 msgid "Fetch results from stored scan reports."
 msgstr ""
 
-#: ../user/display/overview-display.php:77
+#: ../user/display/overview-display.php:78
 #, fuzzy
 msgid "Fetch Intel"
 msgstr "結果"
 
-#: ../user/display/overview-display.php:78
+#: ../user/display/overview-display.php:79
 msgid "reports processed."
 msgstr ""
 
-#: ../user/display/overview-display.php:80
+#: ../user/display/overview-display.php:81
 msgid "No pages are scaned. Use top navigation to go to list of pages."
 msgstr ""
 
-#: ../user/display/overview-display.php:99
-msgid "Content"
-msgstr "コンテンツ"
-
-#: ../user/display/overview-display.php:103
-#, fuzzy
-msgid "Other Points"
-msgstr "サーバーのポイント"
-
-#: ../user/display/overview-display.php:118
+#: ../user/display/overview-display.php:121
 #, fuzzy
 msgid "Server Seo Status"
 msgstr "サーバーのポイント"
 
-#: ../user/display/overview-display.php:123
-#: ../user/display/overview-display.php:143
+#: ../user/display/overview-display.php:126
+#: ../user/display/overview-display.php:146
 msgid "CHECK NOW"
 msgstr ""
 
-#: ../user/display/overview-display.php:136
-msgid "Theme and Plugins Design Seo"
-msgstr ""
+#: ../user/display/overview-display.php:139
+#, fuzzy
+msgid "Design Seo Status"
+msgstr "サーバーのポイント"
 
 #: ../user/display/report-display.php:26
 msgid "sec"
@@ -693,8 +686,8 @@ msgstr "ページをスキャンする"
 msgid "You will find them here."
 msgstr ""
 
-#: ../user/display/scan-display.php:77
-msgid "words, popular is"
+#: ../user/display/scan-display.php:77 ../help/message-object.php:66
+msgid "words, focus is"
 msgstr ""
 
 #: ../user/display/scan-display.php:79
@@ -715,7 +708,7 @@ msgid "NEVER"
 msgstr ""
 
 #: ../help/plugin-help-object.php:19
-msgid "Overview"
+msgid "Introduction"
 msgstr ""
 
 #: ../help/plugin-help-object.php:20
@@ -750,32 +743,79 @@ msgid ""
 msgstr ""
 
 #: ../help/plugin-help-object.php:24
-msgid "How to use?"
+msgid "Overview"
 msgstr ""
 
 #: ../help/plugin-help-object.php:25
+msgid ""
+"Starting page of this plugin is named \"Seo Overview\". There you can find 3 "
+"types of features to scan 3 different aspects of your website."
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+#, fuzzy
+msgid "Server seo scan"
+msgstr "サーバーのポイント"
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"will make a header request and find out 10 important points about the server "
+"and it's configuration. Practically, You can change them by using different "
+"plugins available."
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+#, fuzzy
+msgid "Design seo scan"
+msgstr "デザインのポイント"
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"gives an idea about numbers of HTTP requests made by your webpages and "
+"resource size it takes to load a webpage. They are takken from "
+"<code>_enqueued</code> styles and scripts. All hard coded links are ignored, "
+"because it is assumed that you are using WordPress compatable themes."
+msgstr ""
+
+#: ../help/plugin-help-object.php:25
+#, fuzzy
+msgid "Content Overview"
+msgstr "ページコンテンツの概要"
+
+#: ../help/plugin-help-object.php:25
+msgid ""
+"After you are done with scans for your webpages, you will be able to complie "
+"those individual content reports to a single report and gather actionable "
+"intelligence."
+msgstr ""
+
+#: ../help/plugin-help-object.php:29
+msgid "How to use?"
+msgstr ""
+
+#: ../help/plugin-help-object.php:30
 msgid ""
 "This plugin's look and feel is built using WordPress Admin UI and is mobile "
 "ready. So, for regular WordPress users it will be very intuitive. The usage "
 "process has 3 steps."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Before you start"
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid ""
 "make sure you have taken Design seo and Server seo scans available at "
 "Overview page."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 #, fuzzy
 msgid "Select a Page"
 msgstr "スキャンするページを選択してください"
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid ""
 "from the individual list of webpage blocks, by clicking on corresponding "
 "\"SCAN\" button. Top navigation is to select posts from multiple post types "
@@ -783,76 +823,76 @@ msgid ""
 "\"published\" posts are shown."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Wait for scan"
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid ""
-"to be completed. It will take a few seconds, approximately 5 to 30 seconds. "
+"to be completed. It will take a few seconds, approximately 2 to 30 seconds. "
 "Time varies mainly because of downloading webpage content."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "See results"
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid ""
 "in a pop up on the same page as soon as the scan is complete. The result "
 "will have 7 segments."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Overall score with social media counts."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Search engine snippet and highlighted keyword."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Most used words Analysis and information from text"
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Use of Image and page design seo"
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Required information on server and url."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "Page specific speed and usability analysis."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid "A sample Facebook snippet from social media tags."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
-msgid "See Required Actions"
+#: ../help/plugin-help-object.php:30
+msgid "See required actions"
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid ""
 "listed in the same pop-up. Just click the button with the word \"ACTION\" at "
 "bottom. You will find step by step guidence."
 msgstr ""
 
-#: ../help/plugin-help-object.php:25
+#: ../help/plugin-help-object.php:30
 msgid ""
 "Scan result is displayed in an organized fashion with <strong>Hints</strong> "
 "and are easy to understand for someone with basic seo knowledge. For a "
 "primitive guideline of seo aspects see links at right sidebar of this area."
 msgstr ""
 
-#: ../help/plugin-help-object.php:29
+#: ../help/plugin-help-object.php:34
 msgid "Performance"
 msgstr ""
 
-#: ../help/plugin-help-object.php:30
+#: ../help/plugin-help-object.php:35
 msgid ""
 "This plugin uses resources from your web server for processing scan "
 "requests. So, you will get higher bandwidth and database usage. In standard "
@@ -860,7 +900,7 @@ msgid ""
 "notice it."
 msgstr ""
 
-#: ../help/plugin-help-object.php:30
+#: ../help/plugin-help-object.php:35
 #, fuzzy
 msgid ""
 "depends on your server and website quality. Actual process takes less than 5 "
@@ -870,31 +910,31 @@ msgstr ""
 "時間はコントローラのスキャンすると、サーバとあなたのウェブサイトの品質に依存"
 "します。実際の処理を完了するには、以下の0.01秒かかります。"
 
-#: ../help/plugin-help-object.php:30
+#: ../help/plugin-help-object.php:35
 msgid ""
 "is very minimal, as this plugin is admin oriented. All Javascripts (.js "
 "files) and Stylesheets (.css files) are loaded only in admin side."
 msgstr ""
 
-#: ../help/plugin-help-object.php:30
+#: ../help/plugin-help-object.php:35
 msgid "That means, it won't slow down your website."
 msgstr ""
 
-#: ../help/plugin-help-object.php:34
+#: ../help/plugin-help-object.php:39
 msgid "Data & Privacy"
 msgstr ""
 
-#: ../help/plugin-help-object.php:35
+#: ../help/plugin-help-object.php:40
 msgid ""
 "We value security of your website. All files and resulting data is stored in "
 "your web server only."
 msgstr ""
 
-#: ../help/plugin-help-object.php:35
+#: ../help/plugin-help-object.php:40
 msgid "privacy Policy."
 msgstr ""
 
-#: ../help/plugin-help-object.php:35
+#: ../help/plugin-help-object.php:40
 msgid ""
 "If you install and update this plugin from wordpress.org plugin repository "
 "and use it as is, then the plugin author doesn't collect any data "
@@ -902,24 +942,24 @@ msgid ""
 "of this plugin or collect data generated from usage of this plugin."
 msgstr ""
 
-#: ../help/plugin-help-object.php:35
+#: ../help/plugin-help-object.php:40
 msgid "Data storage."
 msgstr ""
 
-#: ../help/plugin-help-object.php:35
+#: ../help/plugin-help-object.php:40
 msgid ""
 "This plugin currently stores data as an multidimensional array for each "
 "webpage you scan. Many things you see in this page are taken from that "
 "stored data. Other than those, there are 4 custom data arrays stored in "
-"\"_options\" database. When the plugin is uninstalled these data will be "
-"removed from your server."
+"\"_options\" database. When the plugin is uninstalled all of those data will "
+"be removed from your server."
 msgstr ""
 
-#: ../help/plugin-help-object.php:39
+#: ../help/plugin-help-object.php:44
 msgid "Do's and Don'ts"
 msgstr ""
 
-#: ../help/plugin-help-object.php:40
+#: ../help/plugin-help-object.php:45
 msgid ""
 "This plugin is built to help you understand search engine optimization "
 "status of your website only. It doesn't allow you to scan any webpage from "
@@ -928,18 +968,18 @@ msgid ""
 "various other domains."
 msgstr ""
 
-#: ../help/plugin-help-object.php:40
+#: ../help/plugin-help-object.php:45
 msgid ""
 "We can't force you, so if you do such a thing, the plugin author will not be "
 "responsible for any legal and security consequences that may come. "
 "Otherwise, the code is under GPL License, you can do anything you like."
 msgstr ""
 
-#: ../help/plugin-help-object.php:44
+#: ../help/plugin-help-object.php:49
 msgid "Updates"
 msgstr ""
 
-#: ../help/plugin-help-object.php:45
+#: ../help/plugin-help-object.php:50
 msgid ""
 "Future updates of this plugin is expected to contain more features and a new "
 "interface. Some of the features you may expect are Video Seo, Spam "
@@ -948,17 +988,17 @@ msgid ""
 "and automatic scan are also desired property to be included."
 msgstr ""
 
-#: ../help/plugin-help-object.php:45
+#: ../help/plugin-help-object.php:50
 msgid ""
-"Altough the plugin author will take final decision about updates, you are "
-"free to inform about bugs and feature requests in support forum."
+"Tough the plugin author will take final decision about updates, you are free "
+"to inform about bugs and feature requests in support forum."
 msgstr ""
 
-#: ../help/plugin-help-object.php:52
+#: ../help/plugin-help-object.php:57
 msgid "Support Forum"
 msgstr ""
 
-#: ../help/plugin-help-object.php:52
+#: ../help/plugin-help-object.php:57
 msgid "Free Seo Resource"
 msgstr ""
 
@@ -1073,126 +1113,125 @@ msgstr "FOUND NOT"
 msgid "SPAM"
 msgstr ""
 
-#: ../help/message-object.php:72
+#: ../help/message-object.php:73
 msgid ""
 "Total <span id=\"WordsIntel\"></span> words used. <span id="
 "\"WordsPerPageIntel\"></span> per page. Avg text to html ratio is <span id="
 "\"WordsRatioIntel\"></span>"
 msgstr ""
 
-#: ../help/message-object.php:73
+#: ../help/message-object.php:74
 msgid ""
 "<span id=\"LinksNumIntel\"></span> links per page, nearly <span id="
 "\"ExtLinksIntel\"></span> external and <span id=\"ImgLinksIntel\"></span> "
 "image links of them."
 msgstr ""
 
-#: ../help/message-object.php:74
+#: ../help/message-object.php:75
 msgid ""
 "Long tail keywords (avg <span id=\"KeyWordsSizeIntel\"></span> words long) "
 "were found in <span id=\"KeyWordsIntel\"></span> webpages."
 msgstr ""
 
-#: ../help/message-object.php:76
-msgid "Images seems to be optimized."
-msgstr ""
-
 #: ../help/message-object.php:77
-msgid ""
-"Nearly <span id=\"ImagesIntelPercent\"></span> of pages doesn't have images "
-"with alt tags."
+msgid "Almost all images seems to be optimized."
 msgstr ""
 
 #: ../help/message-object.php:78
 msgid ""
-"Almost all website images are <span class=\"danger-icon\">not optimized</"
-"span>."
+"Nearly <span id=\"ImagesIntelPercent\"></span> of pages have images without "
+"alt tags."
 msgstr ""
 
-#: ../help/message-object.php:81
-msgid "Your website is mobile optimized."
+#: ../help/message-object.php:79
+msgid ""
+"This website images are <span class=\"danger-icon\">not optimized</span>."
 msgstr ""
 
 #: ../help/message-object.php:82
+msgid "Your website is mobile optimized."
+msgstr ""
+
+#: ../help/message-object.php:83
 msgid ""
 "Some of your webpages<span id=\"DesignIntelPercent\"></span> are not mobile "
 "optimized."
 msgstr ""
 
-#: ../help/message-object.php:83
+#: ../help/message-object.php:84
 msgid ""
 "Your website is <span class=\"danger-icon\">not mobile optimized</span>."
 msgstr ""
 
-#: ../help/message-object.php:86
+#: ../help/message-object.php:87
 msgid "All urls are neat and clean."
 msgstr ""
 
-#: ../help/message-object.php:87
+#: ../help/message-object.php:88
 msgid ""
 "Some urls <span class=\"danger-icon\">are dynamic</span><span id="
 "\"UrlIntelPercent\"></span> and <span class=\"danger-icon\">have underscore</"
 "span><span id=\"UrlIntelPercentTwo\"></span>."
 msgstr ""
 
-#: ../help/message-object.php:88
+#: ../help/message-object.php:89
 msgid ""
-"All urls <span id=\"UrlIntelPercent\"></span> are <span class=\"danger-icon"
+"Some urls <span id=\"UrlIntelPercent\"></span> are <span class=\"danger-icon"
 "\">dynamic and contains underscore</span>."
 msgstr ""
 
-#: ../help/message-object.php:89
+#: ../help/message-object.php:90
 msgid ""
 "Some urls <span id=\"UrlIntelPercent\"></span> <span class=\"danger-icon"
 "\">are dynamic</span>."
 msgstr ""
 
-#: ../help/message-object.php:90
+#: ../help/message-object.php:91
 msgid ""
 "Some urls <span id=\"UrlIntelPercentTwo\"></span> <span class=\"danger-icon"
 "\">have underscores</span>."
 msgstr ""
 
-#: ../help/message-object.php:93
+#: ../help/message-object.php:94
 msgid "Your website is fast, takes less than a second load."
 msgstr ""
 
-#: ../help/message-object.php:94
+#: ../help/message-object.php:95
 msgid "Your website loads fine, may try a little faster."
 msgstr ""
 
-#: ../help/message-object.php:95
+#: ../help/message-object.php:96
 msgid "Your website is slow, make it faster."
 msgstr ""
 
-#: ../help/message-object.php:96
+#: ../help/message-object.php:97
 msgid ""
 "Your website is <span class=\"danger-icon\">too slow</span>, serious "
 "improvement needed."
 msgstr ""
 
-#: ../help/message-object.php:99
+#: ../help/message-object.php:100
 #, fuzzy
-msgid "Social media tags are present."
+msgid "Social media tags are present. Optimized for social sharing."
 msgstr "いくつかのヘッドタグが存在している"
 
-#: ../help/message-object.php:100
+#: ../help/message-object.php:101
 msgid ""
 "Social media tags are <span class=\"danger-icon\">incomplete</span> in "
 "almost <span id=\"StagIntelNoPercent\"></span>% pages."
 msgstr ""
 
-#: ../help/message-object.php:101
+#: ../help/message-object.php:102
 msgid ""
-"Social media tags are <span class=\"danger-icon\">absent</span>. Use them "
-"for better sharing."
+"Social media tags are nearly <span class=\"danger-icon\">absent</span>. Use "
+"them for better sharing."
 msgstr ""
 
-#: ../help/message-object.php:108
+#: ../help/message-object.php:109
 msgid "enabled"
 msgstr ""
 
-#: ../help/message-object.php:113
+#: ../help/message-object.php:114
 msgid "disabled"
 msgstr ""
 
@@ -1203,6 +1242,13 @@ msgstr ""
 #: ../db/get-db.php:104
 msgid "s"
 msgstr ""
+
+#~ msgid "Content"
+#~ msgstr "コンテンツ"
+
+#, fuzzy
+#~ msgid "Other Points"
+#~ msgstr "サーバーのポイント"
 
 #, fuzzy
 #~ msgid "Download Content"
@@ -2052,9 +2098,6 @@ msgstr ""
 #~ msgid "Alt Text"
 #~ msgstr "altテキスト"
 
-#~ msgid "In page content overview"
-#~ msgstr "ページコンテンツの概要"
-
 #~ msgid "Comparison of server performance"
 #~ msgstr "サーバーのパフォーマンスの比較"
 
@@ -2156,12 +2199,6 @@ msgstr ""
 
 #~ msgid "Remarks"
 #~ msgstr "備考"
-
-#~ msgid "Content issues"
-#~ msgstr "コンテンツの問題"
-
-#~ msgid "Design points"
-#~ msgstr "デザインのポイント"
 
 #, fuzzy
 #~ msgid "&rarr;&nbsp;Crawled Text Content"

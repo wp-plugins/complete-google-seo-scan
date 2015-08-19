@@ -16,7 +16,10 @@
  * 7. RESULTS
  * 8. SCORE & OUTPUT
  */
+
+//Following DocBlock line is for development purpose only. Don't touch it.
 //include_once( $_SERVER['DOCUMENT_ROOT'] . '/gretel/wp-config.php' );
+
 
 
 
@@ -161,6 +164,10 @@ $canonical_link = new CGSS_FETCH( $dom, 'link', array( 'att' => 'rel',
 $canonical = $canonical_link->tag();
 $Canonical_last = $canonical[count($canonical) - 1];
 $Canonical_val = esc_url_raw( $Canonical_last );
+$cano_show = 0;
+if ( $Canonical_val and $Canonical_val != '' ) {
+	$cano_show = 1;
+}
 
 //Get meta viewport meta tag
 $vport = new CGSS_FETCH( $dom, 'meta', array( 'att' => 'name',
@@ -332,13 +339,23 @@ if ( $text_content and $words_input ) {
 } else {
 	$keys_out = false;
 }
+
+//FInd out top keys
 $top_key_arr = array_keys( $keys_out );
-if ( $top_key_arr and array_key_exists( 0, $top_key_arr ) ) {
-	$top_key = $top_key_arr[0];
-} else {
+foreach ( $top_key_arr as $key ) {
+	if ( substr_count( $last_title_val, $key ) > 0 or substr_count( $last_desc_val, $key ) > 0 or substr_count( $url, $key ) > 0 or substr_count( $url, implode( '-', explode( ' ', $key ) ) ) > 0 ) {
+		$top_key = $key;
+		break;
+	}
+}
+if ( ! $top_key ) {
+	if ( $top_key_arr and array_key_exists( 0, $top_key_arr ) ) {
+		$top_key = $top_key_arr[0];
+	}
+}
+if ( ! $top_key ) {
 	$top_key = false;
 }
-
 
 
 
@@ -479,7 +496,7 @@ $result = array(
 								'val' => $ip_addr,
 							),
 					'www' => $www,
-					'cano' => $Canonical_val,
+					'cano' => $cano_show,
 					'if_mod' => $if_mod,
 					'meta_robot' => array(
 										'ok' => $meta_robot_ok,

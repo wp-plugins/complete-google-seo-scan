@@ -18,12 +18,14 @@ class CGSS_HEADER_CHK {
 
 	//Input property
 	private $url;
+	private $header;
 	private $time_start;
 	private $time_end;
 
 	//construct the object
-	public function __construct( $url, $time_start, $time_end ) {
+	public function __construct( $url, $header, $time_start, $time_end ) {
 		$this->url = $url;
+		$this->header = $header;
 		$this->time_start = $time_start;
 		$this->time_end = $time_end;
 	}
@@ -35,10 +37,10 @@ class CGSS_HEADER_CHK {
 		$domain = $cut_url->domain();
 
 		//Create domain to check
-		if ( strpos( $this->url, "://www." ) !== true ) {
-			$new_domain = "www." . $domain;
-		} else {
+		if ( substr_count( $www_url, '://www.' ) > 0 ) {
 			$new_domain = $domain;
+		} else {
+			$new_domain = "www." . $domain;
 		}
 
 		//Check the domain www resolved
@@ -51,8 +53,7 @@ class CGSS_HEADER_CHK {
 			if ( array_key_exists( "Location", $new_header ) ) {
 				if ( is_array ( $new_header["Location"] ) ) {
 					$loc = $new_header["Location"];
-					$count = count($loc) - 1;
-					$new_url = $loc[$count];
+					$new_url = $loc[count($loc) - 1];
 				} else {
 					$new_url = $new_header["Location"];
 				}

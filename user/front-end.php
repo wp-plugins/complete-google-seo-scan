@@ -526,7 +526,7 @@ class cgss_elements {
 							);
 		$output = '';
 		foreach( $other_arr_intel as $val ) {
-			$output .= '<li class="intel-points"><span class="welcome-icon">' . $this->dashicon( $val[0] ) . $this->gaps( 2 ) . '<span id="' . $val[1] . '"></span></span></li>';
+			$output .= '<li class="cgss-actions-comment"><span class="welcome-icon">' . $this->dashicon( $val[0] ) . $this->gaps( 2 ) . '<span id="' . $val[1] . '"></span></span></li>';
 		}
 		return '<ul>' . $output . '</ul>';
 	}
@@ -541,7 +541,7 @@ class cgss_elements {
 							);
 		$output = '';
 		foreach( $other_arr_intel as $val ) {
-			$output .= '<li class="intel-points"><span class="welcome-icon">' . $this->dashicon( $val[0] ) . $this->gaps( 2 ) . '<span id="' . $val[1] . '"></span></span></li>';
+			$output .= '<li class="cgss-actions-comment"><span class="welcome-icon">' . $this->dashicon( $val[0] ) . $this->gaps( 2 ) . '<span id="' . $val[1] . '"></span></span></li>';
 		}
 		return '<ul>' . $output . '</ul>';
 	}

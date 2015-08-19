@@ -2,8 +2,8 @@
 /**
  Plugin Name: Complete Google SEO Scan
  Plugin URI: http://gogretel.com/
- Description: It's name speaks for itself. Find issues, check status and get fixes for seo of individual pages and whole website.
- Version: 2.1
+ Description: Find issues, check status and get fixes for Seo of individual pages and whole website.
+ Version: 2.1.1
  Author: Gogretel
  Author URI: http://gogretel.com/
  Text Domain: cgss
@@ -308,7 +308,6 @@ function cgss_core_callback() {
 
 	//important to store the option names, to be deleted upon uninstall
 	$data_option_name_save = $data->update_cgss_unique_ids( 'cgss_seo_option_ids', $output_result['id'] );
-
 	wp_die();
 }
 

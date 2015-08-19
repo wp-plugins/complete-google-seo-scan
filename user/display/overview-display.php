@@ -65,13 +65,14 @@
 		</div>
 	</div>
 
+	<!--Content Intelligence-->
 	<div id="welcome-panel" class="welcome-panel">
 		<div class="welcome-panel-content">
-			<h3><?php _e( 'Actionable Intelligence', 'cgss' ); ?></h3>
+			<h3><?php _e( 'Content Status', 'cgss' ); ?></h3>
 			<p class="about-description"><?php _e( 'Fetch results from stored scan reports.', 'cgss' ); ?></p>
 			<?php echo $elem->loading( 'intel' ); ?>
-			<div class="welcome-panel-column-container">
-				<div class="welcome-panel-column">
+			<div class="row">
+				<div class="col-2">
 					<?php $get_report_ids = get_option( 'cgss_seo_option_ids' ); ?>
 					<?php if ( $get_report_ids and count( $get_report_ids ) > 0 ) : ?>
 						<a id="<?php echo implode( ',', $get_report_ids ); ?>" class="button button-primary button-hero cgss-intel"><?php _e( 'Fetch Intel', 'cgss' ); ?></a>
@@ -95,13 +96,15 @@
 					</div>
 					<div class="clear"></div>
 				</div>
-				<div class="welcome-panel-column intel-content">
-					<h4><?php _e( 'Content', 'cgss' ); ?></h4>
-					<?php echo $elem->intel_content(); ?>
+				<div class="col-2">
+					<div class="intel-content">
+						<?php echo $elem->intel_content(); ?>
+					</div>
 				</div>
-				<div class="welcome-panel-column welcome-panel-last intel-extra">
-					<h4><?php _e( 'Other Points', 'cgss' ); ?></h4>
-					<?php echo $elem->intel_extra(); ?>
+				<div class="col-2">
+					<div class="intel-extra">
+						<?php echo $elem->intel_extra(); ?>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -133,7 +136,7 @@
 				<div class="wp-filter">
 					<div class="filter-links">
 						<h4>
-							<?php _e( 'Theme and Plugins Design Seo', 'cgss' ); ?>
+							<?php _e( 'Design Seo Status', 'cgss' ); ?>
 							<span class="danger-icon design-msg"></span>
 						</h4>
 						<?php global $wp_styles; echo $queued->script_ul( 'queued-style', $wp_styles ); ?>

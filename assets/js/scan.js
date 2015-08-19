@@ -229,7 +229,6 @@ function scan_success( data, act, ok, no, spam, enabled, disabled, noindex, note
 	}
 	if ( nested_table > 0 ) {
 		nested_table = 1;
-	} else {
 		act += 1;
 		jQuery("#NtblAct").show();
 	}
@@ -327,7 +326,7 @@ function scan_success( data, act, ok, no, spam, enabled, disabled, noindex, note
 	//Response time
 	var res_time = data.speed.res_time;
 	html_show( res_time, "ResTime", res_time, note_none );
-	if ( res_time > 500 ) {
+	if ( res_time > 1000 ) {
 		act += 1;
 		jQuery("#SpeedAct").show();
 	}
@@ -397,9 +396,9 @@ function scan_success( data, act, ok, no, spam, enabled, disabled, noindex, note
 		var key_list_found = jQuery.grep( keys_list, function( val ) { return ( title.indexOf(val) != -1 || desc.indexOf(val) != -1 || url_show.indexOf(val) != -1 || url_show.indexOf(val.split(" ").join("-")) != -1 || url_show.indexOf(val.split(" ").join("")) != -1 ); });
 		if ( key_list_found && key_list_found.length > 0 ) {
 			var top_key = key_list_found[0];
-			html_show( title, "SnipTitle", title.replace( top_key, '<strong>' + top_key + '</strong>' ), title );
+			html_show( title, "SnipTitle", title.toLowerCase().replace( top_key, '<strong>' + top_key + '</strong>' ), title );
 			html_show( url_show, "SnipUrl", url_show.replace( top_key, '<strong>' + top_key + '</strong>' ).replace( top_key.split(" ").join("-"), '<strong>' + top_key.split(" ").join("-") + '</strong>' ).replace( top_key.split(" ").join(""), '<strong>' + top_key.split(" ").join("") + '</strong>' ), absent );
-			html_show( desc, "SnipContent", desc.replace( top_key, '<strong>' + top_key + '</strong>' ), mdesc );
+			html_show( desc, "SnipContent", desc.toLowerCase().replace( top_key, '<strong>' + top_key + '</strong>' ), mdesc );
 		}
 	} else {
 		jQuery("#keyDis").html(keys);

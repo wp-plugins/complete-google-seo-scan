@@ -125,7 +125,7 @@ function if_key_found( haystack, size, key, element, ok, no, spam ) {
 	if ( size != undefined && size > 0 ) {
 		var count = occurrences( haystack, key );
 		var percent = ( ( count / size ) * 100 ).toFixed(0);
-		if ( percent > 5 ) {
+		if ( percent > 10 ) {
 			jQuery(element).html(spam);
 		}
 	}

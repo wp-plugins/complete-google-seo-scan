@@ -69,7 +69,18 @@ class CGSS_KEYWORDS {
 		if ( is_array( $keys ) ) {
 			arsort( $keys );
 			if ( $n != 1 ) {
-				$key_top = array_slice( $keys, 0, 3 );
+
+				//remove keys without much significance
+				$del_keys = array();
+				foreach ( $keys as $val => $key ) {
+					$key_size = strlen( implode( '', explode( ' ', $val ) ) ) / 2;
+					if ( $key_size <= $n ) {
+						$del_keys[] = $val;
+					}
+				}
+				$new_keys = array_diff( $keys, $del_keys );
+
+				$key_top = array_slice( $new_keys, 0, 3 );
 			} else {
 				$key_top = $keys;
 			}

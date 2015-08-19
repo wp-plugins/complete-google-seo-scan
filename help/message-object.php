@@ -63,6 +63,7 @@ class CGSS_MSG {
 					'https' => '<span class="danger-border">https://</span>',
 					'keys' => '<span class="danger-icon">' . __( 'NO KEYWORDS FOUND', 'CGSS' ) . '</span>',
 					'spam' => '<span class="danger-icon">' . __( 'SPAM', 'CGSS' ) . '</span>',
+					'after_scan' => __( 'words, focus is', 'cgss' ),
 				);
 	}
 
@@ -73,9 +74,9 @@ class CGSS_MSG {
 					'links' => __( '<span id="LinksNumIntel"></span> links per page, nearly <span id="ExtLinksIntel"></span> external and <span id="ImgLinksIntel"></span> image links of them.', 'cgss' ),
 					'keyword' => __( 'Long tail keywords (avg <span id="KeyWordsSizeIntel"></span> words long) were found in <span id="KeyWordsIntel"></span> webpages.', 'cgss' ),
 					'image' => array(
-									'ok' => __( 'Images seems to be optimized.', 'cgss' ),
-									'mid' => __( 'Nearly <span id="ImagesIntelPercent"></span> of pages doesn\'t have images with alt tags.', 'cgss' ),
-									'no' => __( 'Almost all website images are <span class="danger-icon">not optimized</span>.', 'cgss' ),
+									'ok' => __( 'Almost all images seems to be optimized.', 'cgss' ),
+									'mid' => __( 'Nearly <span id="ImagesIntelPercent"></span> of pages have images without alt tags.', 'cgss' ),
+									'no' => __( 'This website images are <span class="danger-icon">not optimized</span>.', 'cgss' ),
 								),
 					'mobile' => array(
 									'ok' => __( 'Your website is mobile optimized.', 'cgss' ),
@@ -85,7 +86,7 @@ class CGSS_MSG {
 					'url' => array(
 									'ok' => __( 'All urls are neat and clean.', 'cgss' ),
 									'mid' => __( 'Some urls <span class="danger-icon">are dynamic</span><span id="UrlIntelPercent"></span> and <span class="danger-icon">have underscore</span><span id="UrlIntelPercentTwo"></span>.', 'cgss' ),
-									'no' => __( 'All urls <span id="UrlIntelPercent"></span> are <span class="danger-icon">dynamic and contains underscore</span>.', 'cgss' ),
+									'no' => __( 'Some urls <span id="UrlIntelPercent"></span> are <span class="danger-icon">dynamic and contains underscore</span>.', 'cgss' ),
 									'dynamic' => __( 'Some urls <span id="UrlIntelPercent"></span> <span class="danger-icon">are dynamic</span>.', 'cgss' ),
 									'underscore' => __( 'Some urls <span id="UrlIntelPercentTwo"></span> <span class="danger-icon">have underscores</span>.', 'cgss' ),
 								),
@@ -96,9 +97,9 @@ class CGSS_MSG {
 									'very_slow' => __( 'Your website is <span class="danger-icon">too slow</span>, serious improvement needed.', 'cgss' ),
 								),
 					'stag' => array(
-									'ok' => __( 'Social media tags are present.', 'cgss' ),
+									'ok' => __( 'Social media tags are present. Optimized for social sharing.', 'cgss' ),
 									'mid' => __( 'Social media tags are <span class="danger-icon">incomplete</span> in almost <span id="StagIntelNoPercent"></span>% pages.', 'cgss' ),
-									'no' => __( 'Social media tags are <span class="danger-icon">absent</span>. Use them for better sharing.', 'cgss' ),
+									'no' => __( 'Social media tags are nearly <span class="danger-icon">absent</span>. Use them for better sharing.', 'cgss' ),
 								),
 				);
 	}
