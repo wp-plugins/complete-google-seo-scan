@@ -12,6 +12,33 @@ jQuery(document).ready(function($) {
 	//turn off main compete button
 	jQuery(".submit-compete").attr("disabled", "disabled");
 
+	var comp_url = [];
+
+	var ssl = [];
+	var mobile = [];
+	var words = [];
+	var links = [];
+	var links_ext = [];
+	var links_nof = [];
+	var thr = [];
+	var images = [];
+	var speed = [];
+	var key_count = [];
+	var key_per = [];
+	var gplus = [];
+	var fb = [];
+	var tw = [];
+
+	var domain = [];
+	var title = [];
+	var url = [];
+	var desc = [];
+	var alt = [];
+	var anch = [];
+	var htag = [];
+	var plain = [];
+	var bold = [];
+
 	var comp_key = '';
 	var client_free = '';
 	var client_url = '';
@@ -50,35 +77,37 @@ jQuery(document).ready(function($) {
 		jQuery(".compete-result, .hide-scan-compete-ok").hide();
 		jQuery(".cgss-notice, .cgss-comp-saved").remove();
 		jQuery(".compete-url-input-cover").children().eq(0).html(counter);
+
+		//start ajax for each url
+		comp_url = [];
+
+		ssl = [];
+		mobile = [];
+		words = [];
+		links = [];
+		links_ext = [];
+		links_nof = [];
+		thr = [];
+		images = [];
+		speed = [];
+		key_count = [];
+		key_per = [];
+		gplus = [];
+		fb = [];
+		tw = [];
+
+		domain = [];
+		title = [];
+		url = [];
+		desc = [];
+		alt = [];
+		anch = [];
+		htag = [];
+		plain = [];
+		bold = [];
 	});
 
 	//start ajax for each url
-	var comp_url = [];
-
-	var ssl = [];
-	var mobile = [];
-	var words = [];
-	var links = [];
-	var links_ext = [];
-	var links_nof = [];
-	var thr = [];
-	var images = [];
-	var speed = [];
-	var key_count = [];
-	var key_per = [];
-	var gplus = [];
-	var fb = [];
-	var tw = [];
-
-	var domain = [];
-	var title = [];
-	var url = [];
-	var desc = [];
-	var alt = [];
-	var anch = [];
-	var htag = [];
-	var plain = [];
-	var bold = [];
 
 	jQuery(".compete-form").show();
 	jQuery(".compete-result").hide();
@@ -234,6 +263,7 @@ jQuery(document).ready(function($) {
 					comp_scan_false = data.val;
 					return false;
 				} else if ( data.ping == 'free' ) {
+					comp_pre = 1;
 					client_free = 'free';
 					return false;
 				} else if ( data.ping == 'valid' ) {
