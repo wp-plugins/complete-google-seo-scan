@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Complete Google SEO Scan 2.3\n"
 "Report-Msgid-Bugs-To: info@gogretel.com\n"
-"POT-Creation-Date: 2015-09-15 03:14+0530\n"
-"PO-Revision-Date: 2015-09-15 03:14+0530\n"
+"POT-Creation-Date: 2015-09-16 00:40+0530\n"
+"PO-Revision-Date: 2015-09-16 00:40+0530\n"
 "Last-Translator: \n"
 "Language-Team: GoGretel <info@gogretel.com>\n"
 "Language: Bulgarian\n"
@@ -400,7 +400,7 @@ msgid "Reduce number of HTTP requests made by .css and .js files."
 msgstr ""
 
 #: ../user/front-end.php:429
-msgid "Compress resorce files and increase loading speed."
+msgid "Compress resource files and increase loading speed."
 msgstr ""
 
 #: ../user/front-end.php:430
@@ -1529,6 +1529,11 @@ msgstr ""
 msgid ""
 "If the input is for competitor url, check 2 things. It has either http:// or "
 "https:// at the begining and it's a proper url structure."
+msgstr ""
+
+#: ../help/plugin-help-object.php:71
+msgid ""
+"If the problem persists, click RESET button to restore to initial situation."
 msgstr ""
 
 #: ../help/plugin-help-object.php:71

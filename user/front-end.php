@@ -426,7 +426,7 @@ class cgss_elements {
 					array( 'GzipAct', __( 'Enable gZip compression.', 'cgss' ), 'https://developers.google.com/speed/docs/insights/EnableCompression', 'clock' ),
 					array( 'CacheAct', __( 'Enable Browser Caching.', 'cgss' ), 'https://developers.google.com/speed/docs/insights/LeverageBrowserCaching', 'clock' ),
 					array( 'FNumAct', __( 'Reduce number of HTTP requests made by .css and .js files.', 'cgss' ), '', 'clock' ),
-					array( 'CompAct', __( 'Compress resorce files and increase loading speed.', 'cgss' ), '', 'clock' ),
+					array( 'CompAct', __( 'Compress resource files and increase loading speed.', 'cgss' ), '', 'clock' ),
 					array( 'StagOgpAct', __( 'Complete all Open Graph Protocol <code>meta</code> tags, needed for social sharing.', 'cgss' ), '', 'marker' ),
 		);
 		$action = '';

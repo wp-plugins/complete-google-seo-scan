@@ -4,7 +4,7 @@ Donate Link: http://gogretel.com/
 Tags: seo checker, seo, SEO, google, meta, meta description, search engine optimization, robots meta, yahoo, bing, WordPress SEO, canonical, nofollow, noindex, keywords, description, page speed, pagespeed, search optimization, google webmaster guidelines, google guidelines, website optimization, search engine optimization, webmaster guidelines, google search
 Requires at Least: 4.0
 Tested Up To: 4.3
-Stable tag: 2.3
+Stable tag: 2.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -69,7 +69,7 @@ In near future these features may be added: Video Seo, Spam detection, Rich snip
 1. You can scan all published pages from various post types, including those you created by other plugins.
 2. A well document tab is present in every admin page, created by this plugin. Just see them in case you are stuck. If problem is not solved, raise a support request.
 3. More over, if you know little less about on-page seo, <a href="http://gogretel.com/resource/" target="_blank" title="seo tutorial on webmaster guidelines">check out free resources -></a>.
-4. You can achive optimum balance in seo by analyzing your competitors using this <a href="#">premium extension for competative intel</a>. The demo is included inside the plugin.
+4. You can achive optimum balance in seo by analyzing your competitors using this <a href="http://gogretel.com/extension/">premium extension for competative intel</a>. The demo is included inside the plugin.
 
 Otherwise, just use it and explore more about your website :-)
 
@@ -196,8 +196,8 @@ Automatic updates from WordPress repository is very easy as always. Please ensur
 
 List of `Stable versions` with release date and purpose.
 
-= Version 2.3 =
-`Release Date: September 15th, 2015`
+= Version 2.3.1 =
+`Release Date: September 16th, 2015`
 1. 2 bugs fixed: Corrected keyword density formula and UI buttons behaviour, while scan in process.
 2. Competitive analysis extension demo inclusion.
 
