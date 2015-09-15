@@ -69,7 +69,7 @@ In near future these features may be added: Video Seo, Spam detection, Rich snip
 1. You can scan all published pages from various post types, including those you created by other plugins.
 2. A well document tab is present in every admin page, created by this plugin. Just see them in case you are stuck. If problem is not solved, raise a support request.
 3. More over, if you know little less about on-page seo, <a href="http://gogretel.com/resource/" target="_blank" title="seo tutorial on webmaster guidelines">check out free resources -></a>.
-4. You can achive optimum balance in seo by analyzing your competitors using this <a href="#">premium extension for competative intel</a>. The demo is included inside the plugin.
+4. You can achive optimum balance in seo by analyzing your competitors using this <a href="http://gogretel.com/extension/">premium extension for competative intel</a>. The demo is included inside the plugin.
 
 Otherwise, just use it and explore more about your website :-)
 
